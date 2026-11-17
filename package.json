@@ -19,7 +19,8 @@
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run",
 		"validate": "tsx scripts/validate.ts",
-		"index": "tsx scripts/index.ts"
+		"index": "tsx scripts/index.ts",
+		"collect": "tsx scripts/collect.ts"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
@@ -42,6 +43,7 @@
 		"vitest": "^5.1.0"
 	},
 	"dependencies": {
+		"fast-xml-parser": "^5.12.1",
 		"yaml": "^2.9.1",
 		"zod": "^4.6.7"
 	}

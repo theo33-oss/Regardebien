@@ -1,11 +1,232 @@
-# Sources RSS. Rempli au lot 1. Exemple de format :
+# Sources RSS (lot 1). Une source = un flux. Voir docs/SPEC.md.
+# ATTENTION : les adresses de flux ont été saisies sans accès réseau.
+# `npm run collect` affiche « ECHEC » pour un flux inaccessible : corriger ou retirer la ligne.
 #
-# - id: exemple-media
-#   nom: Nom du média
-#   url_flux: https://exemple.fr/rss.xml
-#   type: media_fr        # media_fr | agence | presse_etrangere | specialisee
-#   sensibilite: centre   # gauche | centre-gauche | centre | centre-droit | droite | non_applicable
-#   langue: fr
-#   rubriques: [defense]
-#   agence_origine: null  # afp | reuters | ap si le média reprend surtout une dépêche
-[]
+# rubriques : une seule => tous les articles y vont ; plusieurs => classement par
+# mots-clés (config/rubriques.yaml), les articles hors sujet sont écartés.
+# agence_origine : afp | reuters | ap si le média reprend surtout une dépêche.
+
+- id: lemonde-une
+  nom: Le Monde
+  url_flux: https://www.lemonde.fr/rss/une.xml
+  type: media_fr
+  sensibilite: centre-gauche
+  langue: fr
+  rubriques: [politique, defense, culture, technique, ia, aero-spatial]
+  agence_origine: null
+
+- id: lemonde-culture
+  nom: Le Monde (Culture)
+  url_flux: https://www.lemonde.fr/culture/rss_full.xml
+  type: media_fr
+  sensibilite: centre-gauche
+  langue: fr
+  rubriques: [culture]
+  agence_origine: null
+
+- id: lefigaro-une
+  nom: Le Figaro
+  url_flux: https://www.lefigaro.fr/rss/figaro_actualites-a-la-une.xml
+  type: media_fr
+  sensibilite: centre-droit
+  langue: fr
+  rubriques: [politique, defense, culture, technique, ia, aero-spatial]
+  agence_origine: null
+
+- id: liberation
+  nom: Libération
+  url_flux: https://www.liberation.fr/arc/outboundfeeds/rss-all/?outputType=xml
+  type: media_fr
+  sensibilite: gauche
+  langue: fr
+  rubriques: [politique, defense, culture, technique, ia, aero-spatial]
+  agence_origine: null
+
+- id: franceinfo-une
+  nom: franceinfo
+  url_flux: https://www.francetvinfo.fr/titres.rss
+  type: media_fr
+  sensibilite: centre
+  langue: fr
+  rubriques: [politique, defense, culture, technique, ia, aero-spatial]
+  agence_origine: null
+
+- id: franceinfo-politique
+  nom: franceinfo (Politique)
+  url_flux: https://www.francetvinfo.fr/politique.rss
+  type: media_fr
+  sensibilite: centre
+  langue: fr
+  rubriques: [politique]
+  agence_origine: null
+
+- id: franceinfo-culture
+  nom: franceinfo (Culture)
+  url_flux: https://www.francetvinfo.fr/culture.rss
+  type: media_fr
+  sensibilite: centre
+  langue: fr
+  rubriques: [culture]
+  agence_origine: null
+
+- id: lacroix
+  nom: La Croix
+  url_flux: https://www.la-croix.com/RSS
+  type: media_fr
+  sensibilite: centre
+  langue: fr
+  rubriques: [politique, defense, culture, technique, ia]
+  agence_origine: null
+
+- id: humanite
+  nom: L'Humanité
+  url_flux: https://www.humanite.fr/feed
+  type: media_fr
+  sensibilite: gauche
+  langue: fr
+  rubriques: [politique, defense, culture, technique, ia]
+  agence_origine: null
+
+- id: ouestfrance
+  nom: Ouest-France
+  url_flux: https://www.ouest-france.fr/rss/une
+  type: media_fr
+  sensibilite: centre
+  langue: fr
+  rubriques: [politique, defense, culture, technique, ia, aero-spatial]
+  agence_origine: null
+
+- id: lesechos
+  nom: Les Echos
+  url_flux: https://www.lesechos.fr/rss/rss_une.xml
+  type: media_fr
+  sensibilite: centre-droit
+  langue: fr
+  rubriques: [politique, defense, technique, ia, aero-spatial]
+  agence_origine: null
+
+- id: france24
+  nom: France 24
+  url_flux: https://www.france24.com/fr/rss
+  type: agence
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [politique, defense, culture, technique, ia]
+  agence_origine: null
+
+- id: rfi
+  nom: RFI
+  url_flux: https://www.rfi.fr/fr/rss
+  type: agence
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [politique, defense, culture, technique, ia]
+  agence_origine: null
+
+- id: dw-fr
+  nom: Deutsche Welle (français)
+  url_flux: https://rss.dw.com/xml/rss-fr-all
+  type: presse_etrangere
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [politique, defense, culture, technique, ia]
+  agence_origine: null
+
+- id: bbc-monde
+  nom: BBC News (Monde)
+  url_flux: https://feeds.bbci.co.uk/news/world/rss.xml
+  type: presse_etrangere
+  sensibilite: non_applicable
+  langue: en
+  rubriques: [politique, defense, technique, ia]
+  agence_origine: null
+
+- id: guardian-monde
+  nom: The Guardian (Monde)
+  url_flux: https://www.theguardian.com/world/rss
+  type: presse_etrangere
+  sensibilite: centre-gauche
+  langue: en
+  rubriques: [politique, defense, technique, ia]
+  agence_origine: null
+
+- id: aljazeera
+  nom: Al Jazeera
+  url_flux: https://www.aljazeera.com/xml/rss/all.xml
+  type: presse_etrangere
+  sensibilite: non_applicable
+  langue: en
+  rubriques: [politique, defense]
+  agence_origine: null
+
+- id: opex360
+  nom: Zone Militaire (Opex360)
+  url_flux: https://www.opex360.com/feed/
+  type: specialisee
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [defense]
+  agence_origine: null
+
+- id: meta-defense
+  nom: Méta-Défense
+  url_flux: https://www.meta-defense.fr/feed/
+  type: specialisee
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [defense]
+  agence_origine: null
+
+- id: aerobuzz
+  nom: Aerobuzz
+  url_flux: https://www.aerobuzz.fr/feed/
+  type: specialisee
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [aero-spatial]
+  agence_origine: null
+
+- id: spacenews
+  nom: SpaceNews
+  url_flux: https://spacenews.com/feed/
+  type: specialisee
+  sensibilite: non_applicable
+  langue: en
+  rubriques: [aero-spatial]
+  agence_origine: null
+
+- id: futura-sciences
+  nom: Futura Sciences
+  url_flux: https://www.futura-sciences.com/rss/actualites.xml
+  type: specialisee
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [technique]
+  agence_origine: null
+
+- id: usine-nouvelle
+  nom: L'Usine Nouvelle
+  url_flux: https://www.usinenouvelle.com/rss/
+  type: specialisee
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [technique, aero-spatial, ia]
+  agence_origine: null
+
+- id: numerama
+  nom: Numerama
+  url_flux: https://www.numerama.com/feed/
+  type: specialisee
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [ia, technique]
+  agence_origine: null
+
+- id: actuia
+  nom: ActuIA
+  url_flux: https://www.actuia.com/feed/
+  type: specialisee
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [ia]
+  agence_origine: null
