@@ -1,0 +1,39 @@
+{
+	"date": "2026-11-17",
+	"creneau": "17h",
+	"collecte_le": "2026-11-17T17:00:00+01:00",
+	"exemple": true,
+	"articles": [
+		{
+			"id": "exemple-1",
+			"source_id": "exemple-media-a",
+			"media": "EXEMPLE Quotidien A",
+			"titre": "EXEMPLE : un lanceur fictif réussit son vol d'essai",
+			"url": "https://exemple.invalid/a/lanceur-fictif",
+			"publie_le": "2026-11-17T09:12:00+01:00",
+			"resume": "Texte d'exemple, sans rapport avec un événement réel.",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "exemple-2",
+			"source_id": "exemple-media-b",
+			"media": "EXEMPLE Hebdo B",
+			"titre": "EXEMPLE : vol d'essai du lanceur fictif, les réserves des ingénieurs",
+			"url": "https://exemple.invalid/b/lanceur-fictif-reserves",
+			"publie_le": "2026-11-17T11:40:00+01:00",
+			"resume": "Texte d'exemple, sans rapport avec un événement réel.",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": "afp"
+		}
+	],
+	"groupes": [
+		{
+			"rubrique": "aero-spatial",
+			"titre": "EXEMPLE : vol d'essai d'un lanceur fictif",
+			"article_ids": ["exemple-1", "exemple-2"]
+		}
+	]
+}
