@@ -1,0 +1,9 @@
+# Périodes où une rubrique saisonnière s'affiche d'office en mode Auto.
+# Le réglage Toujours / Jamais de l'appli l'emporte sur ces dates.
+- rubrique: politique
+  nom: Présidentielle 2027
+  debut: 2027-03-12
+  fin: 2027-05-16
+  evenements:
+    - { date: 2027-04-18, nom: 1er tour }
+    - { date: 2027-05-02, nom: 2nd tour }

@@ -1,0 +1,11 @@
+# Sources RSS. Rempli au lot 1. Exemple de format :
+#
+# - id: exemple-media
+#   nom: Nom du média
+#   url_flux: https://exemple.fr/rss.xml
+#   type: media_fr        # media_fr | agence | presse_etrangere | specialisee
+#   sensibilite: centre   # gauche | centre-gauche | centre | centre-droit | droite | non_applicable
+#   langue: fr
+#   rubriques: [defense]
+#   agence_origine: null  # afp | reuters | ap si le média reprend surtout une dépêche
+[]

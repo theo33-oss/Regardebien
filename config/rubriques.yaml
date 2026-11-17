@@ -1,0 +1,21 @@
+# Rubriques de l'appli. Un sujet n'a qu'une rubrique principale.
+- id: aero-spatial
+  nom: Aéronautique et spatial
+  description: Spatial et lanceurs, aviation civile, aviation militaire, vie des entreprises (contrats, levées de fonds, embauches, nouvelles usines).
+- id: defense
+  nom: Défense
+  description: Défense française (armées, opérations, loi de programmation militaire, budget), conflits et géopolitique, industrie de défense.
+- id: culture
+  nom: Culture
+  description: Seulement les grands sujets du moment (sorties majeures, expositions, événements dont tout le monde parle). 2 à 4 sujets.
+  max_sujets: 4
+- id: technique
+  nom: Technique
+  description: Ingénierie et industrie (mécanique, matériaux, fabrication), sciences.
+- id: ia
+  nom: Intelligence artificielle
+  description: Modèles et annonces, usages en ingénierie et dans l'industrie, régulation.
+- id: politique
+  nom: Politique
+  description: Saisonnière, voir saisons.yaml. France en priorité, international pour les grandes échéances.
+  saisonniere: true
