@@ -57,41 +57,52 @@ export async function notifier(
 	env: Env,
 	date: string,
 	envoyer: typeof fetch = fetch
-): Promise<{ envoyes: number; supprimes: number; deja: boolean }> {
+): Promise<{ envoyes: number; supprimes: number; echecs: number; deja: boolean }> {
 	// Une seule notification par édition, même si le déclencheur est relancé.
 	if ((await env.ABONNES.get('derniere-notification')) === date)
-		return { envoyes: 0, supprimes: 0, deja: true };
+		return { envoyes: 0, supprimes: 0, echecs: 0, deja: true };
 	let envoyes = 0;
 	let supprimes = 0;
+	let echecs = 0;
 	let cursor: string | undefined;
 	do {
 		const page = await env.ABONNES.list({ prefix: 'abo:', cursor });
 		for (const { name } of page.keys) {
 			const abo = JSON.parse((await env.ABONNES.get(name)) ?? 'null') as Abonnement | null;
 			if (!abo) continue;
-			const r = await envoyer(abo.endpoint, {
-				method: 'POST',
-				headers: {
-					Authorization: await enteteVapid(
-						abo.endpoint,
-						{ publique: env.VAPID_PUBLIC, privee: env.VAPID_PRIVATE },
-						env.VAPID_SUBJECT
-					),
-					TTL: '3600',
-					Urgency: 'normal',
-					'Content-Length': '0'
+			try {
+				const r = await envoyer(abo.endpoint, {
+					method: 'POST',
+					headers: {
+						Authorization: await enteteVapid(
+							abo.endpoint,
+							{ publique: env.VAPID_PUBLIC, privee: env.VAPID_PRIVATE },
+							env.VAPID_SUBJECT
+						),
+						TTL: '3600',
+						Urgency: 'normal',
+						'Content-Length': '0'
+					}
+				});
+				if (r.ok) envoyes++;
+				else if (r.status === 404 || r.status === 410) {
+					// Abonnement expiré ou retiré : on l'oublie.
+					await env.ABONNES.delete(name);
+					supprimes++;
+				} else {
+					echecs++;
+					console.log(`Envoi refusé (${r.status}) : ${await r.text().catch(() => '')}`);
 				}
-			});
-			if (r.ok) envoyes++;
-			else if (r.status === 404 || r.status === 410) {
-				await env.ABONNES.delete(name);
-				supprimes++;
+			} catch (e) {
+				// Un abonné injoignable ne doit pas priver les autres de la notification.
+				echecs++;
+				console.log(`Envoi impossible : ${e}`);
 			}
 		}
 		cursor = page.list_complete ? undefined : page.cursor;
 	} while (cursor);
 	await env.ABONNES.put('derniere-notification', date);
-	return { envoyes, supprimes, deja: false };
+	return { envoyes, supprimes, echecs, deja: false };
 }
 
 export async function traiter(requete: Request, env: Env): Promise<Response> {

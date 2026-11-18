@@ -106,14 +106,32 @@ describe('API', () => {
 		expect(await notifier(env, '2026-11-18', envoyer)).toEqual({
 			envoyes: 1,
 			supprimes: 1,
+			echecs: 0,
 			deja: false
 		});
 		expect(env.kv.donnees.has('abo:' + [...env.kv.donnees.keys()][0].slice(4))).toBe(true);
 		expect(await notifier(env, '2026-11-18', envoyer)).toEqual({
 			envoyes: 0,
 			supprimes: 0,
+			echecs: 0,
 			deja: true
 		});
 		expect(appels).toHaveLength(2);
+	});
+	it('un abonné injoignable n’empêche pas les autres', async () => {
+		const env = await environnement();
+		for (const n of [1, 2, 3]) await traiter(post('/api/abonner', abo(n)), env);
+		const { notifier } = await import('./index.js');
+		const envoyer = (async (url: string) => {
+			if (url.endsWith('/1')) throw new TypeError('fetch failed');
+			if (url.endsWith('/2')) return new Response('erreur', { status: 500 });
+			return new Response(null, { status: 201 });
+		}) as unknown as typeof fetch;
+		expect(await notifier(env, '2026-11-19', envoyer)).toEqual({
+			envoyes: 1,
+			supprimes: 0,
+			echecs: 2,
+			deja: false
+		});
 	});
 });
