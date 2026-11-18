@@ -9,7 +9,12 @@
 
 	let { children }: LayoutProps = $props();
 
-	onMount(() => prefs.charger());
+	onMount(async () => {
+		prefs.charger();
+		// Service worker : lecture hors-ligne et notifications (absent en développement).
+		const { registerSW } = await import('virtual:pwa-register');
+		registerSW({ immediate: true });
+	});
 
 	const liens = [
 		{ href: '/', libelle: 'Aujourd’hui' },
@@ -20,6 +25,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<link rel="manifest" href="/manifest.webmanifest" />
 </svelte:head>
 
 <div class="page">
