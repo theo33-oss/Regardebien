@@ -1,0 +1,61 @@
+name: Publication de l'édition
+
+# Filet de sécurité : si la routine de 18 h n'a pas le droit de pousser sur main et pousse
+# l'édition sur une branche (claude/… ou edition-…), on la recopie ici sur main, après
+# validation, puis on relance la mise en ligne.
+on:
+  push:
+    branches: ['claude/**', 'edition-**']
+    paths:
+      - 'data/editions/20*.json'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: ecriture-main
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: Copie sur main
+        id: copie
+        env:
+          BRANCHE: ${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git fetch -q origin "$BRANCHE"
+          SOURCE=$(git rev-parse FETCH_HEAD)
+          BASE=$(git merge-base origin/main "$SOURCE")
+          FICHIERS=$(git diff --name-only --diff-filter=AM "$BASE" "$SOURCE" -- 'data/editions/20*.json')
+          if [ -z "$FICHIERS" ]; then echo "Aucune édition à publier."; exit 0; fi
+          git config user.name "cartouche-bot"
+          git config user.email "cartouche-bot@users.noreply.github.com"
+          for essai in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            git checkout "$SOURCE" -- $FICHIERS
+            # Une édition invalide n'est pas publiée : l'appli continue d'afficher le Flux.
+            npm run validate
+            npm run index
+            git add data
+            git commit -q -m "Publie l'édition depuis $BRANCHE"
+            if git push -q origin HEAD:main; then
+              gh workflow run deploy.yml --ref main
+              exit 0
+            fi
+            sleep 15
+          done
+          exit 1

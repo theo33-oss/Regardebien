@@ -1,0 +1,27 @@
+name: Vérification
+
+# Contrôle chaque proposition de changement et chaque envoi de code sur main
+# (pas les envois de données seules : collectes et éditions).
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/**'
+
+jobs:
+  verification:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run check
+      - run: npm test
+      - run: npm run validate
+      - name: Construction (comme sur GitHub Pages)
+        run: BASE_PATH=/Regardebien npm run build

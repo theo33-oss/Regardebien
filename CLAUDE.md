@@ -11,6 +11,8 @@ Web-app d'actualités (PWA iPhone) : une édition quotidienne vers 18h, croisant
 - `npm test` : Vitest
 - `npm run validate` : valide config/ et data/ contre les schémas zod
 - `npm run index` : régénère data/index.json (jamais à la main)
+- `npm run collect` : collecte RSS (écrit data/raw/) ; `npm run donnees` : copie data/ vers static/data (fait seul par dev et build)
+- `npm run vapid` : clés des notifications (inactif tant qu'il n'y a pas de serveur)
 
 ## Arborescence
 
@@ -19,8 +21,10 @@ Web-app d'actualités (PWA iPhone) : une édition quotidienne vers 18h, croisant
 - `scripts/` : collecte et outils Node (tsx)
 - `routine/` : prompts de la routine de 18h
 - `src/lib/schema/` : schémas zod et types, partagés appli et scripts
-- `src/routes/` : l'appli SvelteKit (Svelte 5, adapter-static)
-- `docs/` : SPEC.md
+- `src/routes/` : l'appli SvelteKit (Svelte 5, adapter-static) ; `src/sw.ts` : service worker
+- `.github/workflows/` : collecte, publication de l'édition, mise en ligne sur GitHub Pages (`BASE_PATH` = nom du dépôt)
+- `worker/` + `wrangler.jsonc` : serveur de notifications Cloudflare, **inactif** (hébergement GitHub Pages seul)
+- `docs/` : SPEC.md, GUIDE-MISE-EN-LIGNE.md, RECETTE.md
 
 ## Règles de travail
 

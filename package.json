@@ -8,7 +8,9 @@
 		"#lib/*": "./src/lib/*"
 	},
 	"scripts": {
+		"predev": "tsx scripts/publier-donnees.ts --exemples",
 		"dev": "vite dev",
+		"prebuild": "tsx scripts/publier-donnees.ts",
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
@@ -20,7 +22,9 @@
 		"test": "npm run test:unit -- --run",
 		"validate": "tsx scripts/validate.ts",
 		"index": "tsx scripts/index.ts",
-		"collect": "tsx scripts/collect.ts"
+		"collect": "tsx scripts/collect.ts",
+		"donnees": "tsx scripts/publier-donnees.ts",
+		"vapid": "tsx scripts/vapid.ts"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
@@ -28,10 +32,12 @@
 		"@sveltejs/kit": "^3.2.0",
 		"@sveltejs/vite-plugin-svelte": "^7.3.1",
 		"@types/node": "^22",
+		"@vite-pwa/sveltekit": "^2.0.3",
 		"eslint": "^10.15.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.24.1",
 		"globals": "^17.14.0",
+		"magicast": "^0.5.5",
 		"prettier": "^3.10.1",
 		"prettier-plugin-svelte": "^4.1.1",
 		"svelte": "^5.57.3",

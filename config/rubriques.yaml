@@ -16,12 +16,19 @@
       'boeing',
       'dassault',
       'safran',
+      'thales alenia',
       'nasa',
       'esa',
       'spacex',
-      "vol d'essai",
+      'blue origin',
       'aéroport',
-      'compagnie aérienne'
+      'compagnie aérienne',
+      'astronaute',
+      'rocket',
+      'spacecraft',
+      'aircraft',
+      'airline',
+      'astronaut'
     ]
 - id: defense
   nom: Défense
@@ -29,25 +36,31 @@
   mots_cles:
     [
       'armée',
-      'armées',
       'défense',
       'militaire',
       'otan',
       'ukraine',
-      'gaza',
       'missile',
       'rafale',
-      'char ',
+      'char',
       'frégate',
       'sous-marin',
       'loi de programmation',
-      'lpm',
       'soldat',
       'guerre',
       'cessez-le-feu',
       'drone',
-      'arms',
-      'ministère des armées'
+      'ministère des armées',
+      'état-major',
+      'military',
+      'army',
+      'nato',
+      'war',
+      'ceasefire',
+      'troops',
+      'pentagon',
+      'defence',
+      'defense'
     ]
 - id: culture
   nom: Culture
@@ -63,13 +76,22 @@
       'concert',
       'album',
       'roman',
-      'prix goncourt',
+      'goncourt',
       'théâtre',
       'série',
-      'livre',
       'spectacle',
       'césar',
-      "palme d'or"
+      "palme d'or",
+      'chanteur',
+      'chanteuse',
+      'acteur',
+      'actrice',
+      'réalisateur',
+      'box-office',
+      'movie',
+      'museum',
+      'exhibition',
+      'novel'
     ]
 - id: technique
   nom: Technique
@@ -79,20 +101,26 @@
       'ingénierie',
       'ingénieur',
       'industrie',
+      'industriel',
       'usine',
-      'matériaux',
+      'matériau',
       'fabrication',
       'mécanique',
       'batterie',
       'nucléaire',
-      'énergie',
+      'réacteur',
       'robot',
       'impression 3d',
-      'chercheurs',
+      'chercheur',
+      'scientifique',
       'découverte',
       'physique',
       'chimie',
-      'climat'
+      'engineering',
+      'scientists',
+      'researchers',
+      'nuclear',
+      'battery'
     ]
 - id: ia
   nom: Intelligence artificielle
@@ -100,18 +128,22 @@
   mots_cles:
     [
       'intelligence artificielle',
-      'ia ',
+      'ia',
       'openai',
       'anthropic',
       'chatgpt',
-      'claude',
       'gemini',
-      'mistral',
+      'mistral ai',
       'llm',
       'modèle de langage',
       'deepfake',
       'ai act',
-      'artificial intelligence'
+      'artificial intelligence',
+      'ai',
+      'nvidia',
+      'chatbot',
+      'agent ia',
+      'agents ia'
     ]
 - id: politique
   nom: Politique
@@ -119,20 +151,22 @@
   saisonniere: true
   mots_cles:
     [
-      'gouvernement',
-      'assemblée',
+      'assemblée nationale',
       'sénat',
       'premier ministre',
-      'président',
-      'macron',
-      'élection',
+      'élysée',
       'présidentielle',
-      'ministre',
-      'parti',
-      'député',
-      'réforme',
-      'budget',
-      'loi ',
       'législatives',
-      'municipales'
+      'municipales',
+      'député',
+      'sénateur',
+      'macron',
+      'gouvernement',
+      'motion de censure',
+      'élection',
+      'candidat',
+      'election',
+      'parliament',
+      'senate',
+      'prime minister'
     ]
