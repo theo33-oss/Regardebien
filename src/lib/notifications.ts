@@ -33,7 +33,7 @@ function cleVersOctets(base64url: string): Uint8Array<ArrayBuffer> {
 }
 
 // Adresse d'une fonction du serveur de notifications (même site, dossier api/).
-const api = (chemin: string) => asset(`api/${chemin}` as 'robots.txt');
+const api = (chemin: string) => asset(`api/${chemin}` as Parameters<typeof asset>[0]);
 
 /** Le serveur de notifications répond-il ? (Non sur GitHub Pages : page statique seulement.) */
 export async function serveurDisponible(): Promise<boolean> {

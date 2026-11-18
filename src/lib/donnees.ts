@@ -3,7 +3,7 @@ import { CollecteDuJour, Edition, Index } from '#lib/schema/index.js';
 import type { RubriqueConfig, Saison } from './lecture.js';
 
 // Les fichiers de static/data/ sont générés : leurs noms ne sont pas connus des types de SvelteKit.
-const url = (chemin: string) => asset(`data/${chemin}` as 'data/index.json');
+const url = (chemin: string) => asset(`data/${chemin}` as Parameters<typeof asset>[0]);
 
 async function lireJson(chemin: string): Promise<unknown> {
 	const r = await fetch(url(chemin), { cache: 'no-cache' });
