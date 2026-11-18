@@ -23,7 +23,8 @@
 		"validate": "tsx scripts/validate.ts",
 		"index": "tsx scripts/index.ts",
 		"collect": "tsx scripts/collect.ts",
-		"donnees": "tsx scripts/publier-donnees.ts"
+		"donnees": "tsx scripts/publier-donnees.ts",
+		"vapid": "tsx scripts/vapid.ts"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",

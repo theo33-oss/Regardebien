@@ -1,0 +1,19 @@
+{
+	// Cartouche sur Cloudflare Workers : l'appli (dossier build/) + les notifications (worker/).
+	// Pas-à-pas : docs/GUIDE-MISE-EN-LIGNE.md
+	"name": "cartouche",
+	"main": "worker/index.ts",
+	"compatibility_date": "2026-11-01",
+	"assets": {
+		"directory": "./build",
+		"binding": "ASSETS",
+		// Seules les adresses /api/ passent par le worker ; le reste est servi tel quel.
+		"run_worker_first": ["/api/*"],
+		// Appli à page unique : toute adresse inconnue renvoie la coquille de l'appli.
+		"not_found_handling": "single-page-application"
+	},
+	"kv_namespaces": [{ "binding": "ABONNES", "id": "REMPLACER_PAR_L_ID_DE_L_ESPACE_KV" }],
+	// Variables et secrets créés dans Cloudflare (VAPID_PUBLIC, VAPID_SUBJECT, VAPID_PRIVATE,
+	// NOTIFIER_SECRET) : on les garde au déploiement.
+	"keep_vars": true
+}

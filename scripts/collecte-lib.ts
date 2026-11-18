@@ -33,7 +33,7 @@ export function nettoyer(html: string, max = 400): string {
 }
 
 function lienAtom(link: unknown): string {
-	const liens = liste(link as Record<string, string> | string);
+	const liens = liste(link) as (Record<string, string> | string)[];
 	for (const l of liens) {
 		if (typeof l === 'string') return l;
 		if (!l['@_rel'] || l['@_rel'] === 'alternate') return l['@_href'] ?? '';

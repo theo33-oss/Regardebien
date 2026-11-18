@@ -1,7 +1,43 @@
 <script lang="ts">
+	import {
+		activerNotifications,
+		desactiverNotifications,
+		etatNotifications,
+		type EtatNotifications
+	} from '#lib/notifications.js';
+	import { onMount } from 'svelte';
 	import Choix from '#lib/components/Choix.svelte';
 	import type { Mode, ReglagePolitique } from '#lib/lecture.js';
 	import { prefs } from '#lib/prefs.svelte.js';
+
+	let notifs = $state<EtatNotifications | null>(null);
+	let occupe = $state(false);
+	let echec = $state(false);
+
+	onMount(async () => (notifs = await etatNotifications()));
+
+	async function basculer() {
+		occupe = true;
+		echec = false;
+		try {
+			if (notifs === 'actif') await desactiverNotifications();
+			else await activerNotifications();
+		} catch {
+			echec = true;
+		}
+		notifs = await etatNotifications();
+		occupe = false;
+	}
+
+	const AIDE: Record<EtatNotifications, string> = {
+		indisponible: 'Ce navigateur ne permet pas les notifications.',
+		installer:
+			'Sur iPhone, ajoute d’abord Cartouche à l’écran d’accueil (Partager, puis « Sur l’écran d’accueil »), ouvre l’appli depuis l’icône, puis reviens ici.',
+		bloque:
+			'Les notifications sont refusées. Autorise-les dans les réglages de l’iPhone, rubrique Notifications.',
+		inactif: 'Reçois 2 ou 3 titres chaque jour à 18 h.',
+		actif: 'Notification active : 2 ou 3 titres chaque jour à 18 h.'
+	};
 </script>
 
 <svelte:head>
@@ -42,11 +78,44 @@
 	</p>
 </section>
 
+<section>
+	<h2 class="etiquette">Notification de 18 h</h2>
+	{#if notifs}
+		<p class="aide">{AIDE[notifs]}</p>
+		{#if notifs === 'actif' || notifs === 'inactif'}
+			<button type="button" disabled={occupe} onclick={basculer}>
+				{notifs === 'actif' ? 'Désactiver' : 'Activer'}
+			</button>
+		{/if}
+		{#if echec}
+			<p class="aide erreur">L’opération a échoué. Réessaie dans un moment.</p>
+		{/if}
+	{/if}
+</section>
+
 <style>
 	section {
 		padding: 0.75rem;
 		background: var(--papier);
 		border: 1px solid var(--trait);
+	}
+	h2 {
+		margin: 0 0 0.4rem;
+		font-weight: 400;
+	}
+	button {
+		min-height: 44px;
+		margin-top: 0.6rem;
+		padding: 0 1rem;
+		border: 1px solid var(--trait);
+		background: transparent;
+		color: var(--trait);
+		font-family: var(--police-technique);
+		font-size: 0.85rem;
+		cursor: pointer;
+	}
+	.erreur {
+		color: var(--cote);
 	}
 	.aide {
 		margin: 0.6rem 0 0;

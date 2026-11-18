@@ -1,0 +1,31 @@
+name: Notification de 18 h
+
+# Quand une édition est enregistrée sur main, on attend que le site soit redéployé,
+# puis on demande au site d'envoyer la notification (une seule fois par édition).
+# Réglages GitHub (Settings, Secrets and variables, Actions) :
+#   variable SITE_URL (ex. https://cartouche.xxx.workers.dev) ; secret NOTIFIER_SECRET.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/editions/20*.json'
+  workflow_dispatch:
+
+jobs:
+  notifier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Envoi
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          NOTIFIER_SECRET: ${{ secrets.NOTIFIER_SECRET }}
+        run: |
+          if [ -z "$SITE_URL" ] || [ -z "$NOTIFIER_SECRET" ]; then
+            echo "SITE_URL ou NOTIFIER_SECRET non défini : notification ignorée."
+            exit 0
+          fi
+          sleep 240
+          curl --fail-with-body -sS -X POST "$SITE_URL/api/notifier" \
+            -H "Authorization: Bearer $NOTIFIER_SECRET" \
+            -H "Content-Type: application/json" \
+            -d "{\"date\":\"$(TZ=Europe/Paris date +%F)\"}"
