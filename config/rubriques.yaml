@@ -119,20 +119,18 @@
   saisonniere: true
   mots_cles:
     [
-      'gouvernement',
-      'assemblée',
+      'assemblée nationale',
       'sénat',
       'premier ministre',
-      'président',
-      'macron',
-      'élection',
+      'élysée',
       'présidentielle',
-      'ministre',
-      'parti',
-      'député',
-      'réforme',
-      'budget',
-      'loi ',
       'législatives',
-      'municipales'
+      'municipales',
+      'député',
+      'sénateur',
+      'macron',
+      'gouvernement',
+      'motion de censure',
+      'élection',
+      'candidat'
     ]

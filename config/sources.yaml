@@ -230,3 +230,57 @@
   langue: fr
   rubriques: [ia]
   agence_origine: null
+
+- id: air-journal
+  nom: Air Journal
+  url_flux: https://www.air-journal.fr/feed/
+  type: specialisee
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [aero-spatial]
+  agence_origine: null
+
+- id: air-cosmos
+  nom: Air & Cosmos
+  url_flux: https://air-cosmos.com/rss
+  type: specialisee
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [aero-spatial]
+  agence_origine: null
+
+- id: journal-aviation
+  nom: Journal de l'Aviation
+  url_flux: https://www.journal-aviation.com/rss
+  type: specialisee
+  sensibilite: non_applicable
+  langue: fr
+  rubriques: [aero-spatial]
+  agence_origine: null
+
+- id: esa
+  nom: Agence spatiale européenne
+  url_flux: https://www.esa.int/rssfeed/Our_Activities/Space_News
+  type: specialisee
+  sensibilite: non_applicable
+  langue: en
+  rubriques: [aero-spatial]
+  agence_origine: null
+
+- id: nasa
+  nom: NASA
+  url_flux: https://www.nasa.gov/feed/
+  type: specialisee
+  sensibilite: non_applicable
+  langue: en
+  rubriques: [aero-spatial]
+  agence_origine: null
+
+- id: flightglobal
+  nom: FlightGlobal
+  url_flux: https://www.flightglobal.com/rss
+  type: specialisee
+  sensibilite: non_applicable
+  langue: en
+  rubriques: [aero-spatial]
+  agence_origine: null
