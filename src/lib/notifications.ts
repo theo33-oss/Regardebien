@@ -1,4 +1,8 @@
+import { asset } from '$app/paths';
+
 // Abonnement aux notifications de 18 h (Web Push).
+// Elles exigent un serveur qui garde les abonnements (worker/, hébergé hors GitHub Pages) :
+// sans lui, la section n'apparaît pas dans les Réglages.
 // Sur iPhone, elles ne fonctionnent que si l'appli est installée sur l'écran d'accueil.
 
 export type EtatNotifications =
@@ -28,32 +32,45 @@ function cleVersOctets(base64url: string): Uint8Array<ArrayBuffer> {
 	return Uint8Array.from(atob(b64), (c) => c.charCodeAt(0));
 }
 
+// Adresse d'une fonction du serveur de notifications (même site, dossier api/).
+const api = (chemin: string) => asset(`api/${chemin}` as 'robots.txt');
+
+/** Le serveur de notifications répond-il ? (Non sur GitHub Pages : page statique seulement.) */
+export async function serveurDisponible(): Promise<boolean> {
+	try {
+		const r = await fetch(api('cle'));
+		return r.ok && !(r.headers.get('content-type') ?? '').includes('html');
+	} catch {
+		return false;
+	}
+}
+
 async function appeler(chemin: string, corps: unknown) {
-	const r = await fetch(chemin, {
+	const r = await fetch(api(chemin), {
 		method: 'POST',
 		headers: { 'content-type': 'application/json' },
 		body: JSON.stringify(corps)
 	});
-	if (!r.ok) throw new Error(`${chemin} : HTTP ${r.status}`);
+	if (!r.ok) throw new Error(`api/${chemin} : HTTP ${r.status}`);
 }
 
 export async function activerNotifications(): Promise<void> {
 	if ((await Notification.requestPermission()) !== 'granted') return;
 	const reg = await navigator.serviceWorker.ready;
-	const cle = await (await fetch('/api/cle')).text();
+	const cle = await (await fetch(api('cle'))).text();
 	const abonnement =
 		(await reg.pushManager.getSubscription()) ??
 		(await reg.pushManager.subscribe({
 			userVisibleOnly: true,
 			applicationServerKey: cleVersOctets(cle.trim())
 		}));
-	await appeler('/api/abonner', abonnement.toJSON());
+	await appeler('abonner', abonnement.toJSON());
 }
 
 export async function desactiverNotifications(): Promise<void> {
 	const reg = await navigator.serviceWorker.getRegistration();
 	const abonnement = await reg?.pushManager.getSubscription();
 	if (!abonnement) return;
-	await appeler('/api/desabonner', { endpoint: abonnement.endpoint }).catch(() => {});
+	await appeler('desabonner', { endpoint: abonnement.endpoint }).catch(() => {});
 	await abonnement.unsubscribe();
 }

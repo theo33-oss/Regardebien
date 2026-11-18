@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: ecriture-main
@@ -53,6 +54,7 @@ jobs:
           git config user.email "cartouche-bot@users.noreply.github.com"
           # On repart de la dernière version de main à chaque essai : jamais de conflit,
           # même si l'édition de 18 h a été poussée entre-temps. data/index.json est régénéré.
+          export GH_TOKEN="${{ github.token }}"
           for essai in 1 2 3; do
             git fetch -q origin main
             git reset -q --hard origin/main
@@ -60,7 +62,11 @@ jobs:
             npm run index
             git add data
             git commit -q -m "Collecte $(basename $NOUVEAUX .json)"
-            if git push -q origin HEAD:main; then exit 0; fi
+            if git push -q origin HEAD:main; then
+              # Un enregistrement fait par un workflow ne lance pas la mise en ligne : on la demande.
+              gh workflow run deploy.yml --ref main
+              exit 0
+            fi
             sleep 15
           done
           echo "Échec de l'enregistrement après 3 essais."

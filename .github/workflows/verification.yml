@@ -23,4 +23,5 @@ jobs:
       - run: npm run check
       - run: npm test
       - run: npm run validate
-      - run: npm run build
+      - name: Construction (comme sur GitHub Pages)
+        run: BASE_PATH=/Regardebien npm run build

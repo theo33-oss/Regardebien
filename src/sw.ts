@@ -8,8 +8,10 @@ declare const self: ServiceWorkerGlobalScope & {
 	__WB_MANIFEST: { url: string; revision: string | null }[];
 };
 
+// Sur GitHub Pages le site est sous un préfixe (/Regardebien) : on le tire de la portée du service worker.
+const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, '');
 const entrees = self.__WB_MANIFEST;
-const urls = entrees.map((e) => new URL(e.url, self.location.origin).href);
+const urls = entrees.map((e) => new URL(e.url, self.registration.scope).href);
 const CACHE_DONNEES = 'donnees';
 // Le nom du cache change quand le contenu de l'appli change : l'ancien est alors supprimé.
 const CACHE_COQUILLE = 'coquille-' + hacher(entrees.map((e) => `${e.url}@${e.revision}`).join('|'));
@@ -74,7 +76,7 @@ self.addEventListener('fetch', (event) => {
 	const url = new URL(requete.url);
 	if (requete.method !== 'GET' || url.origin !== self.location.origin) return;
 
-	if (url.pathname.startsWith('/data/')) {
+	if (url.pathname.startsWith(`${BASE}/data/`)) {
 		event.respondWith(reseauPuisCache(requete, 4000));
 		return;
 	}
@@ -88,7 +90,7 @@ self.addEventListener('fetch', (event) => {
 				} catch {
 					return (
 						(await caches.match(requete, { ignoreVary: true })) ??
-						(await caches.match('/')) ??
+						(await caches.match(`${BASE}/`)) ??
 						Response.error()
 					);
 				}
@@ -107,7 +109,7 @@ self.addEventListener('push', (event) => {
 		(async () => {
 			let titres: string[] = [];
 			try {
-				const r = await fetch('/data/index.json', { cache: 'no-store' });
+				const r = await fetch(`${BASE}/data/index.json`, { cache: 'no-store' });
 				const derniere = (await r.json()).editions?.[0];
 				const aujourdhui = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris' }).format(
 					new Date()
@@ -119,10 +121,10 @@ self.addEventListener('push', (event) => {
 			}
 			await self.registration.showNotification('Cartouche · édition du jour', {
 				body: titres.length ? titres.slice(0, 3).join('\n') : 'L’édition du jour est parue.',
-				icon: '/icone-192.png',
-				badge: '/icone-192.png',
+				icon: `${BASE}/icone-192.png`,
+				badge: `${BASE}/icone-192.png`,
 				tag: 'edition',
-				data: { url: '/' }
+				data: { url: `${BASE}/` }
 			});
 		})()
 	);
@@ -134,7 +136,7 @@ self.addEventListener('notificationclick', (event) => {
 		(async () => {
 			const fenetres = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
 			if (fenetres.length) return fenetres[0].focus();
-			return self.clients.openWindow('/');
+			return self.clients.openWindow(`${BASE}/`);
 		})()
 	);
 });

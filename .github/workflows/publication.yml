@@ -2,7 +2,7 @@ name: Publication de l'édition
 
 # Filet de sécurité : si la routine de 18 h n'a pas le droit de pousser sur main et pousse
 # l'édition sur une branche (claude/… ou edition-…), on la recopie ici sur main, après
-# validation, puis on envoie la notification.
+# validation, puis on relance la mise en ligne.
 on:
   push:
     branches: ['claude/**', 'edition-**']
@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: ecriture-main
@@ -19,8 +20,6 @@ concurrency:
 jobs:
   publier:
     runs-on: ubuntu-latest
-    outputs:
-      publie: ${{ steps.copie.outputs.publie }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -35,6 +34,7 @@ jobs:
         id: copie
         env:
           BRANCHE: ${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           git fetch -q origin "$BRANCHE"
           SOURCE=$(git rev-parse FETCH_HEAD)
@@ -53,15 +53,9 @@ jobs:
             git add data
             git commit -q -m "Publie l'édition depuis $BRANCHE"
             if git push -q origin HEAD:main; then
-              echo "publie=true" >> "$GITHUB_OUTPUT"
+              gh workflow run deploy.yml --ref main
               exit 0
             fi
             sleep 15
           done
           exit 1
-
-  notifier:
-    needs: publier
-    if: needs.publier.outputs.publie == 'true'
-    uses: ./.github/workflows/notifier.yml
-    secrets: inherit

@@ -1,6 +1,6 @@
 # Recette : vérifier que tout marche
 
-À faire une fois la mise en ligne terminée (`docs/GUIDE-MISE-EN-LIGNE.md`). Coche au fur et à mesure ; ce qui échoue, note-le et envoie-le moi.
+À faire une fois la mise en ligne terminée (`docs/GUIDE-MISE-EN-LIGNE.md`, GitHub Pages). Coche au fur et à mesure ; ce qui échoue, note-le et envoie-le moi.
 
 ## Collecte (sans IA)
 
@@ -34,12 +34,11 @@
 - [ ] **Archive** liste les éditions, la plus récente en premier ; une ouverture fonctionne.
 - [ ] Appli ouverte une fois en ligne, puis **mode avion** : l'appli s'ouvre et les 7 dernières éditions se lisent.
 
-## Installation et notifications
+## Installation
 
 - [ ] Ajout à l'écran d'accueil : l'icône « C » sur fond bleu de plan apparaît, l'appli s'ouvre sans barre Safari.
-- [ ] **Réglages, Notification de 18 h, Activer** : l'iPhone demande l'autorisation, le bouton passe à « Désactiver ».
-- [ ] À 18 h environ après la routine : une notification avec 2 ou 3 titres arrive. Toucher la notification ouvre l'appli.
-- [ ] **Désactiver** : plus de notification le lendemain.
+- [ ] Après une nouvelle édition, rouvrir l'appli depuis l'icône : l'édition du jour apparaît (la relecture est automatique après quelques minutes d'absence).
+- [ ] **Réglages** n'affiche pas de rubrique « Notification » (volontaire : pas de notification avec GitHub Pages).
 
 ## Dans les cas limites
 

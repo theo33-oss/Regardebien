@@ -1,0 +1,47 @@
+name: Mise en ligne
+
+# Construit le site et le publie sur GitHub Pages. Déclenché :
+#  - à chaque envoi sur main (code, ou données envoyées par la routine de 18 h) ;
+#  - par les workflows de collecte et de publication, après leur enregistrement
+#    (un enregistrement fait par un workflow ne déclenche pas les autres workflows) ;
+#  - à la main (Actions, Mise en ligne, Run workflow).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploiement:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      # Pas de npm run validate ici : une édition invalide est écartée par le build (l'appli affiche le Flux)
+      # plutôt que de bloquer toute la mise en ligne.
+      - name: Construction
+        # Le site est servi sous /<nom-du-dépôt>.
+        run: BASE_PATH="/${GITHUB_REPOSITORY#*/}" npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: build
+      - id: deploiement
+        uses: actions/deploy-pages@v4

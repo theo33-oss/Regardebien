@@ -11,30 +11,33 @@ export default defineConfig({
 					runes: ({ filename }) =>
 						filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 				},
-				adapter: adapter({ fallback: '200.html' }),
-				// Chemins absolus : Cloudflare renvoie index.html pour toute adresse inconnue
-				// (/edition/…/…), les scripts doivent se charger quel que soit le dossier.
-				paths: { relative: false }
+				// GitHub Pages renvoie 404.html pour toute adresse inconnue (/edition/…/…) : c'est la
+				// page de repli de l'appli, qui lit ensuite l'adresse dans le navigateur.
+				adapter: adapter({ fallback: '404.html' }),
+				// Sur GitHub Pages le site vit sous /<nom-du-dépôt> : BASE_PATH est fixé par le workflow
+				// de déploiement. Chemins absolus pour que les scripts se chargent depuis toute adresse.
+				paths: { base: (process.env.BASE_PATH ?? '') as '' | `/${string}`, relative: false }
 			},
 			{
 				strategies: 'buildSW',
 				registerType: 'autoUpdate',
-				kit: { adapterFallback: '200.html' },
+				kit: { adapterFallback: '404.html' },
 				manifest: {
 					name: 'Cartouche',
 					short_name: 'Cartouche',
 					description: 'L’actualité du jour, croisée et sourcée.',
 					lang: 'fr',
-					start_url: '/',
-					scope: '/',
+					// Adresses relatives au manifeste : valables sous n'importe quel préfixe.
+					start_url: './',
+					scope: './',
 					display: 'standalone',
 					theme_color: '#f3f1ea',
 					background_color: '#f3f1ea',
 					icons: [
-						{ src: '/icone-192.png', sizes: '192x192', type: 'image/png' },
-						{ src: '/icone-512.png', sizes: '512x512', type: 'image/png' },
+						{ src: 'icone-192.png', sizes: '192x192', type: 'image/png' },
+						{ src: 'icone-512.png', sizes: '512x512', type: 'image/png' },
 						{
-							src: '/icone-maskable-512.png',
+							src: 'icone-maskable-512.png',
 							sizes: '512x512',
 							type: 'image/png',
 							purpose: 'maskable'

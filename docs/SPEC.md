@@ -39,12 +39,12 @@ Plan d'ingénieur, papier calque et grille millimétrée, cartouche de plan en e
 
 ## Technique
 
-- SvelteKit + Svelte 5 + TypeScript, adapter-static avec page de repli (`200.html`) pour les routes dynamiques. Transitions intégrées, dont `draw` pour les tracés SVG.
+- SvelteKit + Svelte 5 + TypeScript, adapter-static avec page de repli (`404.html`, celle que sert GitHub Pages) pour les routes dynamiques. Transitions intégrées, dont `draw` pour les tracés SVG.
 - PWA avec @vite-pwa/sveltekit (lot 5).
 - Données : JSON versionnés dans `data/`, validés par les schémas zod de `src/lib/schema/`, partagés entre l'appli et les scripts. `data/index.json` est toujours régénéré par `npm run index`, jamais écrit à la main.
 - Collecte : scripts Node TypeScript (tsx) lancés par GitHub Actions ; sources dans `config/sources.yaml`.
-- Hébergement : Cloudflare, offre gratuite, compatible dépôt privé, déploiement à chaque push sur main. Au lot 6, vérifier dans la doc Cloudflare actuelle s'il faut Workers (assets statiques) ou Pages.
-- Notifications : Web Push (VAPID) via une fonction Cloudflare et un espace KV pour les abonnements (lot 5).
+- Hébergement : GitHub Pages seul (décision de Théo : aucun service tiers), déployé par GitHub Actions après chaque collecte, chaque édition et chaque push sur main. Le site est public même si le dépôt est privé ; un dépôt privé exige un compte GitHub payant.
+- Notifications : Web Push (VAPID) via un serveur qui garde les abonnements. Le code existe (`worker/`, Cloudflare) mais n'est pas utilisé : GitHub Pages ne peut pas l'héberger. Abandonnées tant qu'un hébergeur supplémentaire n'est pas accepté.
 - npm, Node LTS, dépôt privé.
 
 ## Modèle de données (src/lib/schema/index.ts)

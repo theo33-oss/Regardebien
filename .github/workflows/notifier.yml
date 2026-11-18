@@ -1,16 +1,13 @@
 name: Notification de 18 h
 
+# INACTIF sur GitHub Pages (pas de serveur pour garder les abonnements) : voir docs/GUIDE-MISE-EN-LIGNE.md.
+# À réactiver (déclencheur push sur data/editions/20*.json) seulement avec un serveur de notifications.
 # Quand l'édition du jour arrive sur main, on attend que le site la montre (déploiement
 # Cloudflare), puis on lui demande d'envoyer la notification (une seule fois par édition).
 # Réglages GitHub (Settings, Secrets and variables, Actions) :
 #   variable SITE_URL (ex. https://cartouche.xxx.workers.dev) ; secret NOTIFIER_SECRET.
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'data/editions/20*.json'
   workflow_dispatch:
-  workflow_call:
 
 jobs:
   notifier:

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { page } from '$app/state';
-	import { resolve } from '$app/paths';
+	import { asset, resolve } from '$app/paths';
 	import { prefs } from '#lib/prefs.svelte.js';
 	import { onMount } from 'svelte';
 	import type { LayoutProps } from './$types';
@@ -23,8 +23,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href="/icone.svg" type="image/svg+xml" />
-	<link rel="manifest" href="/manifest.webmanifest" />
+	<link rel="icon" href={asset('icone.svg')} type="image/svg+xml" />
 </svelte:head>
 
 <div class="page">

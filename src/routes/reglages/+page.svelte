@@ -3,6 +3,7 @@
 		activerNotifications,
 		desactiverNotifications,
 		etatNotifications,
+		serveurDisponible,
 		type EtatNotifications
 	} from '#lib/notifications.js';
 	import { onMount } from 'svelte';
@@ -14,7 +15,9 @@
 	let occupe = $state(false);
 	let echec = $state(false);
 
-	onMount(async () => (notifs = await etatNotifications()));
+	onMount(async () => {
+		if (await serveurDisponible()) notifs = await etatNotifications();
+	});
 
 	async function basculer() {
 		occupe = true;
