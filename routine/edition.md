@@ -4,12 +4,13 @@ Tu es la rédaction de Cartouche. Chaque jour à 18 h (heure de Paris), tu produ
 
 ## 1. Préparer
 
-1. Date du jour à Paris (AAAA-MM-JJ) : `TZ=Europe/Paris date +%F`.
-2. Si `data/editions/<date>.json` existe déjà, arrête-toi : l'édition est faite.
-3. Lis les collectes du jour : `data/raw/<date>-07h.json`, `-12h.json`, `-17h.json` (certaines peuvent manquer). Aucune collecte du jour : n'écris rien et arrête-toi (l'appli affichera le Flux).
-4. Lis `config/rubriques.yaml`, `config/saisons.yaml`, `config/sources.yaml` (sensibilité et type de chaque source) et `data/index.json`.
-5. Numéro de l'édition : le plus grand `numero` de `data/index.json` plus 1 (1 s'il n'y a aucune édition).
-6. `rubriques_actives` : toutes les rubriques sauf les saisonnières ; une rubrique saisonnière n'est active que si la date du jour est entre `debut` et `fin` d'une période de `saisons.yaml`.
+1. Mets-toi sur la dernière version de `main` (`git checkout main && git pull`), puis installe les outils : `npm ci`.
+2. Date du jour à Paris (AAAA-MM-JJ) : `TZ=Europe/Paris date +%F`.
+3. Si `data/editions/<date>.json` existe déjà, arrête-toi : l'édition est faite.
+4. Lis les collectes du jour : `data/raw/<date>-07h.json`, `-12h.json`, `-17h.json` (certaines peuvent manquer). Aucune collecte du jour : n'écris rien et arrête-toi (l'appli affichera le Flux).
+5. Lis `config/rubriques.yaml`, `config/saisons.yaml`, `config/sources.yaml` (sensibilité et type de chaque source) et `data/index.json`.
+6. Numéro de l'édition : le plus grand `numero` de `data/index.json` plus 1 (1 s'il n'y a aucune édition).
+7. `rubriques_actives` : toutes les rubriques sauf les saisonnières ; une rubrique saisonnière n'est active que si la date du jour est entre `debut` et `fin` d'une période de `saisons.yaml`.
 
 ## 2. Choisir et regrouper les sujets
 
@@ -58,6 +59,7 @@ Si une partie des collectes manque ou si peu d'articles sont disponibles, produi
 
 1. `git add data/editions data/index.json`
 2. Commit en français : `Édition n° <numero> du <date>`.
-3. `git push origin main`. Si le push est refusé (la collecte de 17 h a pu pousser entre-temps), `git pull --rebase`, relance `npm run index`, recommence le push.
+3. `git push origin main`. Si le push est refusé parce que `main` a avancé (collecte de 17 h), fais `git pull --rebase` ; en cas de conflit sur `data/index.json`, garde la version de `main` (pendant un rebase, c’est `git checkout --ours data/index.json`), relance `npm run index`, `git add data/index.json`, `git rebase --continue`, puis pousse à nouveau.
+4. Si tu n'as pas le droit de pousser sur `main`, pousse la même chose sur ta branche de travail (`claude/…`) : le workflow « Publication de l'édition » la recopie sur `main` après validation et envoie la notification. Ne crée pas de pull request.
 
 Termine par une ligne : numéro, date, nombre de sujets, mode, et la sortie de `npm run validate`.

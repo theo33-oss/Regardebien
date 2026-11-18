@@ -1,7 +1,7 @@
 name: Notification de 18 h
 
-# Quand une édition est enregistrée sur main, on attend que le site soit redéployé,
-# puis on demande au site d'envoyer la notification (une seule fois par édition).
+# Quand l'édition du jour arrive sur main, on attend que le site la montre (déploiement
+# Cloudflare), puis on lui demande d'envoyer la notification (une seule fois par édition).
 # Réglages GitHub (Settings, Secrets and variables, Actions) :
 #   variable SITE_URL (ex. https://cartouche.xxx.workers.dev) ; secret NOTIFIER_SECRET.
 on:
@@ -10,6 +10,7 @@ on:
     paths:
       - 'data/editions/20*.json'
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   notifier:
@@ -24,8 +25,16 @@ jobs:
             echo "SITE_URL ou NOTIFIER_SECRET non défini : notification ignorée."
             exit 0
           fi
-          sleep 240
+          SITE_URL="${SITE_URL%/}"
+          DATE=$(TZ=Europe/Paris date +%F)
+          # Attendre (jusqu'à 10 min) que le site en ligne contienne l'édition du jour.
+          for i in $(seq 1 20); do
+            EN_LIGNE=$(curl -fsS "$SITE_URL/data/index.json" | jq -r '.editions[0].date // empty' || true)
+            if [ "$EN_LIGNE" = "$DATE" ]; then echo "Édition du $DATE en ligne."; break; fi
+            echo "Site pas encore à jour (dernière édition : ${EN_LIGNE:-aucune}), nouvel essai dans 30 s."
+            sleep 30
+          done
           curl --fail-with-body -sS -X POST "$SITE_URL/api/notifier" \
             -H "Authorization: Bearer $NOTIFIER_SECRET" \
             -H "Content-Type: application/json" \
-            -d "{\"date\":\"$(TZ=Europe/Paris date +%F)\"}"
+            -d "{\"date\":\"$DATE\"}"

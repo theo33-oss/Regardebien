@@ -64,12 +64,13 @@ Vérifier : ouvre `https://<ton-site>/api/cle` dans un navigateur : une longue s
 
 La routine est une tâche planifiée Claude Code, qui rédige l'édition.
 
-1. Sur claude.ai/code, crée une **tâche planifiée** (« routine ») sur le dépôt `theo33-oss/Regardebien`, branche `main`, avec l'autorisation de pousser sur `main`.
+1. Sur claude.ai/code, crée une **tâche planifiée** (« routine ») sur le dépôt `theo33-oss/Regardebien`.
 2. Fréquence : tous les jours à **18:00**, fuseau **Europe/Paris**.
 3. Instruction : `Suis les instructions de routine/edition.md.`
-4. Lance-la une première fois à la main après une collecte, puis regarde le résultat.
+4. Si l'écran propose d'autoriser les envois sur toutes les branches (option du type « Allow unrestricted branch pushes »), coche-la : l'édition partira directement sur `main`. Sinon ce n'est pas grave : la routine pousse sur sa branche `claude/…` et le workflow « Publication de l'édition » recopie l'édition sur `main` après l'avoir validée.
+5. Lance-la une première fois à la main, après la collecte de 17 h (ou après une collecte lancée à la main), puis regarde le résultat.
 
-Vérifier : un fichier `data/editions/AAAA-MM-JJ.json` apparaît dans le dépôt, le site affiche l'édition, et le workflow « Notification de 18 h » passe au vert.
+Vérifier : un fichier `data/editions/AAAA-MM-JJ.json` apparaît sur `main`, le site affiche l'édition quelques minutes après, et le workflow « Notification de 18 h » (ou « Publication de l'édition ») passe au vert.
 
 ## 7. Sur l'iPhone
 

@@ -1,7 +1,7 @@
 name: Collecte RSS
 
 # Heure de Paris : 7h, 12h, 17h. GitHub planifie en UTC : on lance aux deux heures
-# possibles (été et hiver), et le script ne fait rien si l'heure de Paris ne convient pas.
+# possibles (été et hiver) ; le script ne refait pas un créneau déjà collecté.
 on:
   schedule:
     - cron: '5 5,6 * * *'
@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       creneau:
-        description: 'Créneau à forcer (07h, 12h ou 17h). Vide : le créneau le plus proche (07h par défaut).'
+        description: 'Créneau à forcer (07h, 12h ou 17h). Vide : selon l’heure de Paris.'
         required: false
         default: ''
 
@@ -18,17 +18,17 @@ permissions:
   contents: write
 
 concurrency:
-  group: collecte
+  group: ecriture-main
   cancel-in-progress: false
 
 jobs:
   collecte:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: lts/*
+          node-version-file: .node-version
           cache: npm
       - run: npm ci
       - name: Collecte
@@ -42,19 +42,26 @@ jobs:
           fi
       - name: Enregistrement
         run: |
-          # Rien de nouveau collecté : rien à enregistrer.
-          if [ -z "$(git status --porcelain data/raw)" ]; then
+          NOUVEAUX=$(git status --porcelain data/raw | awk '{print $2}')
+          if [ -z "$NOUVEAUX" ]; then
             echo "Aucune nouvelle collecte, rien à enregistrer."
             exit 0
           fi
+          mkdir -p "$RUNNER_TEMP/collecte"
+          cp $NOUVEAUX "$RUNNER_TEMP/collecte/"
           git config user.name "cartouche-bot"
           git config user.email "cartouche-bot@users.noreply.github.com"
-          git add data/raw
-          git commit -m "Collecte automatique"
-          # data/index.json est généré : on le régénère après la mise à jour, jamais de conflit.
-          git pull --rebase
-          npm run index
-          npm run validate
-          git add data
-          git commit -m "Met à jour l'index" || true
-          git push
+          # On repart de la dernière version de main à chaque essai : jamais de conflit,
+          # même si l'édition de 18 h a été poussée entre-temps. data/index.json est régénéré.
+          for essai in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            cp "$RUNNER_TEMP"/collecte/* data/raw/
+            npm run index
+            git add data
+            git commit -q -m "Collecte $(basename $NOUVEAUX .json)"
+            if git push -q origin HEAD:main; then exit 0; fi
+            sleep 15
+          done
+          echo "Échec de l'enregistrement après 3 essais."
+          exit 1
