@@ -1,5 +1,11 @@
 <script lang="ts">
-	import { heureParis, parRubrique, rubriquesVisibles, selectionner } from '#lib/lecture.js';
+	import {
+		heureParis,
+		nomRubrique,
+		parRubrique,
+		rubriquesVisibles,
+		selectionner
+	} from '#lib/lecture.js';
 	import type { RubriqueConfig, Saison } from '#lib/lecture.js';
 	import { prefs } from '#lib/prefs.svelte.js';
 	import type { Edition } from '#lib/schema/index.js';
@@ -45,8 +51,8 @@
 	<section aria-labelledby={`r-${groupe.rubrique.id}`}>
 		<h2 id={`r-${groupe.rubrique.id}`} class="rubrique">{groupe.rubrique.nom}</h2>
 		<div class="liste">
-			{#each groupe.elements as sujet (sujet.id)}
-				<CarteSujet {sujet} date={edition.date} />
+			{#each groupe.elements as sujet, i (`${i}-${sujet.id}`)}
+				<CarteSujet {sujet} date={edition.date} noms={(id) => nomRubrique(rubriques, id)} />
 			{/each}
 		</div>
 	</section>

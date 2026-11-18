@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
+	dateLongue,
 	enSaison,
 	parRubrique,
 	rubriquesVisibles,
@@ -67,5 +68,12 @@ describe('parRubrique', () => {
 	it('suit l’ordre de la config et saute les rubriques vides', () => {
 		const g = parRubrique([sujet('c', 'culture', 1), sujet('d', 'defense', 1)], rubriques);
 		expect(g.map((x) => x.rubrique.id)).toEqual(['defense', 'culture']);
+	});
+});
+
+describe('dateLongue', () => {
+	it('écrit la date en français', () => {
+		expect(dateLongue('2026-11-18')).toBe('18 novembre 2026');
+		expect(dateLongue('n’importe quoi')).toBe('n’importe quoi');
 	});
 });

@@ -17,7 +17,7 @@
 	<title>Carnet technique · Cartouche</title>
 </svelte:head>
 
-<main>
+<div class="demo">
 	<Cartouche numero={42} date="2026-11-17" heure="18:00" />
 
 	<section>
@@ -64,10 +64,10 @@
 		<p class="etiquette">Tracé épais</p>
 		<Trait epais duree={1000} />
 	</section>
-</main>
+</div>
 
 <style>
-	main {
+	.demo {
 		max-width: var(--largeur-texte);
 		margin: 0 auto;
 		padding: 1rem 1rem 3rem;

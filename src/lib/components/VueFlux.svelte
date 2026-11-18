@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { heureParis, parRubrique, rubriquesVisibles } from '#lib/lecture.js';
+	import { dateLongue, heureParis, parRubrique, rubriquesVisibles } from '#lib/lecture.js';
 	import type { RubriqueConfig, Saison } from '#lib/lecture.js';
 	import { prefs } from '#lib/prefs.svelte.js';
 	import type { ArticleBrut, CollecteDuJour } from '#lib/schema/index.js';
@@ -35,7 +35,7 @@
 
 <header class="entete">
 	<p class="etiquette">
-		Flux · collecte de {collecte.creneau.replace('h', ' h')} · {collecte.date}
+		Flux · collecte de {collecte.creneau.replace('h', ' h')} · {dateLongue(collecte.date)}
 	</p>
 	<p class="etiquette">
 		{collecte.articles.length} articles · mis à jour à {heureParis(collecte.collecte_le)}
@@ -62,11 +62,12 @@
 	<section aria-labelledby={`f-${groupe.rubrique.id}`}>
 		<h2 id={`f-${groupe.rubrique.id}`} class="rubrique">{groupe.rubrique.nom}</h2>
 		<ul class="sujets">
-			{#each groupe.elements.slice(0, MAX) as g, i (g.titre + i)}
+			{#each groupe.elements.slice(0, groupe.rubrique.max_sujets ?? MAX) as g, i (g.titre + i)}
 				{@render sujet(g)}
 			{/each}
 		</ul>
-		{#if groupe.elements.length > MAX}
+		<!-- Rubrique plafonnée (Culture : les grands sujets seulement) : pas de suite. -->
+		{#if !groupe.rubrique.max_sujets && groupe.elements.length > MAX}
 			<details>
 				<summary>Voir {groupe.elements.length - MAX} autres sujets</summary>
 				<ul class="sujets">

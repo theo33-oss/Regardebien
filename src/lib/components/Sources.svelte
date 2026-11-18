@@ -5,7 +5,7 @@
 </script>
 
 <ul class="sources">
-	{#each urls as url (url)}
+	{#each [...new Set(urls)] as url (url)}
 		<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 		<li><a href={url} target="_blank" rel="noopener noreferrer">{domaine(url)}</a></li>
 	{/each}

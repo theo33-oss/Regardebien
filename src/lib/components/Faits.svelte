@@ -7,7 +7,7 @@
 </script>
 
 <ul class="faits">
-	{#each faits as fait (fait.texte)}
+	{#each faits as fait, i (i)}
 		<li>
 			<Niveau niveau={fait.niveau} />
 			<p>{fait.texte}</p>

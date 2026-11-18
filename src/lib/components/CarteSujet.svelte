@@ -3,14 +3,16 @@
 	import type { Sujet } from '#lib/schema/index.js';
 	import Faits from './Faits.svelte';
 
-	let { sujet, date }: { sujet: Sujet; date: string } = $props();
+	// noms : noms affichés des rubriques secondaires (étiquettes).
+	let { sujet, date, noms }: { sujet: Sujet; date: string; noms: (id: string) => string } =
+		$props();
 	let ouvert = $state(false);
 	const idPanneau = $derived(`synthese-${sujet.id}`);
 </script>
 
 <article class="carte">
 	{#if sujet.etiquettes.length}
-		<p class="etiquette">{sujet.etiquettes.join(' · ')}</p>
+		<p class="etiquette">{sujet.etiquettes.map(noms).join(' · ')}</p>
 	{/if}
 	<!-- Niveau 1 : titre + 2 lignes -->
 	<h3>{sujet.titre}</h3>

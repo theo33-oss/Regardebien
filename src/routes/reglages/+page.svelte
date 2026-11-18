@@ -34,7 +34,7 @@
 		installer:
 			'Sur iPhone, ajoute d’abord Cartouche à l’écran d’accueil (Partager, puis « Sur l’écran d’accueil »), ouvre l’appli depuis l’icône, puis reviens ici.',
 		bloque:
-			'Les notifications sont refusées. Autorise-les dans les réglages de l’iPhone, rubrique Notifications.',
+			'Les notifications sont refusées. Autorise-les dans les réglages de l’appareil (sur iPhone : Réglages, Notifications, Cartouche).',
 		inactif: 'Reçois 2 ou 3 titres chaque jour à 18 h.',
 		actif: 'Notification active : 2 ou 3 titres chaque jour à 18 h.'
 	};

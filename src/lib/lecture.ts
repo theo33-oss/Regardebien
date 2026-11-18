@@ -30,6 +30,13 @@ export function dateParis(d = new Date()): string {
 	}).format(d);
 }
 
+/** Date en toutes lettres : « 18 novembre 2026 ». Une date invalide est rendue telle quelle. */
+export function dateLongue(date: string): string {
+	const d = new Date(`${date}T12:00:00Z`);
+	if (Number.isNaN(d.getTime())) return date;
+	return new Intl.DateTimeFormat('fr-FR', { dateStyle: 'long', timeZone: 'UTC' }).format(d);
+}
+
 /** Heure à Paris (HH:MM) d'un horodatage ISO. */
 export function heureParis(iso: string): string {
 	return new Intl.DateTimeFormat('fr-FR', {
@@ -81,6 +88,11 @@ export function parRubrique<T extends { rubrique: Rubrique }>(
 	return rubriques
 		.map((rubrique) => ({ rubrique, elements: elements.filter((e) => e.rubrique === rubrique.id) }))
 		.filter((g) => g.elements.length > 0);
+}
+
+/** Nom affiché d'une rubrique (son identifiant si elle est inconnue). */
+export function nomRubrique(rubriques: RubriqueConfig[], id: string): string {
+	return rubriques.find((r) => r.id === id)?.nom ?? id;
 }
 
 /** Nom court d'un site à partir d'une URL. */

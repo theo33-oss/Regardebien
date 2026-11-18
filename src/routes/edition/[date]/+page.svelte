@@ -4,6 +4,7 @@
 	import Selecteurs from '#lib/components/Selecteurs.svelte';
 	import VueEdition from '#lib/components/VueEdition.svelte';
 	import { chargerEdition, chargerEnsemble } from '#lib/donnees.js';
+	import { dateLongue } from '#lib/lecture.js';
 	import type { Edition } from '#lib/schema/index.js';
 	import { onMount } from 'svelte';
 
@@ -28,7 +29,7 @@
 </script>
 
 <svelte:head>
-	<title>Édition du {page.params.date} · Cartouche</title>
+	<title>Édition du {dateLongue(page.params.date ?? '')} · Cartouche</title>
 </svelte:head>
 
 <a class="retour" href={resolve('/archive')}>← Archive</a>
@@ -37,7 +38,7 @@
 {:else if !contexte}
 	<p class="etiquette">Chargement…</p>
 {:else}
-	<Selecteurs temps />
+	<Selecteurs mode={false} />
 	<VueEdition
 		edition={contexte.edition}
 		rubriques={contexte.rubriques}

@@ -4,23 +4,25 @@
 	import Faits from '#lib/components/Faits.svelte';
 	import Sources from '#lib/components/Sources.svelte';
 	import { chargerEdition, chargerEnsemble } from '#lib/donnees.js';
+	import { dateLongue, nomRubrique } from '#lib/lecture.js';
 	import type { Sujet } from '#lib/schema/index.js';
 	import { onMount } from 'svelte';
 
 	let sujet = $state<Sujet | null>(null);
-	let rubrique = $state('');
+	/** Rubrique principale puis étiquettes, par leur nom. */
+	let noms = $state<string[]>([]);
 	let erreur = $state<string | null>(null);
 
 	onMount(async () => {
 		try {
-			const { index, rubriques } = await chargerEnsemble();
+			const { index, rubriques: config } = await chargerEnsemble();
 			const entree = index.editions.find((e) => e.date === page.params.date);
 			const edition = entree ? await chargerEdition(entree.fichier) : null;
 			const trouve = edition?.sujets.find((s) => s.id === page.params.sujet);
 			if (!trouve) erreur = 'Ce sujet est introuvable.';
 			else {
 				sujet = trouve;
-				rubrique = rubriques.find((r) => r.id === trouve.rubrique)?.nom ?? trouve.rubrique;
+				noms = [trouve.rubrique, ...trouve.etiquettes].map((id) => nomRubrique(config, id));
 			}
 		} catch {
 			erreur = 'Les données n’ont pas pu être chargées.';
@@ -33,7 +35,7 @@
 </svelte:head>
 
 <a class="retour" href={resolve('/edition/[date]', { date: page.params.date ?? '' })}
-	>← Édition du {page.params.date}</a
+	>← Édition du {dateLongue(page.params.date ?? '')}</a
 >
 
 {#if erreur}
@@ -42,10 +44,7 @@
 	<p class="etiquette">Chargement…</p>
 {:else}
 	<article>
-		<p class="etiquette">
-			{rubrique}{#if sujet.etiquettes.length}
-				· {sujet.etiquettes.join(', ')}{/if}
-		</p>
+		<p class="etiquette">{noms.join(' · ')}</p>
 		<h1>{sujet.titre}</h1>
 		<p class="court">{sujet.resume_court}</p>
 
@@ -58,7 +57,7 @@
 		{#if sujet.angles.length}
 			<h2 class="etiquette">Angles des médias</h2>
 			<ul class="angles">
-				{#each sujet.angles as a (a.medias.join() + a.texte)}
+				{#each sujet.angles as a, i (i)}
 					<li>
 						<strong>{a.medias.join(', ')}</strong>
 						<p>{a.texte}</p>
@@ -71,7 +70,7 @@
 		{#if sujet.divergences.length}
 			<h2 class="etiquette">Divergences</h2>
 			<ul class="divergences">
-				{#each sujet.divergences as d (d)}
+				{#each sujet.divergences as d, i (i)}
 					<li>{d}</li>
 				{/each}
 			</ul>

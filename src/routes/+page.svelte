@@ -7,6 +7,7 @@
 		chargerCollecte,
 		chargerEdition,
 		chargerEnsemble,
+		oublierDonnees,
 		prechargerEditions
 	} from '#lib/donnees.js';
 	import { dateParis } from '#lib/lecture.js';
@@ -27,7 +28,10 @@
 	let etat = $state<Etat | null>(null);
 	let erreur = $state(false);
 
-	onMount(async () => {
+	let chargeLe = 0;
+
+	async function charger() {
+		chargeLe = Date.now();
 		try {
 			const { index, rubriques, saisons } = await chargerEnsemble();
 			prechargerEditions(index);
@@ -47,9 +51,25 @@
 				repli: edition ? null : duJour ? 'invalide' : 'absente',
 				derniere: index.editions[0]?.date ?? null
 			};
+			erreur = false;
 		} catch {
-			erreur = true;
+			// Hors-ligne au retour : on garde ce qui est déjà affiché.
+			if (!etat) erreur = true;
 		}
+	}
+
+	// Sur iPhone, l'appli reste ouverte en arrière-plan : au retour après plus de 5 minutes,
+	// on relit les données (l'édition de 18 h a pu paraître entre-temps).
+	function auRetour() {
+		if (document.visibilityState !== 'visible' || Date.now() - chargeLe < 5 * 60_000) return;
+		oublierDonnees();
+		void charger();
+	}
+
+	onMount(() => {
+		void charger();
+		document.addEventListener('visibilitychange', auRetour);
+		return () => document.removeEventListener('visibilitychange', auRetour);
 	});
 
 	const afficherEdition = $derived(prefs.valeurs.mode === 'edition' && !!etat?.edition);
@@ -59,7 +79,7 @@
 	<title>Cartouche</title>
 </svelte:head>
 
-<Selecteurs />
+<Selecteurs temps={!etat || !!etat.edition} />
 
 {#if erreur}
 	<p>Les données n'ont pas pu être chargées. Vérifie ta connexion et recharge la page.</p>

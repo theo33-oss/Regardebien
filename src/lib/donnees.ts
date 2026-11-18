@@ -6,7 +6,7 @@ import type { RubriqueConfig, Saison } from './lecture.js';
 const url = (chemin: string) => asset(`data/${chemin}` as 'data/index.json');
 
 async function lireJson(chemin: string): Promise<unknown> {
-	const r = await fetch(url(chemin));
+	const r = await fetch(url(chemin), { cache: 'no-cache' });
 	if (!r.ok) throw new Error(`${chemin} : HTTP ${r.status}`);
 	return r.json();
 }
@@ -54,4 +54,9 @@ export function chargerEnsemble() {
 			throw e;
 		});
 	return cache;
+}
+
+/** Oublie les données chargées : la prochaine lecture repart du serveur. */
+export function oublierDonnees() {
+	cache = null;
 }

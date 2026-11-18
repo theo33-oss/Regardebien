@@ -24,3 +24,4 @@ vite.config.ts.timestamp-*
 
 # Données copiées pour l'appli (générées par npm run donnees)
 /static/data/
+.dev.vars
