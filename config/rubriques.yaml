@@ -1,0 +1,138 @@
+# Rubriques de l'appli. Un sujet n'a qu'une rubrique principale.
+- id: aero-spatial
+  nom: Aéronautique et spatial
+  description: Spatial et lanceurs, aviation civile, aviation militaire, vie des entreprises (contrats, levées de fonds, embauches, nouvelles usines).
+  mots_cles:
+    [
+      'spatial',
+      'fusée',
+      'lanceur',
+      'satellite',
+      'ariane',
+      'airbus',
+      'aéronautique',
+      'avion',
+      'aviation',
+      'boeing',
+      'dassault',
+      'safran',
+      'nasa',
+      'esa',
+      'spacex',
+      "vol d'essai",
+      'aéroport',
+      'compagnie aérienne'
+    ]
+- id: defense
+  nom: Défense
+  description: Défense française (armées, opérations, loi de programmation militaire, budget), conflits et géopolitique, industrie de défense.
+  mots_cles:
+    [
+      'armée',
+      'armées',
+      'défense',
+      'militaire',
+      'otan',
+      'ukraine',
+      'gaza',
+      'missile',
+      'rafale',
+      'char ',
+      'frégate',
+      'sous-marin',
+      'loi de programmation',
+      'lpm',
+      'soldat',
+      'guerre',
+      'cessez-le-feu',
+      'drone',
+      'arms',
+      'ministère des armées'
+    ]
+- id: culture
+  nom: Culture
+  description: Seulement les grands sujets du moment (sorties majeures, expositions, événements dont tout le monde parle). 2 à 4 sujets.
+  max_sujets: 4
+  mots_cles:
+    [
+      'film',
+      'cinéma',
+      'festival',
+      'exposition',
+      'musée',
+      'concert',
+      'album',
+      'roman',
+      'prix goncourt',
+      'théâtre',
+      'série',
+      'livre',
+      'spectacle',
+      'césar',
+      "palme d'or"
+    ]
+- id: technique
+  nom: Technique
+  description: Ingénierie et industrie (mécanique, matériaux, fabrication), sciences.
+  mots_cles:
+    [
+      'ingénierie',
+      'ingénieur',
+      'industrie',
+      'usine',
+      'matériaux',
+      'fabrication',
+      'mécanique',
+      'batterie',
+      'nucléaire',
+      'énergie',
+      'robot',
+      'impression 3d',
+      'chercheurs',
+      'découverte',
+      'physique',
+      'chimie',
+      'climat'
+    ]
+- id: ia
+  nom: Intelligence artificielle
+  description: Modèles et annonces, usages en ingénierie et dans l'industrie, régulation.
+  mots_cles:
+    [
+      'intelligence artificielle',
+      'ia ',
+      'openai',
+      'anthropic',
+      'chatgpt',
+      'claude',
+      'gemini',
+      'mistral',
+      'llm',
+      'modèle de langage',
+      'deepfake',
+      'ai act',
+      'artificial intelligence'
+    ]
+- id: politique
+  nom: Politique
+  description: Saisonnière, voir saisons.yaml. France en priorité, international pour les grandes échéances.
+  saisonniere: true
+  mots_cles:
+    [
+      'gouvernement',
+      'assemblée',
+      'sénat',
+      'premier ministre',
+      'président',
+      'macron',
+      'élection',
+      'présidentielle',
+      'ministre',
+      'parti',
+      'député',
+      'réforme',
+      'budget',
+      'loi ',
+      'législatives',
+      'municipales'
+    ]

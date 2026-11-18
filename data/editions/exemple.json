@@ -1,0 +1,66 @@
+{
+	"date": "2026-11-17",
+	"numero": 1,
+	"genere_le": "2026-11-17T18:03:00+01:00",
+	"modele": "exemple",
+	"mode": "normal",
+	"exemple": true,
+	"rubriques_actives": ["aero-spatial", "defense"],
+	"sujets": [
+		{
+			"id": "exemple-lanceur",
+			"rubrique": "aero-spatial",
+			"etiquettes": ["technique"],
+			"titre": "EXEMPLE : un lanceur fictif réussit son vol d'essai",
+			"resume_court": "Sujet d'exemple pour développer l'interface. Aucun fait réel ici.",
+			"synthese": "EXEMPLE. Un lanceur imaginaire a effectué un vol d'essai. Les deux médias fictifs s'accordent sur le déroulé, divergent sur l'interprétation.",
+			"faits": [
+				{
+					"texte": "EXEMPLE : le vol d'essai a eu lieu le 17 novembre.",
+					"niveau": "confirme",
+					"sources": [
+						"https://exemple.invalid/a/lanceur-fictif",
+						"https://exemple.invalid/b/lanceur-fictif-reserves"
+					]
+				},
+				{
+					"texte": "EXEMPLE : la poussée mesurée dépasserait la prévision.",
+					"niveau": "source_unique",
+					"sources": ["https://exemple.invalid/b/lanceur-fictif-reserves"]
+				}
+			],
+			"angles": [
+				{
+					"medias": ["EXEMPLE Quotidien A"],
+					"texte": "EXEMPLE : insiste sur la réussite du vol.",
+					"sources": ["https://exemple.invalid/a/lanceur-fictif"]
+				}
+			],
+			"divergences": ["EXEMPLE : l'un parle de succès complet, l'autre de réserves techniques."],
+			"sources": [
+				"https://exemple.invalid/a/lanceur-fictif",
+				"https://exemple.invalid/b/lanceur-fictif-reserves"
+			],
+			"importance": 80
+		},
+		{
+			"id": "exemple-defense",
+			"rubrique": "defense",
+			"etiquettes": [],
+			"titre": "EXEMPLE : un budget fictif adopté",
+			"resume_court": "Second sujet d'exemple, rubrique Défense.",
+			"synthese": "EXEMPLE. Texte fictif de synthèse.",
+			"faits": [
+				{
+					"texte": "EXEMPLE : communiqué officiel fictif.",
+					"niveau": "officiel",
+					"sources": ["https://exemple.invalid/c/communique"]
+				}
+			],
+			"angles": [],
+			"divergences": [],
+			"sources": ["https://exemple.invalid/c/communique"],
+			"importance": 55
+		}
+	]
+}
