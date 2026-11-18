@@ -8,7 +8,9 @@
 		"#lib/*": "./src/lib/*"
 	},
 	"scripts": {
+		"predev": "tsx scripts/publier-donnees.ts --exemples",
 		"dev": "vite dev",
+		"prebuild": "tsx scripts/publier-donnees.ts",
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
@@ -20,7 +22,8 @@
 		"test": "npm run test:unit -- --run",
 		"validate": "tsx scripts/validate.ts",
 		"index": "tsx scripts/index.ts",
-		"collect": "tsx scripts/collect.ts"
+		"collect": "tsx scripts/collect.ts",
+		"donnees": "tsx scripts/publier-donnees.ts"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
