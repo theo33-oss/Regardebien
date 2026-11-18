@@ -11,7 +11,8 @@
 ## Mode Flux (iPhone, Safari)
 
 - [ ] Le site s'ouvre, les rubriques s'affichent avec leurs sujets.
-- [ ] Un sujet repris par plusieurs médias liste bien ces médias ; un lien ouvre l'article.
+- [ ] Toucher un sujet ouvre sa page de détail : tous les articles avec média, heure, résumé et lien « Lire sur … ».
+- [ ] Un sujet repris par plusieurs médias indique « N médias » et le nombre de sources indépendantes.
 - [ ] Aucun texte en anglais dans l'interface (les titres d'articles étrangers peuvent l'être).
 
 ## Mode Édition
@@ -36,7 +37,7 @@
 
 ## Installation
 
-- [ ] Ajout à l'écran d'accueil : l'icône « C » sur fond bleu de plan apparaît, l'appli s'ouvre sans barre Safari.
+- [ ] Ajout à l'écran d'accueil : l'icône « C » blanc sur fond noir apparaît, l'appli s'ouvre sans barre Safari.
 - [ ] Après une nouvelle édition, rouvrir l'appli depuis l'icône : l'édition du jour apparaît (la relecture est automatique après quelques minutes d'absence).
 - [ ] **Réglages** n'affiche pas de rubrique « Notification » (volontaire : pas de notification avec GitHub Pages).
 

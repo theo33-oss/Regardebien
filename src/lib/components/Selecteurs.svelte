@@ -39,9 +39,6 @@
 		display: grid;
 		gap: 0.75rem;
 		grid-template-columns: 1fr;
-		background: var(--papier);
-		padding: 0.75rem;
-		border: 1px solid var(--trait);
 	}
 	@media (min-width: 36rem) {
 		.selecteurs:not(.seul) {

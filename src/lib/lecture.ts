@@ -90,6 +90,11 @@ export function parRubrique<T extends { rubrique: Rubrique }>(
 		.filter((g) => g.elements.length > 0);
 }
 
+/** « 3 sources indépendantes » : le pluriel s'applique aux deux mots. */
+export function sourcesIndependantes(n: number): string {
+	return n > 1 ? `${n} sources indépendantes` : `${n} source indépendante`;
+}
+
 /** Nom affiché d'une rubrique (son identifiant si elle est inconnue). */
 export function nomRubrique(rubriques: RubriqueConfig[], id: string): string {
 	return rubriques.find((r) => r.id === id)?.nom ?? id;

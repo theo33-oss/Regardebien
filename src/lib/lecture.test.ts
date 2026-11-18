@@ -5,6 +5,7 @@ import {
 	parRubrique,
 	rubriquesVisibles,
 	selectionner,
+	sourcesIndependantes,
 	type RubriqueConfig,
 	type Saison
 } from './lecture.js';
@@ -75,5 +76,12 @@ describe('dateLongue', () => {
 	it('écrit la date en français', () => {
 		expect(dateLongue('2026-11-18')).toBe('18 novembre 2026');
 		expect(dateLongue('n’importe quoi')).toBe('n’importe quoi');
+	});
+});
+
+describe('sourcesIndependantes', () => {
+	it('accorde les deux mots', () => {
+		expect(sourcesIndependantes(1)).toBe('1 source indépendante');
+		expect(sourcesIndependantes(3)).toBe('3 sources indépendantes');
 	});
 });

@@ -11,7 +11,6 @@
 	import type { Edition } from '#lib/schema/index.js';
 	import CarteSujet from './CarteSujet.svelte';
 	import Cartouche from './Cartouche.svelte';
-	import Cote from './Cote.svelte';
 
 	let {
 		edition,
@@ -45,7 +44,7 @@
 	<p class="mention">Données d'exemple (développement).</p>
 {/if}
 
-<Cote valeur={libelleTemps} />
+<p class="etiquette">{libelleTemps}</p>
 
 {#each groupes as groupe (groupe.rubrique.id)}
 	<section aria-labelledby={`r-${groupe.rubrique.id}`}>
@@ -63,27 +62,29 @@
 <style>
 	.mention {
 		margin: 0;
-		padding: 0.5rem 0.75rem;
-		border: 1px dashed var(--cote);
-		background: var(--papier);
-		color: var(--cote);
-		font-family: var(--police-technique);
-		font-size: 0.85rem;
+		padding: 0.6rem 0.75rem;
+		border-left: 3px solid var(--accent);
+		background: var(--surface);
+		font-size: 0.9rem;
+	}
+	p.etiquette {
+		margin: 0;
 	}
 	.rubrique {
-		display: inline-block;
-		margin: 0 0 0.6rem;
-		padding: 0.1rem 0.5rem;
-		background: var(--papier);
-		font-family: var(--police-technique);
-		font-size: 0.9rem;
-		letter-spacing: 0.1em;
+		margin: 0;
+		padding-top: 0.4rem;
+		border-top: 3px solid var(--texte);
+		font-size: 0.8rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		border-bottom: 2px solid var(--trait);
+		color: var(--accent);
 	}
 	.liste {
 		display: flex;
 		flex-direction: column;
-		gap: 1rem;
+	}
+	section {
+		margin-top: 0.75rem;
 	}
 </style>

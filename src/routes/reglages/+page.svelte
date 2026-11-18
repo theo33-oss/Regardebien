@@ -97,32 +97,35 @@
 </section>
 
 <style>
+	h1 {
+		margin: 0;
+	}
 	section {
-		padding: 0.75rem;
-		background: var(--papier);
-		border: 1px solid var(--trait);
+		padding: 1rem 0;
+		border-top: 1px solid var(--filet);
 	}
 	h2 {
 		margin: 0 0 0.4rem;
-		font-weight: 400;
 	}
 	button {
 		min-height: 44px;
 		margin-top: 0.6rem;
-		padding: 0 1rem;
-		border: 1px solid var(--trait);
+		padding: 0 1.1rem;
+		border: 1px solid var(--texte);
+		border-radius: 8px;
 		background: transparent;
-		color: var(--trait);
-		font-family: var(--police-technique);
-		font-size: 0.85rem;
+		color: var(--texte);
+		font: inherit;
+		font-size: 0.92rem;
+		font-weight: 600;
 		cursor: pointer;
 	}
 	.erreur {
-		color: var(--cote);
+		color: var(--accent);
 	}
 	.aide {
 		margin: 0.6rem 0 0;
 		font-size: 0.9rem;
-		color: var(--encre-douce);
+		color: var(--texte-doux);
 	}
 </style>

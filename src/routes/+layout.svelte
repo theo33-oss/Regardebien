@@ -49,7 +49,7 @@
 
 <style>
 	.page {
-		max-width: var(--largeur-texte);
+		max-width: var(--largeur);
 		margin: 0 auto;
 		padding: 0 1rem 3rem;
 	}
@@ -61,16 +61,15 @@
 		gap: 0 1rem;
 		margin: 0 -1rem 1rem;
 		padding: 0 1rem;
-		background: var(--papier);
-		border-bottom: 2px solid var(--trait);
-		font-family: var(--police-technique);
+		border-bottom: 1px solid var(--filet);
 	}
 	.marque {
-		font-weight: 700;
-		letter-spacing: 0.14em;
-		color: var(--encre);
+		padding: 0.6rem 0;
+		font-size: 1.2rem;
+		font-weight: 800;
+		letter-spacing: 0.02em;
+		color: var(--texte);
 		text-decoration: none;
-		padding: 0.75rem 0;
 	}
 	ul {
 		display: flex;
@@ -83,18 +82,20 @@
 		align-items: center;
 		min-height: 44px;
 		padding: 0 0.6rem;
-		font-size: 0.85rem;
+		font-size: 0.9rem;
+		font-weight: 500;
 		text-decoration: none;
-		color: var(--encre-douce);
+		color: var(--texte-doux);
 		border-bottom: 3px solid transparent;
 	}
 	li a[aria-current='page'] {
-		color: var(--encre);
-		border-bottom-color: var(--cote);
+		color: var(--texte);
+		font-weight: 600;
+		border-bottom-color: var(--accent);
 	}
 	main {
 		display: flex;
 		flex-direction: column;
-		gap: 1.25rem;
+		gap: 1rem;
 	}
 </style>

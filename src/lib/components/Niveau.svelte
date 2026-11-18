@@ -23,12 +23,11 @@
 		display: inline-flex;
 		align-items: center;
 		gap: 0.4em;
-		padding: 0.1rem 0.5rem;
+		padding: 0.1rem 0.55rem;
 		border: 1px solid currentColor;
-		font-family: var(--police-technique);
+		border-radius: 999px;
 		font-size: 0.75rem;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
+		font-weight: 600;
 	}
 	.confirme {
 		color: var(--niveau-confirme);

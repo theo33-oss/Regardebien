@@ -1,35 +1,34 @@
 <script lang="ts">
 	import Cartouche from '#lib/components/Cartouche.svelte';
-	import Cote from '#lib/components/Cote.svelte';
 	import Niveau from '#lib/components/Niveau.svelte';
-	import Trait from '#lib/components/Trait.svelte';
 
 	const couleurs = [
-		['--papier', 'Papier'],
-		['--encre', 'Encre'],
-		['--encre-douce', 'Encre douce'],
-		['--trait', 'Bleu de plan'],
-		['--cote', 'Cote']
+		['--fond', 'Fond'],
+		['--surface', 'Surface'],
+		['--texte', 'Texte'],
+		['--texte-doux', 'Texte doux'],
+		['--filet', 'Filet'],
+		['--accent', 'Accent'],
+		['--lien', 'Lien']
 	];
 </script>
 
 <svelte:head>
-	<title>Carnet technique · Cartouche</title>
+	<title>Style · Cartouche</title>
 </svelte:head>
 
 <div class="demo">
 	<Cartouche numero={42} date="2026-11-17" heure="18:00" />
 
 	<section>
-		<p class="etiquette">Titres</p>
+		<p class="etiquette">Titres et texte</p>
 		<h1>Un lanceur fictif réussit son vol d'essai</h1>
 		<h2>Ce que disent les médias</h2>
 		<h3>Les réserves des ingénieurs</h3>
 		<p>
-			Texte courant en serif, lisible sur iPhone comme sur ordinateur. Les libellés, chiffres et
-			étiquettes passent en chasse fixe, comme sur un plan.
+			Texte courant dans la police du système, lisible sur iPhone comme sur ordinateur, avec un
+			<a href="#essai">lien</a> et un fond neutre.
 		</p>
-		<Trait />
 	</section>
 
 	<section>
@@ -45,12 +44,6 @@
 	</section>
 
 	<section>
-		<p class="etiquette">Cote</p>
-		<Cote valeur="5 sujets · 2 min" />
-		<Cote valeur="15 sujets · 10 min" />
-	</section>
-
-	<section>
 		<p class="etiquette">Niveaux de confirmation</p>
 		<p class="niveaux">
 			<Niveau niveau="confirme" />
@@ -59,26 +52,17 @@
 			<Niveau niveau="officiel" />
 		</p>
 	</section>
-
-	<section>
-		<p class="etiquette">Tracé épais</p>
-		<Trait epais duree={1000} />
-	</section>
 </div>
 
 <style>
 	.demo {
-		max-width: var(--largeur-texte);
-		margin: 0 auto;
-		padding: 1rem 1rem 3rem;
 		display: flex;
 		flex-direction: column;
-		gap: 2rem;
+		gap: 1.5rem;
 	}
 	section {
-		background: var(--papier);
-		padding: 0.75rem;
-		border: 1px solid var(--trait);
+		padding-top: 1rem;
+		border-top: 1px solid var(--filet);
 	}
 	.palette {
 		display: grid;
@@ -91,7 +75,8 @@
 	.echantillon {
 		display: block;
 		height: 2.5rem;
-		border: 1px solid var(--trait);
+		border: 1px solid var(--filet);
+		border-radius: 6px;
 	}
 	.niveaux {
 		display: flex;

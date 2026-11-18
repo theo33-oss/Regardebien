@@ -51,31 +51,39 @@
 {/if}
 
 <style>
+	h1 {
+		margin: 0;
+	}
+	p.etiquette {
+		margin: 0;
+	}
 	ul {
 		display: flex;
 		flex-direction: column;
-		gap: 0.75rem;
 		margin: 0;
 		padding: 0;
 		list-style: none;
 	}
+	li {
+		border-bottom: 1px solid var(--filet);
+	}
 	li a {
 		display: flex;
 		flex-direction: column;
-		gap: 0.2rem;
-		padding: 0.75rem;
-		background: var(--papier);
-		border: 1px solid var(--trait);
+		gap: 0.15rem;
+		padding: 0.9rem 0;
 		text-decoration: none;
-		color: var(--encre);
+		color: var(--texte);
+	}
+	strong {
+		font-size: 1.05rem;
 	}
 	.titres {
-		color: var(--encre-douce);
-		font-size: 0.95rem;
+		color: var(--texte-doux);
+		font-size: 0.92rem;
 	}
 	.vide {
-		padding: 0.75rem;
-		background: var(--papier);
-		border: 1px dashed var(--trait);
+		padding: 0.9rem 0;
+		color: var(--texte-doux);
 	}
 </style>

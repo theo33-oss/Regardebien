@@ -109,11 +109,9 @@
 <style>
 	.mention {
 		margin: 0;
-		padding: 0.5rem 0.75rem;
-		border: 1px dashed var(--encre-douce);
-		background: var(--papier);
-		color: var(--encre-douce);
-		font-family: var(--police-technique);
-		font-size: 0.8rem;
+		padding: 0.6rem 0.75rem;
+		border-left: 3px solid var(--texte-doux);
+		background: var(--surface);
+		font-size: 0.9rem;
 	}
 </style>

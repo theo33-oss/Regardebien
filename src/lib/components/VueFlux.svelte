@@ -1,9 +1,15 @@
 <script lang="ts">
-	import { dateLongue, heureParis, parRubrique, rubriquesVisibles } from '#lib/lecture.js';
+	import { resolve } from '$app/paths';
+	import {
+		dateLongue,
+		heureParis,
+		parRubrique,
+		rubriquesVisibles,
+		sourcesIndependantes
+	} from '#lib/lecture.js';
 	import type { RubriqueConfig, Saison } from '#lib/lecture.js';
 	import { prefs } from '#lib/prefs.svelte.js';
 	import type { ArticleBrut, CollecteDuJour } from '#lib/schema/index.js';
-	import Cote from './Cote.svelte';
 
 	let {
 		collecte,
@@ -15,54 +21,63 @@
 	const visibles = $derived(
 		rubriquesVisibles(rubriques, saisons, collecte.date, prefs.valeurs.politique)
 	);
-	// Sujets repris par le plus de médias d'abord. Plusieurs reprises d'une même agence ne comptent que pour une source.
+	const idCollecte = $derived(`${collecte.date}-${collecte.creneau}`);
+
+	// Sujets repris par le plus de sources indépendantes d'abord. Plusieurs reprises d'une même
+	// dépêche d'agence ne comptent que pour une source.
 	const groupes = $derived(
 		parRubrique(
 			collecte.groupes
-				.filter((g) => visibles.includes(g.rubrique))
-				.map((g) => {
+				.map((g, index) => {
 					const liste = g.article_ids.flatMap((id) => articles.get(id) ?? []);
+					const medias = [...new Set(liste.map((a) => a.media))];
 					const independants = new Set(liste.map((a) => a.agence_origine ?? a.source_id)).size;
-					return { ...g, liste, independants };
+					return { ...g, index, liste, medias, independants };
 				})
-				.filter((g) => g.liste.length > 0)
+				.filter((g) => visibles.includes(g.rubrique) && g.liste.length > 0)
 				.sort((a, b) => b.independants - a.independants),
 			rubriques
 		)
 	);
 	const MAX = 8;
+
+	const pluriel = (n: number, mot: string) => `${n} ${mot}${n > 1 ? 's' : ''}`;
 </script>
 
-<header class="entete">
-	<p class="etiquette">
-		Flux · collecte de {collecte.creneau.replace('h', ' h')} · {dateLongue(collecte.date)}
-	</p>
-	<p class="etiquette">
-		{collecte.articles.length} articles · mis à jour à {heureParis(collecte.collecte_le)}
-	</p>
-</header>
-<Cote valeur="Sans IA : articles regroupés par sujet" />
-
-{#snippet sujet(g: { titre: string; liste: ArticleBrut[] })}
+{#snippet sujet(g: (typeof groupes)[number]['elements'][number])}
 	<li>
-		<h3>{g.titre}</h3>
-		<ul class="medias">
-			{#each g.liste as a (a.id)}
-				<li>
-					<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
-					<a href={a.url} target="_blank" rel="noopener noreferrer">{a.media}</a>
-					<span class="etiquette">{heureParis(a.publie_le)}</span>
-				</li>
-			{/each}
-		</ul>
+		<h3>
+			<a
+				href={resolve('/flux/[collecte]/[groupe]', {
+					collecte: idCollecte,
+					groupe: String(g.index)
+				})}
+			>
+				{g.titre}
+			</a>
+		</h3>
+		<p class="infos">
+			{pluriel(g.medias.length, 'média')}{#if g.independants < g.medias.length}
+				· {sourcesIndependantes(g.independants)}{/if}
+		</p>
+		<p class="medias">{g.medias.join(' · ')}</p>
 	</li>
 {/snippet}
+
+<header class="entete">
+	<p class="etiquette">Flux · collecte de {collecte.creneau.replace('h', ' h')}</p>
+	<p class="date">{dateLongue(collecte.date)}</p>
+	<p class="meta">
+		{pluriel(collecte.articles.length, 'article')} · mis à jour à {heureParis(collecte.collecte_le)}
+		· sans IA
+	</p>
+</header>
 
 {#each groupes as groupe (groupe.rubrique.id)}
 	<section aria-labelledby={`f-${groupe.rubrique.id}`}>
 		<h2 id={`f-${groupe.rubrique.id}`} class="rubrique">{groupe.rubrique.nom}</h2>
 		<ul class="sujets">
-			{#each groupe.elements.slice(0, groupe.rubrique.max_sujets ?? MAX) as g, i (g.titre + i)}
+			{#each groupe.elements.slice(0, groupe.rubrique.max_sujets ?? MAX) as g (g.index)}
 				{@render sujet(g)}
 			{/each}
 		</ul>
@@ -71,7 +86,7 @@
 			<details>
 				<summary>Voir {groupe.elements.length - MAX} autres sujets</summary>
 				<ul class="sujets">
-					{#each groupe.elements.slice(MAX) as g, i (g.titre + i)}
+					{#each groupe.elements.slice(MAX) as g (g.index)}
 						{@render sujet(g)}
 					{/each}
 				</ul>
@@ -84,62 +99,75 @@
 
 <style>
 	.entete {
-		background: var(--papier);
-		padding: 0.5rem 0.75rem;
-		border: 2px solid var(--trait);
+		padding-bottom: 0.75rem;
+		border-bottom: 1px solid var(--filet);
 	}
 	.entete p {
 		margin: 0;
 	}
-	.rubrique {
-		display: inline-block;
-		margin: 0 0 0.6rem;
-		padding: 0.1rem 0.5rem;
-		background: var(--papier);
-		font-family: var(--police-technique);
-		font-size: 0.9rem;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
-		border-bottom: 2px solid var(--trait);
+	.date {
+		font-size: 1.5rem;
+		font-weight: 700;
+		line-height: 1.2;
 	}
-	.sujets,
-	.medias {
+	.meta {
+		font-size: 0.9rem;
+		color: var(--texte-doux);
+	}
+	section {
+		margin-top: 0.75rem;
+	}
+	.rubrique {
+		margin: 0;
+		padding-top: 0.4rem;
+		border-top: 3px solid var(--texte);
+		font-size: 0.8rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--accent);
+	}
+	.sujets {
 		margin: 0;
 		padding: 0;
 		list-style: none;
 	}
-	.sujets {
-		display: flex;
-		flex-direction: column;
-		gap: 0.75rem;
-	}
 	.sujets > li {
-		padding: 0.75rem;
-		background: var(--papier);
-		border: 1px solid var(--trait);
+		padding: 0.9rem 0;
+		border-bottom: 1px solid var(--filet);
 	}
 	h3 {
-		font-size: 1rem;
-		margin-bottom: 0.3rem;
+		margin: 0 0 0.25rem;
+		font-size: 1.05rem;
 	}
-	.medias li {
-		display: flex;
-		justify-content: space-between;
-		gap: 0.75rem;
+	h3 a {
+		color: var(--texte);
+		text-decoration: none;
 	}
-	.medias a {
-		padding: 0.4rem 0;
-		min-height: 36px;
+	h3 a:hover {
+		text-decoration: underline;
+	}
+	p {
+		margin: 0;
+	}
+	.infos {
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: var(--texte-doux);
+	}
+	.medias {
+		font-size: 0.85rem;
+		color: var(--texte-doux);
 	}
 	details {
-		margin-top: 0.75rem;
+		margin-top: 0.25rem;
 	}
 	summary {
 		min-height: 44px;
 		display: flex;
 		align-items: center;
-		font-family: var(--police-technique);
-		font-size: 0.85rem;
+		font-size: 0.9rem;
+		font-weight: 600;
 		cursor: pointer;
 	}
 </style>

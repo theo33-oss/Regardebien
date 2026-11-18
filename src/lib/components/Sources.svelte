@@ -15,12 +15,11 @@
 	.sources {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.25rem 0.75rem;
+		gap: 0 1rem;
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		font-family: var(--police-technique);
-		font-size: 0.8rem;
+		font-size: 0.85rem;
 	}
 	a {
 		display: inline-block;

@@ -86,26 +86,24 @@
 		display: inline-flex;
 		align-items: center;
 		min-height: 44px;
-		font-family: var(--police-technique);
-		font-size: 0.85rem;
-	}
-	article {
-		padding: 1rem;
-		background: var(--papier);
-		border: 1px solid var(--trait);
+		font-size: 0.9rem;
+		font-weight: 600;
+		text-decoration: none;
 	}
 	article > .etiquette:first-child {
 		margin: 0 0 0.25rem;
 	}
 	h2.etiquette {
 		margin: 1.5rem 0 0.5rem;
-		padding-bottom: 0.25rem;
-		border-bottom: 1px solid var(--trait);
-		font-weight: 400;
+		padding-top: 0.4rem;
+		border-top: 3px solid var(--texte);
+		color: var(--accent);
+		font-size: 0.8rem;
+		letter-spacing: 0.08em;
 	}
 	.court {
 		font-size: 1.1rem;
-		color: var(--encre-douce);
+		color: var(--texte-doux);
 	}
 	ul.angles,
 	ul.divergences {
@@ -114,18 +112,21 @@
 		list-style: none;
 		display: flex;
 		flex-direction: column;
-		gap: 1rem;
 	}
 	.angles li {
-		padding-left: 0.75rem;
-		border-left: 2px solid var(--cote);
+		padding: 0.9rem 0;
+		border-top: 1px solid var(--filet);
 	}
 	.angles p {
 		margin: 0.2rem 0 0.1rem;
 	}
+	.divergences li {
+		padding: 0.6rem 0;
+		border-top: 1px solid var(--filet);
+	}
 	.divergences li::before {
 		content: '≠ ';
-		color: var(--cote);
-		font-family: var(--police-technique);
+		color: var(--accent);
+		font-weight: 700;
 	}
 </style>
