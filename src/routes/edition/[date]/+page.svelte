@@ -51,7 +51,8 @@
 		display: inline-flex;
 		align-items: center;
 		min-height: 44px;
-		font-family: var(--police-technique);
-		font-size: 0.85rem;
+		font-size: 0.9rem;
+		font-weight: 600;
+		text-decoration: none;
 	}
 </style>

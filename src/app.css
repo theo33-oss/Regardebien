@@ -1,41 +1,40 @@
-/* Direction visuelle « Carnet technique » : papier calque, grille millimétrée, encre bleu de plan.
-   Aucune dépendance : polices du système (présentes sur iPhone et ordinateur, utilisables hors-ligne). */
+/* Direction visuelle : appli d'actualités sobre. Fond neutre, filets fins, police du système
+   (aucune police à télécharger : lecture hors-ligne), clair et sombre selon l'iPhone. */
 
 :root {
-	--papier: #f3f1ea;
-	--encre: #14202e;
-	--encre-douce: #4a5a6a;
-	--trait: #1f4e79;
-	--cote: #b8432f;
-	--grille-fine: rgb(31 78 121 / 0.08);
-	--grille-grosse: rgb(31 78 121 / 0.18);
+	--fond: #ffffff;
+	--surface: #f4f4f2;
+	--texte: #141414;
+	--texte-doux: #5c5c5c;
+	--filet: #dedede;
+	--accent: #b42318;
+	--lien: #1a56b0;
 
 	/* Niveaux de confirmation des faits */
-	--niveau-confirme: #2f6b4f;
-	--niveau-source-unique: #5b6770;
-	--niveau-conteste: #b8432f;
-	--niveau-officiel: #1f4e79;
+	--niveau-confirme: #1d6b3f;
+	--niveau-source-unique: #5c5c5c;
+	--niveau-conteste: #b54708;
+	--niveau-officiel: #1a56b0;
 
-	--police-texte: 'Iowan Old Style', Charter, 'Bitstream Charter', Georgia, serif;
-	--police-technique: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
-
-	--pas: 4px; /* maille fine de la grille */
-	--largeur-texte: 42rem;
+	--police:
+		-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+		sans-serif;
+	--largeur: 40rem;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--papier: #0f2233;
-		--encre: #e6eef5;
-		--encre-douce: #9db2c4;
-		--trait: #8fb8dd;
-		--cote: #f0a35c;
-		--grille-fine: rgb(143 184 221 / 0.08);
-		--grille-grosse: rgb(143 184 221 / 0.18);
-		--niveau-confirme: #7fcba0;
-		--niveau-source-unique: #a9b6c1;
-		--niveau-conteste: #f0a35c;
-		--niveau-officiel: #8fb8dd;
+		--fond: #121212;
+		--surface: #1e1e1e;
+		--texte: #ececec;
+		--texte-doux: #a3a3a3;
+		--filet: #303030;
+		--accent: #ff8f80;
+		--lien: #7eb0ff;
+		--niveau-confirme: #6fcf97;
+		--niveau-source-unique: #a3a3a3;
+		--niveau-conteste: #f2a65a;
+		--niveau-officiel: #7eb0ff;
 	}
 }
 
@@ -55,38 +54,26 @@ body {
 	min-height: 100dvh;
 	padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom)
 		env(safe-area-inset-left);
-	background-color: var(--papier);
-	/* Grille millimétrée : trait fin tous les 4 px, trait épais tous les 20 px. */
-	background-image:
-		linear-gradient(var(--grille-grosse) 1px, transparent 1px),
-		linear-gradient(90deg, var(--grille-grosse) 1px, transparent 1px),
-		linear-gradient(var(--grille-fine) 1px, transparent 1px),
-		linear-gradient(90deg, var(--grille-fine) 1px, transparent 1px);
-	background-size:
-		calc(var(--pas) * 5) calc(var(--pas) * 5),
-		calc(var(--pas) * 5) calc(var(--pas) * 5),
-		var(--pas) var(--pas),
-		var(--pas) var(--pas);
-	color: var(--encre);
-	font-family: var(--police-texte);
-	font-size: 1.0625rem;
-	line-height: 1.55;
+	background: var(--fond);
+	color: var(--texte);
+	font-family: var(--police);
+	font-size: 1rem;
+	line-height: 1.5;
 }
 
 h1,
 h2,
 h3 {
 	margin: 0 0 0.5em;
-	font-family: var(--police-texte);
 	font-weight: 700;
-	line-height: 1.2;
+	line-height: 1.25;
 	text-wrap: balance;
 }
 h1 {
-	font-size: 1.75rem;
+	font-size: 1.6rem;
 }
 h2 {
-	font-size: 1.3rem;
+	font-size: 1.25rem;
 }
 h3 {
 	font-size: 1.1rem;
@@ -96,21 +83,21 @@ p {
 }
 
 a {
-	color: var(--trait);
-	text-underline-offset: 0.2em;
+	color: var(--lien);
+	text-underline-offset: 0.18em;
 }
 
-/* Étiquette technique : petites capitales à chasse fixe. */
+/* Petite étiquette : majuscules espacées, discrète. */
 .etiquette {
-	font-family: var(--police-technique);
-	font-size: 0.75rem;
-	letter-spacing: 0.08em;
+	font-size: 0.72rem;
+	font-weight: 600;
+	letter-spacing: 0.06em;
 	text-transform: uppercase;
-	color: var(--encre-douce);
+	color: var(--texte-doux);
 }
 
 :focus-visible {
-	outline: 2px solid var(--cote);
+	outline: 2px solid var(--accent);
 	outline-offset: 2px;
 }
 

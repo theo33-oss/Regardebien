@@ -33,9 +33,9 @@ Un sujet n'apparaît que dans une rubrique principale, avec des étiquettes seco
 - Archive des éditions passées ; lecture hors-ligne des 7 dernières.
 - Notification à 18h avec 2 ou 3 titres, désactivable dans les réglages.
 
-## Direction visuelle « Carnet technique »
+## Direction visuelle
 
-Plan d'ingénieur, papier calque et grille millimétrée, cartouche de plan en en-tête (n° d'édition, date, heure), typographie technique, traits qui se dessinent, cotes qui apparaissent. Aucun code visuel « IA ». Détaillée au lot 2.
+Appli d'actualités sobre (révisée par Théo : le style « plan d'ingénieur » est abandonné). Fond neutre, filets fins, police du système (aucune police à télécharger : lecture hors-ligne), clair et sombre selon l'iPhone, un seul accent rouge pour les titres de rubrique. En-tête d'édition : n° d'édition, date, heure. Aucun code visuel « IA ». Mode Flux : chaque sujet ouvre une page de détail avec tous ses articles, leurs résumés, heures et liens.
 
 ## Technique
 

@@ -1,5 +1,5 @@
 <script lang="ts" generics="T extends string">
-	// Choix exclusif présenté comme des onglets de plan (boutons radio, au moins 44 px de haut).
+	// Choix exclusif présenté comme un sélecteur segmenté (boutons radio, au moins 44 px de haut).
 	let {
 		legende,
 		options,
@@ -42,12 +42,14 @@
 	}
 	legend {
 		padding: 0;
-		margin-bottom: 0.25rem;
+		margin-bottom: 0.3rem;
 	}
 	.options {
 		display: flex;
-		border: 1px solid var(--trait);
-		background: var(--papier);
+		gap: 2px;
+		padding: 3px;
+		border-radius: 10px;
+		background: var(--surface);
 	}
 	label {
 		position: relative;
@@ -55,20 +57,22 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		min-height: 44px;
+		min-height: 40px;
 		padding: 0 0.75rem;
-		font-family: var(--police-technique);
-		font-size: 0.85rem;
+		border-radius: 8px;
+		font-size: 0.92rem;
+		font-weight: 500;
 		text-align: center;
 		cursor: pointer;
-		color: var(--encre);
-	}
-	label + label {
-		border-left: 1px solid var(--trait);
+		color: var(--texte-doux);
 	}
 	label.actif {
-		background: var(--trait);
-		color: var(--papier);
+		background: var(--fond);
+		color: var(--texte);
+		font-weight: 600;
+		box-shadow:
+			0 0 0 1px var(--filet),
+			0 1px 2px rgb(0 0 0 / 0.08);
 	}
 	input {
 		position: absolute;
@@ -77,7 +81,7 @@
 		cursor: pointer;
 	}
 	label:has(input:focus-visible) {
-		outline: 2px solid var(--cote);
-		outline-offset: -2px;
+		outline: 2px solid var(--accent);
+		outline-offset: 1px;
 	}
 </style>

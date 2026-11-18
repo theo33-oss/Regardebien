@@ -23,13 +23,12 @@
 		list-style: none;
 		display: flex;
 		flex-direction: column;
-		gap: 1rem;
 	}
 	li {
-		padding-left: 0.75rem;
-		border-left: 2px solid var(--trait);
+		padding: 0.9rem 0;
+		border-top: 1px solid var(--filet);
 	}
 	p {
-		margin: 0.4rem 0 0.1rem;
+		margin: 0.5rem 0 0.1rem;
 	}
 </style>

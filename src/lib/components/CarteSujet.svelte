@@ -3,14 +3,14 @@
 	import type { Sujet } from '#lib/schema/index.js';
 	import Faits from './Faits.svelte';
 
-	// noms : noms affichés des rubriques secondaires (étiquettes).
+	// noms : nom affiché d'une rubrique secondaire (étiquette) à partir de son identifiant.
 	let { sujet, date, noms }: { sujet: Sujet; date: string; noms: (id: string) => string } =
 		$props();
 	let ouvert = $state(false);
 	const idPanneau = $derived(`synthese-${sujet.id}`);
 </script>
 
-<article class="carte">
+<article>
 	{#if sujet.etiquettes.length}
 		<p class="etiquette">{sujet.etiquettes.map(noms).join(' · ')}</p>
 	{/if}
@@ -25,7 +25,7 @@
 			aria-controls={idPanneau}
 			onclick={() => (ouvert = !ouvert)}
 		>
-			{ouvert ? 'Réduire' : 'Synthèse'}
+			{ouvert ? 'Réduire ▲' : 'Synthèse ▼'}
 		</button>
 		<a href={resolve('/edition/[date]/[sujet]', { date, sujet: sujet.id })}>Détail et sources →</a>
 	</div>
@@ -40,48 +40,47 @@
 </article>
 
 <style>
-	.carte {
-		padding: 0.9rem 0.9rem 0.4rem;
-		background: var(--papier);
-		border: 1px solid var(--trait);
+	article {
+		padding: 1rem 0 0.4rem;
+		border-bottom: 1px solid var(--filet);
 	}
-	.carte > p.etiquette {
+	article > p.etiquette {
 		margin: 0 0 0.25rem;
 	}
 	h3 {
 		margin-bottom: 0.3rem;
 	}
 	.court {
-		margin-bottom: 0.5rem;
-		color: var(--encre-douce);
+		margin-bottom: 0.4rem;
+		color: var(--texte-doux);
 	}
 	.actions {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
-		gap: 0.25rem 1rem;
+		gap: 0 1rem;
 	}
 	.actions a {
 		display: inline-flex;
 		align-items: center;
 		min-height: 44px;
-		font-family: var(--police-technique);
-		font-size: 0.85rem;
+		font-size: 0.9rem;
+		font-weight: 600;
+		text-decoration: none;
 	}
 	button {
 		min-height: 44px;
-		padding: 0 0.9rem;
-		border: 1px solid var(--trait);
+		padding: 0;
+		border: 0;
 		background: transparent;
-		color: var(--trait);
-		font-family: var(--police-technique);
-		font-size: 0.85rem;
+		color: var(--texte);
+		font: inherit;
+		font-size: 0.9rem;
+		font-weight: 600;
 		cursor: pointer;
 	}
 	.panneau {
-		padding: 0.5rem 0 0.75rem;
-		border-top: 1px dashed var(--trait);
-		margin-top: 0.25rem;
+		padding: 0.25rem 0 0.75rem;
 	}
 </style>
