@@ -23,10 +23,49 @@ function texte(n: unknown): string {
 	return '';
 }
 
+const ENTITES: Record<string, string> = {
+	amp: '&',
+	lt: '<',
+	gt: '>',
+	quot: '"',
+	apos: "'",
+	nbsp: ' ',
+	rsquo: '’',
+	lsquo: '‘',
+	rdquo: '”',
+	ldquo: '“',
+	laquo: '«',
+	raquo: '»',
+	hellip: '…',
+	ndash: '–',
+	mdash: '—',
+	eacute: 'é',
+	egrave: 'è',
+	ecirc: 'ê',
+	agrave: 'à',
+	acirc: 'â',
+	ccedil: 'ç',
+	ocirc: 'ô',
+	ucirc: 'û',
+	icirc: 'î',
+	euro: '€'
+};
+
+/** Décode les entités HTML restées dans le texte (contenu CDATA des flux WordPress, par exemple). */
+export function decoderEntites(s: string): string {
+	return s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (tout, code: string) => {
+		if (code[0] === '#') {
+			const n =
+				code[1] === 'x' || code[1] === 'X' ? parseInt(code.slice(2), 16) : Number(code.slice(1));
+			return n > 0 && n < 0x110000 ? String.fromCodePoint(n) : tout;
+		}
+		return ENTITES[code.toLowerCase()] ?? tout;
+	});
+}
+
 export function nettoyer(html: string, max = 400): string {
-	const brut = html
-		.replace(/<[^>]*>/g, ' ')
-		.replace(/&nbsp;/g, ' ')
+	const sansBalises = (t: string) => t.replace(/<[^>]*>/g, ' ');
+	const brut = sansBalises(decoderEntites(sansBalises(html)))
 		.replace(/\s+/g, ' ')
 		.trim();
 	return brut.length > max ? brut.slice(0, max - 1).trimEnd() + '…' : brut;
@@ -80,6 +119,12 @@ export function normaliserTexte(s: string): string {
 	return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 }
 
+/** Le mot-clé apparaît-il comme mot entier (pluriel en s ou x accepté) ? */
+function contient(texte: string, motCle: string): boolean {
+	const m = normaliserTexte(motCle.trim()).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	return new RegExp(`(^|[^a-z0-9])${m}[sx]?($|[^a-z0-9])`).test(texte);
+}
+
 /** Rubrique d'un article. Source à une seule rubrique : celle-ci. Sinon, mots-clés ; null si aucun. */
 export function rubriqueDe(
 	rubriquesSource: Rubrique[],
@@ -92,7 +137,7 @@ export function rubriqueDe(
 	let meilleure: Rubrique | null = null;
 	let max = 0;
 	for (const r of rubriquesSource) {
-		const n = (motsCles[r] ?? []).filter((m) => t.includes(normaliserTexte(m))).length;
+		const n = (motsCles[r] ?? []).filter((m) => contient(t, m)).length;
 		if (n > max) {
 			max = n;
 			meilleure = r;
@@ -169,7 +214,14 @@ export function dateParis(d: Date): { date: string; heure: number } {
 
 export type Creneau = '07h' | '12h' | '17h';
 
-/** Créneau correspondant à l'heure de Paris, ou null hors des heures de collecte. */
+/**
+ * Créneau d'une heure de Paris : 7 h à 11 h pour 07h, 12 h à 16 h pour 12h, 17 h à 23 h pour 17h ;
+ * null avant 7 h. Une plage plutôt qu'une heure exacte : GitHub lance parfois les tâches planifiées
+ * avec beaucoup de retard.
+ */
 export function creneauDe(heure: number): Creneau | null {
-	return heure === 7 ? '07h' : heure === 12 ? '12h' : heure === 17 ? '17h' : null;
+	if (heure >= 17) return '17h';
+	if (heure >= 12) return '12h';
+	if (heure >= 7) return '07h';
+	return null;
 }

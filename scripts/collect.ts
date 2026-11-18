@@ -1,5 +1,4 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
-import { readFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { parse } from 'yaml';
 import { ArticleBrut, CollecteDuJour } from '../src/lib/schema/index.js';
 import {
@@ -15,20 +14,26 @@ import {
 import { DATA, loadSources } from './lib.js';
 
 // Usage : npm run collect [-- --creneau 07h|12h|17h] [-- --auto]
-//   --creneau : force le créneau (collecte manuelle)
-//   --auto    : déduit le créneau de l'heure de Paris, et s'arrête sans rien faire hors 7h, 12h, 17h
-//               (la planification GitHub tourne à deux heures UTC pour couvrir l'heure d'été)
+//   sans option : créneau de l'heure de Paris (7-11 h : 07h, 12-16 h : 12h, 17-23 h : 17h ; avant 7 h : 07h)
+//   --creneau   : force le créneau
+//   --auto      : tâche planifiée. Ne fait rien avant 7 h ni si le créneau est déjà collecté
+//                 (GitHub lance la tâche à deux heures UTC pour couvrir l'heure d'été, parfois en retard)
 const args = process.argv.slice(2);
 const val = (nom: string) => args[args.indexOf(nom) + 1];
 
 const maintenant = new Date();
 const paris = dateParis(maintenant);
 let creneau: Creneau | null;
+const auto = args.includes('--auto');
 if (args.includes('--creneau')) creneau = val('--creneau') as Creneau;
-else if (args.includes('--auto')) creneau = creneauDe(paris.heure);
+else if (auto) creneau = creneauDe(paris.heure);
 else creneau = creneauDe(paris.heure) ?? '07h';
 if (!creneau || !['07h', '12h', '17h'].includes(creneau)) {
 	console.log(`Heure de Paris : ${paris.heure}h, pas de collecte prévue. Rien à faire.`);
+	process.exit(0);
+}
+if (auto && existsSync(`${DATA}/raw/${paris.date}-${creneau}.json`)) {
+	console.log(`Créneau ${creneau} du ${paris.date} déjà collecté. Rien à faire.`);
 	process.exit(0);
 }
 
@@ -47,7 +52,8 @@ async function telecharger(url: string): Promise<string> {
 		try {
 			const r = await fetch(url, {
 				headers: {
-					'User-Agent': 'CartoucheBot/1.0 (lecteur RSS personnel)',
+					// Certains sites refusent les robots sans « Mozilla » : on reste identifiable.
+					'User-Agent': 'Mozilla/5.0 (compatible; CartoucheRSS/1.0; lecteur RSS personnel)',
 					Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*'
 				},
 				signal: AbortSignal.timeout(20_000),
