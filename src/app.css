@@ -1,0 +1,124 @@
+/* Direction visuelle « Carnet technique » : papier calque, grille millimétrée, encre bleu de plan.
+   Aucune dépendance : polices du système (présentes sur iPhone et ordinateur, utilisables hors-ligne). */
+
+:root {
+	--papier: #f3f1ea;
+	--encre: #14202e;
+	--encre-douce: #4a5a6a;
+	--trait: #1f4e79;
+	--cote: #b8432f;
+	--grille-fine: rgb(31 78 121 / 0.08);
+	--grille-grosse: rgb(31 78 121 / 0.18);
+
+	/* Niveaux de confirmation des faits */
+	--niveau-confirme: #2f6b4f;
+	--niveau-source-unique: #5b6770;
+	--niveau-conteste: #b8432f;
+	--niveau-officiel: #1f4e79;
+
+	--police-texte: 'Iowan Old Style', Charter, 'Bitstream Charter', Georgia, serif;
+	--police-technique: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+
+	--pas: 4px; /* maille fine de la grille */
+	--largeur-texte: 42rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--papier: #0f2233;
+		--encre: #e6eef5;
+		--encre-douce: #9db2c4;
+		--trait: #8fb8dd;
+		--cote: #f0a35c;
+		--grille-fine: rgb(143 184 221 / 0.08);
+		--grille-grosse: rgb(143 184 221 / 0.18);
+		--niveau-confirme: #7fcba0;
+		--niveau-source-unique: #a9b6c1;
+		--niveau-conteste: #f0a35c;
+		--niveau-officiel: #8fb8dd;
+	}
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	min-height: 100dvh;
+	padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom)
+		env(safe-area-inset-left);
+	background-color: var(--papier);
+	/* Grille millimétrée : trait fin tous les 4 px, trait épais tous les 20 px. */
+	background-image:
+		linear-gradient(var(--grille-grosse) 1px, transparent 1px),
+		linear-gradient(90deg, var(--grille-grosse) 1px, transparent 1px),
+		linear-gradient(var(--grille-fine) 1px, transparent 1px),
+		linear-gradient(90deg, var(--grille-fine) 1px, transparent 1px);
+	background-size:
+		calc(var(--pas) * 5) calc(var(--pas) * 5),
+		calc(var(--pas) * 5) calc(var(--pas) * 5),
+		var(--pas) var(--pas),
+		var(--pas) var(--pas);
+	color: var(--encre);
+	font-family: var(--police-texte);
+	font-size: 1.0625rem;
+	line-height: 1.55;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0 0 0.5em;
+	font-family: var(--police-texte);
+	font-weight: 700;
+	line-height: 1.2;
+	text-wrap: balance;
+}
+h1 {
+	font-size: 1.75rem;
+}
+h2 {
+	font-size: 1.3rem;
+}
+h3 {
+	font-size: 1.1rem;
+}
+p {
+	margin: 0 0 1em;
+}
+
+a {
+	color: var(--trait);
+	text-underline-offset: 0.2em;
+}
+
+/* Étiquette technique : petites capitales à chasse fixe. */
+.etiquette {
+	font-family: var(--police-technique);
+	font-size: 0.75rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--encre-douce);
+}
+
+:focus-visible {
+	outline: 2px solid var(--cote);
+	outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.001ms !important;
+		transition-duration: 0.001ms !important;
+	}
+}
