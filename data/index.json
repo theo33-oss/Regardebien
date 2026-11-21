@@ -1,5 +1,5 @@
 {
-	"genere_le": "2026-11-21T13:24:37.307Z",
+	"genere_le": "2026-11-21T17:11:30.645Z",
 	"editions": [],
 	"collectes": [
 		{
@@ -46,6 +46,11 @@
 			"date": "2026-11-21",
 			"creneau": "12h",
 			"fichier": "raw/2026-11-21-12h.json"
+		},
+		{
+			"date": "2026-11-21",
+			"creneau": "17h",
+			"fichier": "raw/2026-11-21-17h.json"
 		}
 	]
 }
