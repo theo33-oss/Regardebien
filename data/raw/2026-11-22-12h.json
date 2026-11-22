@@ -1,0 +1,3196 @@
+{
+	"date": "2026-11-22",
+	"creneau": "12h",
+	"collecte_le": "2026-11-22T13:15:44.331Z",
+	"exemple": false,
+	"articles": [
+		{
+			"id": "ouestfrance-86e78ee9",
+			"source_id": "ouestfrance",
+			"media": "Ouest-France",
+			"titre": "Qu’est-ce que la « règle d’or », cet outil budgétaire qu’Emmanuel Macron souhaiterait inscrire dans la Constitution ?",
+			"url": "https://www.ouest-france.fr/economie/budget-collectivites-etat/quest-ce-que-la-regle-dor-cet-outil-budgetaire-quemmanuel-macron-souhaiterait-inscrire-dans-la-constitution-1c9619b8-e660-11f1-afa7-9a0bb82a33d1?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+			"publie_le": "2026-11-22T13:12:16.000Z",
+			"resume": "L’information n’a pas été confirmée par l’Élysée mais elle a fait réagir de nombreuses personnalités politiques. Le président de la République souhaiterait, d’après « La Tribune Dimanche » graver une règle d’or budgétaire dans le marbre de la Constitution. Une notion qui pourrait, si elle était votée, contraindre l’État à retrouver l’équilibre dans ses comptes et limiter l’action publique.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-3ddd117d",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "\"Je serai le candidat de la liberté de penser, de dire ce que vous voyez\", clame Eric Zemmour lors de son premier meeting de campagne présidentielle",
+			"url": "https://www.franceinfo.fr/elections/je-serai-le-candidat-de-la-liberte-de-pensee-de-parler-de-dire-ce-que-vous-voyez-clame-eric-zemmour-lors-de-son-premier-meeting-de-campagne-presidentielle_8294024.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T13:00:52.000Z",
+			"resume": "Le président du parti d'extrême droite s'est exprimé samedi devant ses partisans au Zenith de Toulon.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-politique-e9ac7f42",
+			"source_id": "franceinfo-politique",
+			"media": "franceinfo (Politique)",
+			"titre": "\"Je serai le candidat de la liberté de penser, de dire ce que vous voyez\", clame Eric Zemmour lors de son premier meeting de campagne présidentielle",
+			"url": "https://www.franceinfo.fr/elections/je-serai-le-candidat-de-la-liberte-de-pensee-de-parler-de-dire-ce-que-vous-voyez-clame-eric-zemmour-lors-de-son-premier-meeting-de-campagne-presidentielle_8294024.html#xtor=RSS-3-%5Bpolitique%5D",
+			"publie_le": "2026-11-22T13:00:52.000Z",
+			"resume": "Le président du parti d'extrême droite s'est exprimé samedi devant ses partisans au Zenith de Toulon.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-9afbee6a",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "40 heures en classe économique : le périple remarqué de la présidente mexicaine en Chine",
+			"url": "https://www.air-journal.fr/2026-11-22-40-heures-en-classe-economique-le-periple-remarque-de-la-presidente-mexicaine-en-chine-5279264.html",
+			"publie_le": "2026-11-22T13:00:07.000Z",
+			"resume": "De retour à Mexico après son déplacement en Chine pour le sommet de l’APEC, la présidente mexicaine Claudia Sheinbaum a publiquement remercié l’équipage de China Southern Airlines qui l’a ramenée depuis Shenzhen. Un geste simple, mais qui a de nouveau mis en lumière son choix de voyager en classe économique, au terme d’un aller-retour de […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "ouestfrance-4ad1a8bf",
+			"source_id": "ouestfrance",
+			"media": "Ouest-France",
+			"titre": "RENCONTRE. Iryna Terekh, la trentenaire ukrainienne qui frappe la Russie en profondeur",
+			"url": "https://www.ouest-france.fr/europe/ukraine/rencontre-iryna-terekh-la-trentenaire-ukrainienne-qui-frappe-la-russie-en-profondeur-f2ba2006-e42c-11f1-a3b1-0c6de532ce7d?utm_source=fluxpublicactu&utm_medium=fluxrss&utm_campaign=banquedecontenu",
+			"publie_le": "2026-11-22T13:00:06.000Z",
+			"resume": "À 34 ans, cette ancienne architecte urbaine, reconvertie en fabricante de missiles, est devenue en quatre ans le cauchemar de Vladimir Poutine, avec ses drones à longue portée FP-1 et ses missiles de croisière FP-5 Flamingo qui ont frappé le fameux pont de kertch reliant la Crimée au territoire continental russe.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "lefigaro-une-337d2998",
+			"source_id": "lefigaro-une",
+			"media": "Le Figaro",
+			"titre": "«Un peu de poésie dans tout ce bazar… ça fait du bien !» : dans les Cévennes, le pari du street art pour colorer une ancienne cité minière",
+			"url": "https://www.lefigaro.fr/actualite-france/un-peu-de-poesie-dans-tout-ce-bazar-ca-fait-du-bien-dans-les-cevennes-le-pari-du-street-art-pour-colorer-une-ancienne-cite-miniere-20261122",
+			"publie_le": "2026-11-22T13:00:00.000Z",
+			"resume": "REPORTAGE - Avec le concours d’entreprises, de particuliers et de bailleurs sociaux, une quarantaine de façades de la ville de Bessèges ont été investies par des street-artistes. Elles composent un musée à ciel ouvert dans une commune ayant mal digéré la fin de son industrie.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-c9d5fcc0",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "Une enquête ouverte après des incendies imputés à des colons israéliens en Cisjordanie occupée",
+			"url": "https://www.franceinfo.fr/monde/israel/une-enquete-ouverte-apres-des-incendies-imputes-a-des-colons-israeliens-en-cisjordanie-occupee_8294669.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T12:59:07.000Z",
+			"resume": "Gadi Eisenkot, rival du Premier ministre sortant Benyamin Nétanyahou et chargé par le chef de l'Etat de former un gouvernement, a dénoncé sur X ces actes, qu'il a qualifiés de \"terrorisme juif\" ébranlant \"la stabilité régionale\".",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-6b664b10",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "Présidentielle 2027 : David Lisnard voit une primaire comme \"un moyen d'exclure les macronistes\"",
+			"url": "https://www.franceinfo.fr/elections/presidentielle/campagne-presidentielle-david-lisnard-voit-une-primaire-comme-un-moyen-d-exclure-les-macronistes_8294525.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T12:58:37.000Z",
+			"resume": "Le candidat Nouvelle Energie affirme qu'il ne soutiendra d'ailleurs pas obligatoirement le vainqueur d'un possible vote pour départager les prétendants de la droite et du centre, car \"il ne veut pas se compromettre avec des gens avec lesquels il ne gouvernera pas\".",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-18c8b438",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "Présidentielle 2027 : la CFDT appelle à changer la date du scrutin pour éviter un second tour le 2 mai",
+			"url": "https://www.franceinfo.fr/elections/presidentielle/campagne-presidentielle-la-secretaire-generale-de-la-cfdt-marylise-leon-appelle-a-changer-la-date-pour-eviter-un-second-tour-le-2-mai_8294624.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T12:53:26.000Z",
+			"resume": "\"Le 2 mai est le pire scénario possible, en raison du risque de vives tensions au lendemain de la Fête des travailleurs\", affirme Marylise Léon, secrétaire générale de l'organisation syndicale.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-7e1121c3",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "Exposition : au Musée Picasso, les éclats poétiques de Kurt Schwitters",
+			"url": "https://www.la-croix.com/culture/exposition-au-musee-picasso-les-eclats-poetiques-de-kurt-schwitters-20261122",
+			"publie_le": "2026-11-22T12:52:32.000Z",
+			"resume": "L’artiste allemand Kurt Schwitters, proche des dadaïstes, fut à la fois poète, peintre, sculpteur, maître des collages et des assemblages, photographe et graphiste. Dans une vaste exposition présentée jusqu’au 7 février 2027, le Musée Picasso, à Paris, dévoile son riche univers.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-b0c1dad4",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "\"Je n'ai jamais reçu d'informations confidentielles\", affirme Marine Le Pen, au sujet du préfet Hugues Moutouh, soupçonné d'avoir renseigné le RN",
+			"url": "https://www.franceinfo.fr/elections/presidentielle/direct-campagne-presidentielle-la-secretaire-generale-de-la-cfdt-marylise-leon-appelle-a-changer-la-date-pour-eviter-un-second-tour-le-2-mai_8294528.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T12:49:06.000Z",
+			"resume": "\"Je ne le connais pas personnellement\", a ajouté la candidate du Rassemblement national à la présidentielle, invitée dimanche de l'émission \"Franc-Jeu\" sur France 2.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-f9c8520d",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "Guerre en Ukraine : les écoles d'Odessa passent à l'enseignement à distance après des frappes russes sur le réseau électrique",
+			"url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-les-ecoles-d-odessa-passent-a-l-enseignement-en-distanciel-apres-des-frappes-russes-sur-le-reseau-electrique_8294744.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T12:46:04.000Z",
+			"resume": "Le fournisseur d'énergie Ukrenergo a prévenu dimanche que \"l'ampleur des destructions\" rend \"physiquement impossible de fournir la quantité d'électricité requise aux consommateurs\" dans la région.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "lefigaro-une-ca22aa97",
+			"source_id": "lefigaro-une",
+			"media": "Le Figaro",
+			"titre": "La gagnante du marathon de Bordeaux, mère de trois enfants et ingénieur à temps plein, livre les secrets de sa progression fulgurante",
+			"url": "https://www.lefigaro.fr/sports/athletisme/ingenieur-a-temps-plein-mere-de-3-enfants-et-vainqueur-du-marathon-de-bordeaux-les-conseils-de-solvegue-feuillade-pour-tout-concilier-20261122",
+			"publie_le": "2026-11-22T12:42:07.000Z",
+			"resume": "La jeune femme de 33 ans, ingénieure qualité chez Michelin et mère de famille, vient de remporter le marathon de Bordeaux en 2h49 minutes. Elle livre ses secrets pour concilier une vie de famille bien remplie, un rôle important en entreprise et sa progression fulgurante dans le sport.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-9d2fc025",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Corée du Sud: le ministre de l'Éducation démissionne sur fond de scandale de triche aux examens",
+			"url": "https://www.rfi.fr/fr/asie-pacifique/20261122-cor%C3%A9e-du-sud-le-ministre-de-l-%C3%A9ducation-d%C3%A9missionne-sur-fond-de-scandale-de-triche-aux-examens",
+			"publie_le": "2026-11-22T12:35:20.000Z",
+			"resume": "Le ministre de l’Éducation sud-coréen a démissionné ce dimanche 22 novembre. En cause, la réponse jugée insuffisante du gouvernement aux suspicions de triche assistée par l’intelligence artificielle lors des examens d'entrée à l'université du 19 novembre, étape capitale de la vie des jeunes Sud-Coréens.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "humanite-bb750e0e",
+			"source_id": "humanite",
+			"media": "L'Humanité",
+			"titre": "Emmanuel Macron veut inscrire la règle d’or budgétaire dans la Constitution avec l’appui de la droite et de l’extrême droite",
+			"url": "https://www.humanite.fr/politique/budget/emmanuel-macron-veut-inscrire-la-regle-dor-budgetaire-dans-la-constitution-avec-lappui-de-la-droite-et-de-lextreme-droite",
+			"publie_le": "2026-11-22T12:34:39.000Z",
+			"resume": "Le président de la République souhaite inscrire dans la Constitution la très austéritaire règle d’or budgétaire, en se servant d’un texte de 2011, avec l’appui de la droite et de l’extrême droite. Il envisage de réunir l’ensemble des députés et des sénateurs dès janvier à Versailles afin de leur faire voter une réforme constitutionnelle.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "opex360-9de7d9f0",
+			"source_id": "opex360",
+			"media": "Zone Militaire (Opex360)",
+			"titre": "La Pologne confirme son intérêt pour l’hélicoptère de transport lourd américain CH-47 Chinook",
+			"url": "https://www.opex360.com/2026/11/22/la-pologne-confirme-son-interet-pour-lhelicoptere-de-transport-lourd-americain-ch-47-chinook/",
+			"publie_le": "2026-11-22T12:32:10.000Z",
+			"resume": "Comme l’a récemment souligné une note du Commandement du combat futur de l’armée de Terre [CFAT], la vulnérabilité d’un hélicoptère de reconnaissance et d’attaque «concerne un ensemble et pas seulement l’appareil dans le ciel» mais aussi tout ce qui le fait voler, c’est-à-dire sa chaîne de soutien logistique [maintenance, carburant, etc.]. C’est d’ailleurs pour cette... Cet article La Pologne con…",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "aljazeera-ce5ab375",
+			"source_id": "aljazeera",
+			"media": "Al Jazeera",
+			"titre": "US Congress helped end the Vietnam War. Can it stop the Iran war?",
+			"url": "https://www.aljazeera.com/news/2026/11/22/us-congress-helped-end-the-vietnam-war-can-it-stop-the-iran?traffic_source=rss",
+			"publie_le": "2026-11-22T12:31:30.000Z",
+			"resume": "Congress forbade funding for the Vietnam War, contributing to the fall of the South Vietnamese government in Saigon.",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-98c29ed6",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "\"20h30 le dimanche\". La story Silver Generation",
+			"url": "https://www.franceinfo.fr/replay-magazine/france-2/19h-le-dimanche/20h30-le-dimanche-la-story-silver-generation_8266883.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-22T12:24:00.000Z",
+			"resume": "Des personnalités se confient en direct à Laurent Delahousse après le journal de 20 heures sur France 2 : \"story\", entretien, rencontre(s)...",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "guardian-monde-f908da6e",
+			"source_id": "guardian-monde",
+			"media": "The Guardian (Monde)",
+			"titre": "South Korean minister quits after AI cheating scandal engulfs university exams",
+			"url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+			"publie_le": "2026-11-22T12:12:08.000Z",
+			"resume": "Choi Kyo-jin says he ‘failed to prepare adequately’ for entrance exams following last-minute scramble to tighten measures South Korea’s education minister has resigned after an AI-assisted cheating scandal that erupted in the lead-up to key university entrance exams last week. The country has been gripped by fears of AI-assisted exam cheating since last Sunday, when the top scorer in a national t…",
+			"langue": "en",
+			"rubrique_suggeree": "ia",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-da3d7323",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "La patronne et l’écologie Chapitre 1 : le vertige de la dirigeante",
+			"url": "https://www.la-croix.com/economie/la-patronne-et-l-ecologie-chapitre-1-le-vertige-de-la-dirigeante-20261122",
+			"publie_le": "2026-11-22T12:02:19.000Z",
+			"resume": "L’industrie, troisième secteur le plus émetteur de gaz à effet de serre en France, peut-elle faire sa mue écologique ? Production, profits, croissance… La question est vertigineuse. Pour l’explorer sans a priori, nous avons passé un an dans l’entreprise Montabert, à Lyon, un fleuron de la métallurgie. Dans ce premier chapitre, rencontre avec Christine Champoiral, sa présidente bien décidée à tran…",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "guardian-monde-cd078dd6",
+			"source_id": "guardian-monde",
+			"media": "The Guardian (Monde)",
+			"titre": "CEO of funding agency for UK science and research criticised by union over cuts",
+			"url": "https://www.theguardian.com/education/2026/nov/22/prospect-union-leader-uk-funding-agency-science-research-ukri",
+			"publie_le": "2026-11-22T12:00:28.000Z",
+			"resume": "Exclusive: Prospect’s Mike Clancy tells Ian Chapman at UKRI that union has ‘lost confidence’ in his leadership A trade union that counts scientists and engineers among its members says it has lost confidence in the leader of the UK’s national funding agency for science and research, citing concerns about plans for major cuts. The letter from Mike Clancy, the general secretary of Prospect, to Ian…",
+			"langue": "en",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-25edaab8",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "La Malaisie renforce ses actions de promotion en France et dévoile ses ambitions pour 2027",
+			"url": "https://www.air-journal.fr/2026-11-22-la-malaisie-renforce-ses-actions-de-promotion-en-france-et-devoile-ses-ambitions-pour-2027-5279256.html",
+			"publie_le": "2026-11-22T12:00:27.000Z",
+			"resume": "Tourism Malaysia entend multiplier les échanges avec les voyagistes, les agences de voyages et les compagnies aériennes en France en 2027. L’office du tourisme malaisien s’appuie sur une fréquentation française en hausse et souhaite mieux faire connaître la diversité de la destination, notamment le Sabah, dans le nord de Bornéo. La Malaisie a accueilli 228 173 […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "france24-97f9797a",
+			"source_id": "france24",
+			"media": "France 24",
+			"titre": "Guerre au Moyen-Orient : un nageur britannique traverse le détroit d'Ormuz",
+			"url": "https://www.france24.com/fr/vid%C3%A9o/20261122-guerre-au-moyen-orient-un-nageur-britannique-traverse-le-d%C3%A9troit-d-ormuz",
+			"publie_le": "2026-11-22T11:48:25.000Z",
+			"resume": "Face à l'immobilisme politique, certains tentent de faire changer les lignes par l'exemple. Un nageur britannique a traversé le détroit d'Ormuz pour dénoncer les conséquences dévastatrices de la guerre au Moyen-Orient. Les Anglais appellent cela \"la diplomatie du maillot de bain\"...",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "opex360-80cf802d",
+			"source_id": "opex360",
+			"media": "Zone Militaire (Opex360)",
+			"titre": "L’armée de l’Air & de l’Espace teste à la capacité du Rafale à être mis en œuvre depuis une autoroute",
+			"url": "https://www.opex360.com/2026/11/22/larmee-de-lair-de-lespace-teste-a-la-capacite-du-rafale-a-etre-mis-en-oeuvre-depuis-une-autoroute/",
+			"publie_le": "2026-11-22T11:43:57.000Z",
+			"resume": "En 2023, alors à la tête du Commandement de la défense aérienne et des opérations aériennes [CDAOA] de l’armée de l’Air & de l’Espace [AAE], le général Philippe Moralès avait souligné la nécessité de retrouver les «anciens réflexes» consistant à «disperser» les aéronefs afin de les préserver d’une éventuelle attaque. «Nos territoires ne doivent plus... Cet article L’armée de l’Air & de l’Espace t…",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-7026d894",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "Arabie saoudite : le projet Vision 2030 menacé d’être rattrapé par la guerre avec les houthistes",
+			"url": "https://www.la-croix.com/international/arabie-saoudite-le-projet-vision-2030-menace-d-etre-rattrape-par-la-guerre-avec-les-houthistes-20261122",
+			"publie_le": "2026-11-22T11:43:55.000Z",
+			"resume": "Après l’attaque du siège du Fonds d’investissement public saoudien (PIF) par les houthistes, le 19 novembre, c’est tout le projet Vision 2030 qui se retrouve dans la ligne de mire. À trois ans de l’échéance fixée pour sortir d’une économie transfusée au pétrole, les ambitions saoudiennes sont plus incertaines que jamais.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "france24-830628c2",
+			"source_id": "france24",
+			"media": "France 24",
+			"titre": "🔴 En direct : l'effondrement d'un immeuble frappé par un drone russe fait 14 disparus près de Kiev",
+			"url": "https://www.france24.com/fr/europe/20261122-en-direct-la-finlande-d%C3%A9nonce-une-attaque-de-drone-ukrainien-contre-un-cargo-russe-en-mer-baltique",
+			"publie_le": "2026-11-22T11:31:14.000Z",
+			"resume": "",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "france24-41c7b261",
+			"source_id": "france24",
+			"media": "France 24",
+			"titre": "La Finlande fait état d'une attaque de drone ukrainien contre un cargo russe en mer Baltique",
+			"url": "https://www.france24.com/fr/vid%C3%A9o/20261122-la-finlande-fait-%C3%A9tat-d-une-attaque-de-drone-ukrainien-contre-un-cargo-russe-en-mer-baltique",
+			"publie_le": "2026-11-22T11:25:18.000Z",
+			"resume": "La Finlande a détecté samedi 21 novembre une attaque de drone ukrainien visant un cargo russe en mer Baltique, qui a pris feu, le Premier ministre Petteri Orpo affirmant que \"l'Ukraine a le droit de se défendre contre l'agresseur\".",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "bbc-monde-86c4e817",
+			"source_id": "bbc-monde",
+			"media": "BBC News (Monde)",
+			"titre": "Russia-bound ship still on fire after attack in Gulf of Finland",
+			"url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+			"publie_le": "2026-11-22T11:25:14.000Z",
+			"resume": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-92de7927",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "La recette des filets de poulet rôtis au crumble de Petit Beurre d’Eric Guérin",
+			"url": "https://www.liberation.fr/lifestyle/gastronomie/la-recette-des-filets-de-poulet-rotis-au-crumble-de-petit-beurre-deric-guerin-20261122_IXCTYP3F4ZDNDIHQK2L5BFJKU4/",
+			"publie_le": "2026-11-22T11:24:00.000Z",
+			"resume": "Ce dimanche, on vous dévoile la recette du poulet-frites du chef étoilé Eric Guérin, qui a gagné le concours culinaire organisé par «Libé» lors du festival «La Grande Bouffe».",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-6459aad7",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "L'IA et le « syndrome de la photocopieuse » : comment une révolution créative pourrait appauvrir notre culture",
+			"url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-ia-syndrome-photocopieuse-revolution-creative-pourrait-appauvrir-notre-culture-139437/#xtor%3DRSS-8",
+			"publie_le": "2026-11-22T11:23:35.000Z",
+			"resume": "Comme une photocopie de photocopie qui au fur et à mesure se dégrade et se transforme en bruit, la stratégie des entreprises de l’IA basée sur les grands modèles de langage centralisés conduit à générer des contenus médiocres et dénués d’originalité. Va t-on vers un appauvrissement culturel avec...",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-20165678",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "En Corée du Sud, le ministre de l’Education démissionne après un scandale de triche à l’IA",
+			"url": "https://www.liberation.fr/international/asie-pacifique/en-coree-du-sud-le-ministre-de-leducation-demissionne-apres-un-scandale-de-triche-a-lia-20261122_5E2WCX4TZFET5A4VHN7AYHW5MQ/",
+			"publie_le": "2026-11-22T11:21:29.000Z",
+			"resume": "Les révélations d’un candidat ayant admis avoir utilisé l’intelligence artificielle pour réussir un concours créent des remous jusqu’au sommet de l’Etat, alors que les jeunes Sud-Coréens viennent de passer le Suneung, un examen draconien pour entrer à l’université.",
+			"langue": "fr",
+			"rubrique_suggeree": "ia",
+			"agence_origine": null
+		},
+		{
+			"id": "humanite-0acce926",
+			"source_id": "humanite",
+			"media": "L'Humanité",
+			"titre": "Pour son dernier Sommet Choose France, Macron va encore rabâcher sa fable industrielle anti taxe des riches",
+			"url": "https://www.humanite.fr/social-et-economie/casse-industrielle/pour-son-dernier-sommet-choose-france-macron-va-encore-rabacher-sa-fable-industrielle-anti-taxe-des-riches",
+			"publie_le": "2026-11-22T11:20:00.000Z",
+			"resume": "Après avoir fustigé ceux qui alimentent « un discours de jalousie et de haine de la réussite dans le pays », le président devrait profiter de ce grand raout des investisseurs pour rappeler son intention de simplifier drastiquement les conditions d’investissements dans la production, au dépens d’une véritable feuille de route industrielle.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-b6354a24",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "Présidentielle : Marylise Léon demande à son tour au gouvernement de décaler les dates de l’élection",
+			"url": "https://www.liberation.fr/politique/elections/dates-de-la-presidentielle-marylise-leon-critique-a-son-tour-la-tenue-du-second-tour-le-2-mai-20261122_BE4JGJEYDNB43AIUNEO4XROBRU/",
+			"publie_le": "2026-11-22T11:19:52.000Z",
+			"resume": "Disant craindre «de vives tensions au lendemain de la fête des travailleurs», le 1er mai, la secrétaire générale de la CFDT souhaite que le scrutin soit avancé d’une semaine.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "france24-c9254d38",
+			"source_id": "france24",
+			"media": "France 24",
+			"titre": "AEFE : réforme contestée du réseau scolaire français à l'étranger",
+			"url": "https://www.france24.com/fr/vid%C3%A9o/20261122-aefe-r%C3%A9forme-contest%C3%A9e-du-r%C3%A9seau-scolaire-fran%C3%A7ais-%C3%A0-l-%C3%A9tranger",
+			"publie_le": "2026-11-22T11:15:35.000Z",
+			"resume": "Quel avenir pour l'AEFE, l'Agence pour l'enseignement français à l'étranger ? Nous en parlons avec notre invité Patrick Soldat, secrétaire national SNES FSU.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "aljazeera-bcbdc815",
+			"source_id": "aljazeera",
+			"media": "Al Jazeera",
+			"titre": "Russian ship attacked by drone in Baltic Sea off Finland",
+			"url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/russian-ship-attacked-by-drone-in-baltic-sea-off-finland?traffic_source=rss",
+			"publie_le": "2026-11-22T11:15:27.000Z",
+			"resume": "Russian ship attacked by drone in Baltic Sea off Finland",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "france24-2b7525d4",
+			"source_id": "france24",
+			"media": "France 24",
+			"titre": "Bahreïn accuse l'Iran d'avoir mené une frappe contre un de ses sites industriels",
+			"url": "https://www.france24.com/fr/vid%C3%A9o/20261122-bahre%C3%AFn-accuse-l-iran-d-avoir-men%C3%A9-une-frappe-contre-un-de-ses-sites-industriels",
+			"publie_le": "2026-11-22T11:15:19.000Z",
+			"resume": "Une frappe iranienne a provoqué samedi 21 novembre un incendie sur un site industriel à Bahreïn, a annoncé ce royaume déjà ciblé plusieurs fois depuis mi-novembre, Téhéran affirmant riposter à des tirs américains sur fond d'enlisement du conflit au Moyen-Orient.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-2f2eeaf9",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "Elections législatives en Israël : Gadi Eisenkot invite le parti de Benyamin Nétanyahou à des négociations de coalition",
+			"url": "https://www.franceinfo.fr/monde/israel/elections-legislatives-en-israel/elections-legislatives-en-israel-le-centriste-gadi-eisenkot-invite-le-parti-de-benyamin-netanyahou-a-des-negociations-de-coalition_8294531.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T11:12:16.000Z",
+			"resume": "Le bloc centriste reste divisé sur la marche à suivre pour s'assurer une majorité gouvernementale, entre alliance avec les ultra-orthodoxes, pacte avec les partis arabes ou gouvernement d'union nationale avec le Premier ministre sortant.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "numerama-f4470141",
+			"source_id": "numerama",
+			"media": "Numerama",
+			"titre": "C’est quoi Stryx AI, cette start-up française qui veut intercepter les drones ?",
+			"url": "https://www.numerama.com/tech/2379779-cest-quoi-stryx-ai-cette-start-up-francaise-qui-veut-intercepter-les-drones.html",
+			"publie_le": "2026-11-22T11:01:00.000Z",
+			"resume": "Qu’est-ce que Stryx AI ? Une start-up française, fondée en 2025 par Armand Thiberge, le créateur de Brevo, qui conçoit des drones chargés d’en intercepter d’autres. Elle vient de lever 7,7 millions d’euros pour les produire en France. Son argument est de rendre l’interception presque aussi bon marché que la cible. Mais le prix de son intercepteur reste inconnu.",
+			"langue": "fr",
+			"rubrique_suggeree": "ia",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-1a2e015a",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "Voyages d’affaires : 404 milliards d’euros de dépenses attendues en Europe, dont 45 en France",
+			"url": "https://www.air-journal.fr/2026-11-22-voyages-daffaires-404-milliards-deuros-de-depenses-attendues-en-europe-dont-45-en-france-5279257.html",
+			"publie_le": "2026-11-22T11:00:21.000Z",
+			"resume": "Les entreprises établies en Europe devraient consacrer 404 milliards d’euros à leurs déplacements professionnels en 2026, soit 7 % de plus qu’en 2025, selon le dernier Business Travel Index de la Global Business Travel Association (GBTA). Elles devraient générer environ 600 millions de voyages, soit près d’un tiers des 1,84 milliard de déplacements professionnels prévus […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-34b06303",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "France: Emmanuel Macron pense à une «règle d'or» budgétaire, la droite et le RN lui emboitent le pas",
+			"url": "https://www.rfi.fr/fr/france/20261122-france-emmanuel-macron-pense-%C3%A0-une-r%C3%A8gle-d-or-budg%C3%A9taire-la-droite-et-le-rn-lui-emboitent-le-pas",
+			"publie_le": "2026-11-22T10:56:22.000Z",
+			"resume": "Emmanuel Macron envisagerait de réunir députés et sénateurs en Congrès à Versailles en janvier afin d'inscrire « une règle d'or » budgétaire dans la Constitution, selon les informations de La Tribune Dimanche. Une initiative saluée par Bruno Retailleau et Jordan Bardella.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-une-7722982f",
+			"source_id": "lemonde-une",
+			"media": "Le Monde",
+			"titre": "EN DIRECT, guerre en Ukraine : quatorze personnes portées disparues à la suite de l’attaque par un drone russe d’un immeuble d’habitation près de Kiev",
+			"url": "https://www.lemonde.fr/international/live/2026/11/22/en-direct-guerre-en-ukraine-quatorze-personnes-portees-disparues-a-la-suite-de-l-attaque-d-un-drone-russe-sur-un-immeuble-d-habitation-pres-de-kiev_6814183_3210.html",
+			"publie_le": "2026-11-22T10:50:43.000Z",
+			"resume": "Une attaque de drone russe dans la nuit de samedi à dimanche dans le raïon de Vychhorod, non loin de Kiev, a endommagé un immeuble d’habitation de cinq étages, a rapporté le chef de l’administration militaire de l’oblast, précisant qu’un incendie s’est déclaré.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "aerobuzz-cc5dacd4",
+			"source_id": "aerobuzz",
+			"media": "Aerobuzz",
+			"titre": "Le MA-1 Blue Jay pourrait recevoir un V12 diesel allemand",
+			"url": "https://www.aerobuzz.fr/aviation-generale/le-ma-1-blue-jay-pourrait-recevoir-un-v12-diesel-allemand/",
+			"publie_le": "2026-11-22T10:50:00.000Z",
+			"resume": "Maloy Aircraft évalue le moteur RED A03 pour équiper son futur MA-1 Blue Jay, biplace de formation professionnelle inspiré des machines école militaires. Le V12 diesel de 500 ch est déjà affiché dans la configuration de l’avion, mais aucun choix définitif n’a été annoncé. Avant tout, une nuance s’impose : si Maloy Aircraft présente déjà le L’article Le MA-1 Blue Jay pourrait recevoir un V12 diese…",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "lefigaro-une-654ac31e",
+			"source_id": "lefigaro-une",
+			"media": "Le Figaro",
+			"titre": "Tineco balaie la concurrence : son aspirateur laveur Floor One Stretch S6 voit son prix chuter de 60%",
+			"url": "https://www.lefigaro.fr/bons-plans/maison/tineco-balaie-la-concurrence-son-aspirateur-laveur-floor-one-stretch-s6-voit-son-prix-chuter-de-60-20261122",
+			"publie_le": "2026-11-22T10:48:00.000Z",
+			"resume": "Voici une pépite découverte sur le site Tineco, pendant le Black Friday. L’aspirateur laveur Floor One Stretch S6 passe sous les 200 euros à la faveur de cette folle promo, qui dépasse les -60 %.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-7acb8e24",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "\"Je crois que raconter l’histoire des mafias, notamment à travers le cinéma, est extrêmement utile\" : Roberto Saviano est l'invité exceptionnel du Festival du film d'Histoire de Pessac",
+			"url": "https://www.franceinfo.fr/culture/cinema/je-crois-que-raconter-l-histoire-des-mafias-notamment-a-travers-le-cinema-est-extremement-utile-roberto-saviano-est-l-invite-exceptionnel-du-festival-du-film-d-histoire-de-pessac_8289596.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T10:44:52.000Z",
+			"resume": "L’écrivain italien qui a dénoncé la Camorra fait l'objet d'un documentaire, \"Gomorra, Manifeste antimafia\", et nous parle de ses goûts de cinéphile.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-c886310a",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "\"Je crois que raconter l’histoire des mafias, notamment à travers le cinéma, est extrêmement utile\" : Roberto Saviano est l'invité exceptionnel du Festival du film d'Histoire de Pessac",
+			"url": "https://www.franceinfo.fr/culture/cinema/je-crois-que-raconter-l-histoire-des-mafias-notamment-a-travers-le-cinema-est-extremement-utile-roberto-saviano-est-l-invite-exceptionnel-du-festival-du-film-d-histoire-de-pessac_8289596.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-22T10:44:52.000Z",
+			"resume": "L’écrivain italien qui a dénoncé la Camorra fait l'objet d'un documentaire, \"Gomorra, Manifeste antimafia\", et nous parle de ses goûts de cinéphile.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "aljazeera-06b2152c",
+			"source_id": "aljazeera",
+			"media": "Al Jazeera",
+			"titre": "Russian cargo ship still on fire off Finland after drone attack",
+			"url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss",
+			"publie_le": "2026-11-22T10:39:50.000Z",
+			"resume": "The ship, bound for Russia's Kaliningrad, was damaged in international waters before drifting into Finnish territory.",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-6a247dc6",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "Ukraine : Kiev panse ses plaies après la riposte russe à la destruction du pont de Crimée",
+			"url": "https://www.la-croix.com/international/ukraine-kiev-panse-ses-plaies-apres-la-riposte-russe-a-la-destruction-du-pont-de-crimee-20261122",
+			"publie_le": "2026-11-22T10:34:12.000Z",
+			"resume": "Des frappes ukrainiennes ont brisé il y a une semaine l’arche centrale du pont de Crimée, symbole de l’annexion russe. En représailles, Moscou a déclenché le vendredi 20 novembre 2026 une attaque massive sur Kiev. Malgré les dégâts, la vie quotidienne reprend.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-77c21244",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "On vous résume les points de discorde à la COP31 alors que les discussions sur un accord s'enlisent en Turquie",
+			"url": "https://www.franceinfo.fr/environnement/crise-climatique/cop-climat/on-vous-resume-les-points-de-discorde-a-la-cop31-alors-que-les-discussions-sur-un-accord-s-enlisent_8294597.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T10:30:58.000Z",
+			"resume": "Une nouvelle proposition de compromis diffusée durant la nuit de samedi à dimanche à Antalya est jugée insuffisante par de nombreux gouvernement et ONG de défense de l'environnement.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "humanite-2bc2d11b",
+			"source_id": "humanite",
+			"media": "L'Humanité",
+			"titre": "Finlande : coup d’arrêt pour le data center de Google… après que la firme a rasé illégalement 400 000 arbres",
+			"url": "https://www.humanite.fr/monde/data-center/finlande-coup-darret-pour-le-data-center-de-google-apres-que-la-firme-a-rase-illegalement-400-000-arbres",
+			"publie_le": "2026-11-22T10:29:26.000Z",
+			"resume": "Sans attendre l’étude d’impact environnemental, Google a déboisé depuis mars 400 000 arbres des forêts finlandaises pour ériger ses centres de données. Le tollé a entraîné l’arrêt du projet en septembre 2026, mais a aussi mis en lumière la collusion du gouvernement de droite.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-b02fc1b4",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "Divertissement dans les avions : pour Hollywood, le ciel n'est plus une limite",
+			"url": "https://www.franceinfo.fr/culture/cinema/divertissement-dans-les-avions-pour-hollywood-le-ciel-n-est-plus-une-limite_8294711.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T10:27:30.000Z",
+			"resume": "Les compagnies aériennes ont transporté l'année dernière presque autant de passagers qu'il ne s'est vendus de billets de cinéma dans le monde. Alors quoi de plus naturel que d'amener la magie du cinéma dans les avions ?",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-b80df624",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "Divertissement dans les avions : pour Hollywood, le ciel n'est plus une limite",
+			"url": "https://www.franceinfo.fr/culture/cinema/divertissement-dans-les-avions-pour-hollywood-le-ciel-n-est-plus-une-limite_8294711.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-22T10:27:30.000Z",
+			"resume": "Les compagnies aériennes ont transporté l'année dernière presque autant de passagers qu'il ne s'est vendus de billets de cinéma dans le monde. Alors quoi de plus naturel que d'amener la magie du cinéma dans les avions ?",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-e820a259",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "REPLAY. \"GTA VI, le jeu vidéo qui rend la planète folle\" : regardez le documentaire de franceinfo consacré à la sortie mondiale la plus attendue des gamers",
+			"url": "https://www.franceinfo.fr/culture/jeux-video/gta-vi/replay-gta-vi-le-jeu-video-qui-rend-la-planete-folle-regardez-le-documentaire-de-franceinfo-consacre-a-la-sortie-mondiale-la-plus-attendue-des-gamers_8294618.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-22T10:22:58.000Z",
+			"resume": "Le nouvel opus de \"Grand Theft Auto\" est devenu un événement planétaire. Mais pour quelles raisons ? Quelle est la recette du succès de la franchise ?",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-politique-2d990ea3",
+			"source_id": "franceinfo-politique",
+			"media": "franceinfo (Politique)",
+			"titre": "Guerre en Ukraine, crise sociale, sortie de l'UE... Le 8h30 franceinfo de Nicolas Dupont-Aignan",
+			"url": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/guerre-en-ukraine-crise-sociale-sortie-de-l-ue-le-8h30-franceinfo-de-nicolas-dupont-aignan_8250490.html#xtor=RSS-3-%5Bpolitique%5D",
+			"publie_le": "2026-11-22T10:17:46.000Z",
+			"resume": "Le 8h30 franceinfo de Nicolas Dupont-Aignan, candidat Debout la France à la présidentielle.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-db9090fd",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "La plante de la semaine : cet arbuste aux fleurs jaune éclatant illumine le jardin quand presque tout le reste semble endormi",
+			"url": "https://www.futura-sciences.com/maison/actualites/jardin-plante-semaine-cet-arbuste-fleurs-jaune-eclatant-illumine-jardin-presque-tout-reste-semble-endormi-139538/#xtor%3DRSS-8",
+			"publie_le": "2026-11-22T10:07:51.000Z",
+			"resume": "Les Français sont de vrais « jardinophiles » ! Et vous ? Avec cette chronique, (re)découvrez une plante, un fruit, un légume.En novembre, les végétaux semblent dormir avec l’automne, mais certains s’éveillent, arborant des baies colorées ou des fleurs. C’est le cas du mahonia, épineux,...",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-ceed09b5",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "Vols retardés vers les DROM : jusqu’à 400 € d’indemnisation, contre 600 € sur les dessertes hors UE",
+			"url": "https://www.air-journal.fr/2026-11-22-vols-retardes-vers-les-drom-jusqua-400-e-dindemnisation-contre-600-e-sur-certains-vols-hors-ue-5279259.html",
+			"publie_le": "2026-11-22T10:00:44.000Z",
+			"resume": "Le risque d’un retard d’au moins 15 minutes est près de 42 % plus élevé sur les vols de l’Hexagone vers les départements et régions d’outre-mer (DROM) que sur les liaisons intérieures hexagonales, selon une analyse publiée par Flightright. Et lorsqu’une perturbation ouvre droit à une indemnisation, le forfait ne dépasse pas 400 euros par […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "lefigaro-une-ec69c0db",
+			"source_id": "lefigaro-une",
+			"media": "Le Figaro",
+			"titre": "L’adresse du patron : «La légende veut que la porte secrète de ce salon cache un souterrain qui mène tout droit au Sénat, à 1 kilomètre»",
+			"url": "https://www.lefigaro.fr/decideurs/management/l-adresse-du-patron-la-legende-veut-que-la-porte-secrete-de-ce-salon-cache-un-souterrain-qui-mene-tout-droit-au-senat-a-1-kilometre-20261122",
+			"publie_le": "2026-11-22T10:00:00.000Z",
+			"resume": "Rencontres business, anecdotes… Des personnalités racontent au Figaro leur carrière sous le prisme des tables. Cette semaine, c’est au tour de l’entrepreneuse Lisa Chavy.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-8c26964f",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "Présidentielle : Ruffin renonce, le paysage se clarifie à gauche",
+			"url": "https://www.la-croix.com/presidentielle-ruffin-renonce-le-paysage-se-clarifie-a-gauche-20261121",
+			"publie_le": "2026-11-22T09:59:20.000Z",
+			"resume": "François Ruffin a annoncé samedi 21 novembre son retrait de la course à la présidentielle, déplorant l’échec de son projet de grande primaire à gauche et le « duel des deux gauches irréconciliables » qui s’installe à cinq mois du scrutin.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-86c9e6f8",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "La multiplication des incidents militaires fait craindre une escalade entre la Russie et l'Otan",
+			"url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/la-multiplication-des-incidents-militaires-fait-craindre-une-escalade-entre-la-russie-et-l-otan_8294615.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T09:57:56.000Z",
+			"resume": "Alors que la Finlande soupçonne un hélicoptère russe d'avoir violé son espace aérien, les incidents se multiplient sur tout l'arc est-européen, de la mer Baltique à la mer Noire.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-politique-9c4dd0dc",
+			"source_id": "franceinfo-politique",
+			"media": "franceinfo (Politique)",
+			"titre": "Soupçonné de fuites vers le RN, le préfet du Loiret Hugues Moutouh demande à être démis de ses fonctions",
+			"url": "https://www.franceinfo.fr/politique/front-national/soupconne-de-fuites-vers-le-rn-le-prefet-du-loiret-hugues-moutouh-demande-a-etre-demis-de-ses-fonctions_8294663.html#xtor=RSS-3-%5Bpolitique%5D",
+			"publie_le": "2026-11-22T09:47:34.000Z",
+			"resume": "Le préfet a demandé à être relevé de ses fonctions, samedi 21 novembre, tout en dénonçant une “campagne de déstabilisation” à son égard dans un communiqué.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-fb188deb",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "« On n’a plus rien à perdre » : dans l’Espagne dépeuplée, le combat d’un maire pour sauver son village",
+			"url": "https://www.la-croix.com/international/on-n-a-plus-rien-a-perdre-dans-lespagne-depeuplee-le-combat-dun-maire-pour-sauver-son-village-20261122",
+			"publie_le": "2026-11-22T09:36:04.000Z",
+			"resume": "Près de Salamanque, en Castille-Leon, les campagnes se dépeuplent. Mais la récente crise du logement nationale, qui pourrait provoquer la chute de Pedro Sanchez aux élections législatives du 29 novembre, redonne de l’espoir à ceux qui veulent réhabiliter les villages comme à Aldehuela de Yeltes.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-8b29fdf5",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Indonésie: un incendie dans une usine fait au moins trois morts et 36 disparus près de Jakarta",
+			"url": "https://www.rfi.fr/fr/asie-pacifique/20261122-indon%C3%A9sie-un-incendie-dans-une-usine-fait-au-moins-trois-morts-et-36-disparus-pr%C3%A8s-de-jakarta",
+			"publie_le": "2026-11-22T09:35:20.000Z",
+			"resume": "Au moins trois personnes ont perdu la vie dans l'incendie d'une usine de confiseries située à l'ouest de la capitale indonésienne Jakarta, a annoncé dimanche 2 novembre un responsable des secours, faisant état de 36 disparus. Quatre blessés ont été transférés vers des centres de santé.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "aljazeera-444029da",
+			"source_id": "aljazeera",
+			"media": "Al Jazeera",
+			"titre": "Restored wells bring life back to Hebron’s occupied Old City",
+			"url": "https://www.aljazeera.com/features/2026/11/22/restored-wells-bring-life-back-to-hebrons-occupied-old-city?traffic_source=rss",
+			"publie_le": "2026-11-22T09:33:16.000Z",
+			"resume": "Hebron's Old City has been under constant siege by Israeli settlers and the military.",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "aerobuzz-a6411bde",
+			"source_id": "aerobuzz",
+			"media": "Aerobuzz",
+			"titre": "IFL Group arrête l’exploitation de ses deux Boeing 727-200 Cargo",
+			"url": "https://www.aerobuzz.fr/breves-transport-aerien/ifl-group-arrete-lexploitation-de-ses-deux-boeing-727-200-cargo/",
+			"publie_le": "2026-11-22T09:30:00.000Z",
+			"resume": "Discrète compagnie cargo basée dans le Michigan, IFL Group comptait dans sa flotte d’avions de transport de fret deux Boeing 727-200 cargo encore opérationnels. Ils ont finalement été retirés du service sans tambour ni trompette en septembre. Désormais, IFL n’exploite plus que ses jets Falcon 20F (trois appareils actifs), ses CRJ-200SF (3 avions actifs) et L’article IFL Group arrête l’exploitatio…",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "bbc-monde-3d97e080",
+			"source_id": "bbc-monde",
+			"media": "BBC News (Monde)",
+			"titre": "South Korea education minister resigns over exam cheating scandal",
+			"url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+			"publie_le": "2026-11-22T09:20:45.000Z",
+			"resume": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
+			"langue": "en",
+			"rubrique_suggeree": "ia",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-6e82e10d",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "REPORTAGE. \"Il était temps\" : le hip-hop en passe d'être inscrit au patrimoine immatériel de l'Unesco",
+			"url": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/reportage-il-etait-temps-le-hip-hop-en-passe-d-etre-inscrit-au-patrimoine-immateriel-de-l-unesco_8262596.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-22T09:10:48.000Z",
+			"resume": "Né dans le Bronx il y a plus de cinquante ans, le hip-hop s'est imposé comme une culture dominante et mondiale, avec la France comme deuxième foyer important de son émergence.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "numerama-83ea30b1",
+			"source_id": "numerama",
+			"media": "Numerama",
+			"titre": "Piratage de GTA 6, IPO d’Anthropic et Face Unlock sur iPhone Duo — le récap tech de la semaine",
+			"url": "https://www.numerama.com/pop-culture/2380403-piratage-de-gta-6-ipo-danthropic-et-face-unlock-sur-iphone-duo-le-recap-tech-de-la-semaine.html",
+			"publie_le": "2026-11-22T09:07:00.000Z",
+			"resume": "Cette semaine, GTA 6 était sur toutes les lèvres. Le jeu vidéo de Rockstar Games est enfin arrivé après 13 ans d'attente… et la communauté de l'émulation se bat désormais pour le pirater. En parallèle, la grosse actualité est l'entrée en bourse d'Anthropic, premier géant de l'IA coté à Wall Street. Enfin, Apple a surpris tout le monde en ajoutant de la reconnaisance faciale à l'iPhone Duo.",
+			"langue": "fr",
+			"rubrique_suggeree": "ia",
+			"agence_origine": null
+		},
+		{
+			"id": "aljazeera-d4404117",
+			"source_id": "aljazeera",
+			"media": "Al Jazeera",
+			"titre": "‘Trump’s exit strategy may depend on quietly lifting Iran blockade’",
+			"url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss",
+			"publie_le": "2026-11-22T09:06:27.000Z",
+			"resume": "US President Donald Trump will have to ease the naval blockade on Iran if he wants the war to wind down, says analyst.",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-69593d92",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "Emploi : Air France embauche 1 200 CDI en Île-de-France pour sa filière maintenance",
+			"url": "https://www.air-journal.fr/2026-11-22-emploi-air-france-embauche-1-200-cdi-en-ile-de-france-pour-sa-filiere-maintenance-5279263.html",
+			"publie_le": "2026-11-22T09:00:30.000Z",
+			"resume": "Air France prévoit de recruter plus de 1 200 salariés en CDI d’ici à la fin de 2028 pour renforcer sa division maintenance en Île-de-France. Les embauches concerneront les sites de Paris-Orly, Paris-Charles-de-Gaulle et Villeneuve-le-Roi. Une campagne de grande ampleur La compagnie tricolore lance une campagne de recrutement baptisée « La mécanique en grand ». […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-culture-bb65fe82",
+			"source_id": "lemonde-culture",
+			"media": "Le Monde (Culture)",
+			"titre": "L’artiste Roméo Mivekannin réactive la mémoire des zoos humains au Musée du quai Branly, à Paris",
+			"url": "https://www.lemonde.fr/culture/article/2026/11/22/l-artiste-romeo-mivekannin-reactive-la-memoire-des-zoos-humains-au-musee-du-quai-branly-a-paris_6814200_3246.html",
+			"publie_le": "2026-11-22T09:00:12.000Z",
+			"resume": "Le peintre s’inspire de photos trouvées dans les collections du lieu pour en faire de troublants tableaux où il insère son visage.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-b924f551",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "Les offres d'emploi décrochent dans les métiers les plus exposés à l'IA",
+			"url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/les-offres-d-emploi-decrochent-dans-les-metiers-les-plus-exposes-a-l-ia_8250511.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T09:00:03.000Z",
+			"resume": "Les entreprises ont-elles tendance à geler ou à renoncer à des embauches dans les métiers les plus exposés à l'Intelligence artificielle ? Sans apporter une preuve irréfutable de cause à effet, une nouvelle étude observe une chute inquiétante des offres d'emploi dans les métiers les plus automatisables.",
+			"langue": "fr",
+			"rubrique_suggeree": "ia",
+			"agence_origine": null
+		},
+		{
+			"id": "lefigaro-une-6bc7dfe4",
+			"source_id": "lefigaro-une",
+			"media": "Le Figaro",
+			"titre": "Sylvain Tesson et Alexis Landot, en quête de hauteur : « On grimpe pour s’accomplir, pour prier quelque chose »",
+			"url": "https://www.lefigaro.fr/livres/sylvain-tesson-et-alexis-landot-en-quete-de-hauteur-on-grimpe-pour-s-accomplir-pour-prier-quelque-chose-20261122",
+			"publie_le": "2026-11-22T09:00:00.000Z",
+			"resume": "ENTRETIEN CROISÉ - Ils gravissent des immeubles ou des stacks de plusieurs centaines de mètres de haut. Ils tutoient la mort au prix d’efforts physiques incroyables, mais ils prétendent ne faire que profiter de la vie et être guidés par une quête spirituelle. Le Figaro Magazine les a réunis.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-5d8a7be8",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "Un parasite géant venu d'Amérique découvert pour la première fois en France : les scientifiques s'inquiètent",
+			"url": "https://www.futura-sciences.com/planete/actualites/ver-parasite-geant-venu-amerique-decouvert-premiere-fois-france-scientifiques-inquietent-k8p9-139448/#xtor%3DRSS-8",
+			"publie_le": "2026-11-22T09:00:00.000Z",
+			"resume": "Un ver plat de 5 centimètres découvert dans le foie d'un daim en Sologne. Un parasite originaire d'Amérique du Nord, jamais signalé auparavant sur le territoire français. Une détection qui soulève autant de questions qu'elle n'en résout. Voilà ce que vient de révéler le réseau Sagir, le...",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "lefigaro-une-8df45ec2",
+			"source_id": "lefigaro-une",
+			"media": "Le Figaro",
+			"titre": "Accès à des unités, briefings sur la dissuasion : le ministère des Armées propose une «méthode» aux candidats à la présidentielle",
+			"url": "https://www.lefigaro.fr/elections/presidentielles/acces-a-des-unites-briefings-sur-la-dissuasion-le-ministere-des-armees-propose-une-methode-aux-candidats-a-la-presidentielle-20261122",
+			"publie_le": "2026-11-22T08:57:35.000Z",
+			"resume": "Pour Catherine Vautrin, les enjeux de défense et de sécurité méritent d’être placés au premier plan de la campagne présidentielle pour permettre de départager les candidats",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-ad34b7ca",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Symposium des marines du Pacifique: «La France cherche à pratiquer une puissance d'équilibre»",
+			"url": "https://www.rfi.fr/fr/asie-pacifique/20261122-symposium-des-marines-du-pacifique-la-france-cherche-%C3%A0-pratiquer-une-puissance-d-%C3%A9quilibre",
+			"publie_le": "2026-11-22T08:01:04.000Z",
+			"resume": "La France prend la présidence du 20e Symposium des marines du Pacifique. Du 23 au 26 novembre, 30 chefs d’états-majors de marines du Pacifique vont se rencontrer à Tahiti en Polynésie française. RFI a rencontré le capitaine de vaisseau Geoffroy en charge des relations internationales au sein de l’état-major de la Marine nationale pour comprendre les enjeux de ce rendez-vous diplomatique et milita…",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-b534aea0",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "Grève en Belgique : le trafic aérien totalement paralysé ce lundi, tous les vols annulés entre 7 h et 21 h",
+			"url": "https://www.air-journal.fr/2026-11-22-greve-en-belgique-le-trafic-aerien-totalement-paralyse-ce-lundi-tous-les-vols-annules-entre-7-h-et-21-h-5279267.html",
+			"publie_le": "2026-11-22T08:00:41.000Z",
+			"resume": "La Belgique connaîtra ce lundi 23 novembre une journée de grève générale qui entraînera l’arrêt quasi total du trafic aérien. Entre 7 h et 21 h, aucun vol régulier ne pourra décoller ni atterrir dans l’espace aérien géré par Skeyes, le contrôle aérien national du pays. Skeyes a expliqué qu’une partie de ses contrôleurs aériens […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-983e2aa5",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "En plantant 66 milliards d’arbres, la Chine a créé des forêts qui ne se comportent pas du tout comme les forêts naturelles",
+			"url": "https://www.futura-sciences.com/planete/actualites/foret-plantant-66-milliards-arbres-chine-cree-forets-ne-comportent-pas-tout-comme-forets-naturelles-g6r7-139505/#xtor%3DRSS-8",
+			"publie_le": "2026-11-22T08:00:00.000Z",
+			"resume": "Quelque 66 milliards d'arbres plantés depuis 1978, 34 milliards supplémentaires prévus d'ici 2050. Les forêts issues de ce programme chinois poussent 66 % plus vite que les forêts naturelles. Un résultat qui semble valider la stratégie, jusqu'à ce qu'on regarde ce qui se passe ensuite.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "aljazeera-4bd1bf6c",
+			"source_id": "aljazeera",
+			"media": "Al Jazeera",
+			"titre": "Dashcam captures Russian missile strike on Lviv, Ukraine",
+			"url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
+			"publie_le": "2026-11-22T07:59:29.000Z",
+			"resume": "Dashcam video captured the moment a missile struck a residential neighbourhood in Lviv, western Ukraine.",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-1846adf1",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "«On pourra bientôt sortir de cette folie» : au Sommet de Paris, les économistes à l’offensive contre l’oligarchie",
+			"url": "https://www.liberation.fr/idees-et-debats/on-pourra-bientot-sortir-de-cette-folie-au-sommet-de-paris-les-economistes-a-loffensive-contre-loligarchie-20261122_IIVO5RYF5ND53A7YWEWMXZCJ5Y/",
+			"publie_le": "2026-11-22T07:52:27.000Z",
+			"resume": "Réunis au théâtre de la Concorde ce samedi 21 novembre, les partisans de la taxe Zucman ont débattu, avec espoir et optimisme, de solutions pour taxer les ultrariches et mettre fin à l’emprise de l’extrême richesse sur nos démocraties.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "aerobuzz-4584b756",
+			"source_id": "aerobuzz",
+			"media": "Aerobuzz",
+			"titre": "Impossible n’est pas… chinois !",
+			"url": "https://www.aerobuzz.fr/depose-minute/impossible-nest-pas-chinois/",
+			"publie_le": "2026-11-22T07:30:00.000Z",
+			"resume": "Le week-end dernier, la Chine a fait voler un avion électrique de 19 places. Ils étaient trois aux commandes. Le vol a duré très précisément 16 minutes et 38 secondes. A ce stade, chaque seconde compte. Et même si avec ses dix moteurs électriques et sans doute une quantité impressionnante de batteries, le CE-25A a L’article Impossible n’est pas… chinois ! est apparu en premier sur Aerobuzz .",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-c326cbaf",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "Pour David Lisnard, la primaire de la droite et du centre est un «moyen d’éliminer les macronistes»",
+			"url": "https://www.liberation.fr/politique/pour-david-lisnard-la-primaire-de-la-droite-et-du-centre-est-un-moyen-deliminer-les-macronistes-20261122_WJGV3ANEVZECXAV225UMW4JK4Q/",
+			"publie_le": "2026-11-22T07:29:05.000Z",
+			"resume": "Le maire de Cannes et candidat Nouvelle Energie exclut par ailleurs de participer à un éventuel gouvernement de Marine Le Pen, «car économiquement nous sommes aux antipodes».",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "guardian-monde-3684e967",
+			"source_id": "guardian-monde",
+			"media": "The Guardian (Monde)",
+			"titre": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
+			"url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+			"publie_le": "2026-11-22T07:11:17.000Z",
+			"resume": "Relatives of the missing victims flocked to the factory’s entrance, seeking updates about their loved ones A fire at a confectionery factory west of Jakarta has killed three people with 36 remaining missing, an Indonesian rescue official says. Drone footage showed large parts of the factory destroyed, with the roof collapsed in places and smoke still rising from the complex. Photos and videos sha…",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-d8058e5d",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Au Liban du Sud, la guerre n'a jamais cessé à Tyr, une ville qui survit plus qu'elle ne vit",
+			"url": "https://www.rfi.fr/fr/moyen-orient/20261122-au-liban-du-sud-la-guerre-n-a-jamais-cess%C3%A9-%C3%A0-tyr-une-ville-qui-survit-plus-qu-elle-ne-vit",
+			"publie_le": "2026-11-22T07:01:32.000Z",
+			"resume": "Sous le vrombissement des drones israéliens, la ville de Tyr tente de renouer avec une vie normale, entre commerces désertés, port au ralenti et patrimoine privé de touristes. Malgré le retour d’une partie de ses habitants et les efforts des autorités locales, la reconstruction tarde et la menace des frappes reste omniprésente. Dans l’antique cité phénicienne, le fracas de la guerre reste omnipré…",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-e8a7ea76",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "Corsair : l’État efface 80 millions d’euros de dette contractée pendant la crise Covid",
+			"url": "https://www.air-journal.fr/2026-11-22-corsair-letat-efface-80-millions-deuros-de-dette-contractee-pendant-la-crise-covid-5279262.html",
+			"publie_le": "2026-11-22T07:00:45.000Z",
+			"resume": "L’État a définitivement renoncé à récupérer 80 millions d’euros prêtés à la compagnie aérienne Corsair dans le cadre de son plan de sauvetage lancé pendant la pandémie de Covid. La mesure, actée par un arrêté publié au Journal officiel le 20 novembre 2026, met fin au remboursement de cette créance publique. Une décision officielle L’arrêté […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-42033dfe",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "« Serena », le grand amour de saint Augustin ? Ce que les récentes découvertes disent de l’auteur des « Confessions »",
+			"url": "https://www.la-croix.com/religion/serena-le-grand-amour-de-saint-augustin-ce-que-les-recentes-decouvertes-disent-de-l-auteur-des-confessions-20261120",
+			"publie_le": "2026-11-22T07:00:22.000Z",
+			"resume": "Un paléographe italien aurait mis au jour de nouveaux éléments sur la femme avec qui saint Augustin a vécu en concubinage avant sa conversion. Ces découvertes éclairent la pensée et la personnalité de ce docteur de l’Église, inventeur de l’autobiographie et explorateur des tréfonds de l’âme humaine.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "humanite-dc8e525c",
+			"source_id": "humanite",
+			"media": "L'Humanité",
+			"titre": "« La présidentielle serait pire sans les sondages » : entretien avec M. Gallard (Ipsos) | AUX URNES ETC.",
+			"url": "https://www.humanite.fr/politique/election-presidentielle/la-presidentielle-serait-pire-sans-les-sondages-entretien-avec-m-gallard-ipsos-aux-urnes-etc",
+			"publie_le": "2026-11-22T07:00:00.000Z",
+			"resume": "De l’erreur d’estimation du score de Jean-Luc Mélenchon en 2022 aux secrets des redressements sociodémographiques et politiques, en passant par le fiasco des projections des législatives 2024 et l’influence du vote utile : à quelques mois de l’élection présidentielle, quelle place réelle faut-il accorder aux sondages dans le débat démocratique ?Pour ce premier numéro d’AUX URNES ETC., Christophe…",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "humanite-c51c119d",
+			"source_id": "humanite",
+			"media": "L'Humanité",
+			"titre": "Les sondages faussent-ils l’élection présidentielle ? | AUX URNES ETC.",
+			"url": "https://www.humanite.fr/politique/election-presidentielle/les-sondages-faussent-ils-lelection-presidentielle-aux-urnes-etc",
+			"publie_le": "2026-11-22T07:00:00.000Z",
+			"resume": "De la présidentielle française de 2022 aux législatives de 2024, en passant par le fiasco du sondage Selzer aux États-Unis ou les élections au Brésil, les instituts de sondage se trompent régulièrement. Pourtant, ils dictent le rythme médiatique, créent des dynamiques artificielles, influencent le vote utile et déterminent même le temps de parole des partis politiques. Comment sont fabriqués ces…",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-34fad3d3",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "À 14 ans, elle creuse une mare à la pelle pour l’école : 9 ans plus tard, des animaux s’y sont installés seuls",
+			"url": "https://www.futura-sciences.com/maison/actualites/jardin-14-ans-elle-creuse-mare-pelle-ecole-9-ans-plus-tard-animaux-y-sont-installes-seuls-g6r7-139502/#xtor%3DRSS-8",
+			"publie_le": "2026-11-22T07:00:00.000Z",
+			"resume": "À la place d’une simple pelouse, Maggie Johnson et sa famille entendent aujourd’hui le coassement des grenouilles. Pourquoi ces amphibiens sont-ils dignes d'intérêt ? Spoiler : parce qu’ils ont besoin des mares pour le développement de leurs larves. C'est là que l'histoire prend tout son sens…",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-une-96ec987f",
+			"source_id": "lemonde-une",
+			"media": "Le Monde",
+			"titre": "« Ça envoie quand même sévère » : la France où l’on catche, vue par le photographe Aurélien Hatt",
+			"url": "https://www.lemonde.fr/m-le-mag/article/2026/11/22/ca-envoie-quand-meme-severe-la-france-ou-l-on-catche-vue-par-le-photographe-aurelien-hatt_6814192_4500055.html",
+			"publie_le": "2026-11-22T06:30:05.000Z",
+			"resume": "Ils se font appeler La Sainte-Barbe, Jack Sans-Nom ou encore Les Enfants terribles et ils incarnent la nouvelle vague du catch français. Des Côtes-d’Armor à l’Hérault, le photographe Aurélien Hatt s’est posté aux abords des rings pour saisir les visages de cette étrange discipline, mi-spectacle exutoire, mi-sport de combat.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-e3fce8f1",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "\"Au début, on ne sait pas ce qu'est ce virus\" : l'affaire du sang contaminé ou la lente prise de conscience de la dangerosité du sida",
+			"url": "https://www.franceinfo.fr/sante/sida/video-au-debut-on-ne-sait-pas-ce-qu-est-ce-virus-l-affaire-du-sang-contamine-ou-la-lente-prise-de-conscience-de-la-dangerosite-du-sida_8270939.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-22T06:15:27.000Z",
+			"resume": "\"La Tragédie du sang contaminé\", série documentaire en trois volets, diffusée dimanche soir sur France 5, nous replonge dans la douloureuse affaire du sang contaminé. Des milliers de personnes ont été infectées par le VIH dans les années 1980.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-94299650",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "Bernard Minier : «Une putain d’histoire» sans fin à Glass Island",
+			"url": "https://www.liberation.fr/culture/livres/bernard-minier-une-putain-dhistoire-sans-fin-a-glass-island-20261122_4JADDDOWMFDLNI6STGSKKPJ24M/",
+			"publie_le": "2026-11-22T06:14:00.000Z",
+			"resume": "L’auteur français propose une édition collector de son roman, complétée par une longue nouvelle inédite qui vient clore l’intrigue.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-3e761fcf",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Trois jours après la rencontre Trump-Xi-Poutine, les Britanniques réaffirment leur soutien à l'Ukraine",
+			"url": "https://www.rfi.fr/fr/europe/20261122-trois-jours-apr%C3%A8s-la-rencontre-trump-xi-poutine-les-britanniques-r%C3%A9affirment-leur-soutien-%C3%A0-l-ukraine",
+			"publie_le": "2026-11-22T06:12:47.000Z",
+			"resume": "Le secrétaire d'État britannique à la Défense, Wes Streeting, était à Kiev samedi 21 novembre. Il y a rencontré Volodymyr Zelensky afin de montrer que l'Europe était toujours unie dans son soutien à l'Ukraine, quelques jours après une « déclaration de paix » lors de la rencontre trilatérale entre Vladimir Poutine, Xi Jinping et Donald Trump en Chine, jugée peu crédible par l'Ukraine.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-7802f0a1",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "AirExplore, AlbaStar, Fly4 : trois arrêts de vols dans le charter et l’ACMI en Europe",
+			"url": "https://www.air-journal.fr/2026-11-22-airexplore-albastar-fly4-trois-arrets-de-vols-dans-le-charter-et-lacmi-en-europe-5279246.html",
+			"publie_le": "2026-11-22T06:00:47.000Z",
+			"resume": "En quelques jours, la compagnie slovaque AirExplore a cessé de voler, l’espagnole AlbaStar a suspendu ses opérations et la justice irlandaise a nommé des liquidateurs provisoires pour Fly4 Airlines, dont les avions étaient déjà au sol. Ces trois opérateurs fournissaient notamment des avions et des équipages à d’autres compagnies aériennes. Leurs difficultés s’ajoutent à l’arrêt […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "guardian-monde-a0149a11",
+			"source_id": "guardian-monde",
+			"media": "The Guardian (Monde)",
+			"titre": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
+			"url": "https://www.theguardian.com/world/2026/nov/22/military-ai-event-berlin-kraftwerk-arts-complex",
+			"publie_le": "2026-11-22T06:00:21.000Z",
+			"resume": "Kraftwerk Berlin, part of same development as techno club Tresor, transformed into ‘war room’ for arms firm event With their cavernous post-industrial venues, teeth-grinding four-by-four beats and bouncers that look like Blade Runner extras, Berlin’s nightclubs trade on a reputation for bleakness. A recent event at one of the city’s most legendary clubland institutions, however, has proven too dy…",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "guardian-monde-96eef950",
+			"source_id": "guardian-monde",
+			"media": "The Guardian (Monde)",
+			"titre": "Europe is entering a ‘supercycle’ of national elections. Their outcomes could shake the EU’s foundations",
+			"url": "https://www.theguardian.com/world/2026/nov/22/europe-elections-supercycle-could-shake-eu-foundations",
+			"publie_le": "2026-11-22T06:00:18.000Z",
+			"resume": "As nationalist, Eurosceptic parties surge in four of the bloc’s biggest member states, the coming year’s polls could test its resilience like never before In late 1998, Tony Blair was prime minister of Britain, Lionel Jospin was prime minister of France, and Gerhard Schröder had just been elected chancellor of Germany. The EU had 15 member states and pro-European, centre-left parties were in powe…",
+			"langue": "en",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-bf2f86f6",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "« Bientôt l’écologie sera une évidence » : Jean Jalbert, l’homme qui veut rendre la terre à la mer",
+			"url": "https://www.la-croix.com/planete/bientot-l-ecologie-sera-une-evidence-jean-jalbert-lhomme-qui-veut-rendre-la-terre-a-la-mer-20261120",
+			"publie_le": "2026-11-22T06:00:03.000Z",
+			"resume": "L’ingénieur agronome a fait de la préservation des zones humides le combat d’une vie, quitte à y laisser des plumes. À l’approche de la retraite, l’infatigable sexagénaire entend convaincre de repenser notre manière de cohabiter avec la nature, alors que la montée des eaux devient inéluctable.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-une-c4e74322",
+			"source_id": "lemonde-une",
+			"media": "Le Monde",
+			"titre": "En Colombie, dix ans après la signature de l’accord historique, le bilan amer de la paix avec les FARC",
+			"url": "https://www.lemonde.fr/international/article/2026/11/22/en-colombie-dix-ans-apres-la-signature-de-l-accord-historique-le-bilan-amer-de-la-paix-avec-les-farc_6814189_3210.html",
+			"publie_le": "2026-11-22T05:30:37.000Z",
+			"resume": "Signé en 2016, le texte dessinait un projet ambitieux de transformation du pays, mêlant mesures de réparation aux victimes, redistribution des terres et retour des guérilleros à la vie civile. Aujourd’hui, en plus de résultats décevants, la mise en œuvre de celui-ci pourrait pâtir des décisions du nouveau gouvernement d’extrême droite dans un contexte de recrudescence des violences.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-culture-a5be4958",
+			"source_id": "lemonde-culture",
+			"media": "Le Monde (Culture)",
+			"titre": "« Deux tableaux matin, midi et soir, un opéra par mois » : la culture peut-elle nous soigner ?",
+			"url": "https://www.lemonde.fr/culture/article/2026/11/22/deux-tableaux-matin-midi-et-soir-un-opera-par-mois-la-culture-peut-elle-nous-soigner_6814182_3246.html",
+			"publie_le": "2026-11-22T05:25:09.000Z",
+			"resume": "La pandémie de Covid-19 et la question des besoins essentiels ont accentué une prise de conscience sociétale et multiplié les initiatives visant à utiliser l’art, la musique, le théâtre comme vecteurs de soin.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-ace03a84",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "Il fait tellement chaud et sec sur Terre que même les cactus commencent à disparaître : les prévisions des scientifiques pour 2100 sont alarmantes",
+			"url": "https://www.futura-sciences.com/planete/actualites/plante-il-fait-tellement-chaud-sec-terre-meme-cactus-commencent-disparaitre-previsions-scientifiques-2100-sont-alarmantes-139498/#xtor%3DRSS-8",
+			"publie_le": "2026-11-22T05:21:46.000Z",
+			"resume": "Symboles de résistance à la chaleur et à la sécheresse, les cactus semblent capables de survivre là où presque aucune autre plante ne prospère. Pourtant, même ces champions de l'adaptation atteignent aujourd'hui leurs limites. Une nouvelle étude révèle une menace bien plus importante qu'on ne...",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "nasa-9884dabb",
+			"source_id": "nasa",
+			"media": "NASA",
+			"titre": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+			"url": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+			"publie_le": "2026-11-22T05:05:00.000Z",
+			"resume": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors […]",
+			"langue": "en",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-politique-ee4041fa",
+			"source_id": "franceinfo-politique",
+			"media": "franceinfo (Politique)",
+			"titre": "INFO FRANCEINFO. Sommet Choose France-Édition France : l'entreprise Blanc Aéro Industries doit investir 39 millions d'euros dans le pays",
+			"url": "https://www.franceinfo.fr/economie/info-france-info-sommet-choose-france-edition-france-l-entreprise-blanc-aero-industries-doit-investir-39-millions-d-euros-dans-le-pays_8294021.html#xtor=RSS-3-%5Bpolitique%5D",
+			"publie_le": "2026-11-22T05:00:04.000Z",
+			"resume": "Cette annonce intervient à l'occasion d'un sommet Choose France, qui s'ouvre lundi à la Cité internationale universitaire de Paris. Cette \"édition France\" réunira plus de 250 entreprises qui ont investi dans l'Hexagone.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-67770a5c",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "\"Un bon petit soldat\" : Stéphane Brizé pointe un monde du travail atteint de schizophrénie dans une farce tragique",
+			"url": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/un-bon-petit-soldat-stephane-brize-pointe-un-monde-du-travail-atteint-de-schizophrenie-dans-une-farce-tragique_8286950.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-22T05:00:03.000Z",
+			"resume": "Stéphane Brizé ajoute un chapitre à son exploration cinématographique du monde du travail en mettant en scène Vincent Lindon dans la peau d'un patron cynique et Alba Rohrwacher dans celle du bon petit soldat.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-c74513e8",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "\"Paper Tiger\", le thriller crépusculaire de James Gray",
+			"url": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/paper-tiger-le-thriller-crepusculaire-de-james-gray_8284889.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-22T05:00:02.000Z",
+			"resume": "Le neuvième long-métrage du cinéaste américain est un western urbain étouffant, porté par une distribution inspirée. Un air de déjà-vu.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-5278d382",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Mali: des jihadistes du JNIM attaquent l’armée et ses supplétifs dans la région de Ségou",
+			"url": "https://www.rfi.fr/fr/afrique/20261122-mali-des-jihadistes-du-jnim-attaquent-l-arm%C3%A9e-et-ses-suppl%C3%A9tifs-dans-la-r%C3%A9gion-de-s%C3%A9gou",
+			"publie_le": "2026-11-22T04:06:48.000Z",
+			"resume": "Au moins deux positions de l’armée malienne et de ses partenaires russes d’Africa Corps ont été attaquées samedi 21 novembre 2026 dans le centre du pays. Le groupe de soutien à l’islam et aux musulmans (Jnim) a revendiqué ces attaques qui ont fait plusieurs victimes dans les rangs de l’armée.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-culture-940e5b27",
+			"source_id": "lemonde-culture",
+			"media": "Le Monde (Culture)",
+			"titre": "Jordi Savall, chef d’orchestre : « Ma quête, c’est la recherche de la nuance et de l’émotion, pas de la perfection »",
+			"url": "https://www.lemonde.fr/culture/article/2026/11/22/jordi-savall-chef-d-orchestre-ma-quete-c-est-la-recherche-de-la-nuance-et-de-l-emotion-pas-de-la-perfection_6814141_3246.html",
+			"publie_le": "2026-11-22T04:00:14.000Z",
+			"resume": "« Je ne serais pas arrivé là si… » Chaque semaine, « Le Monde » interroge une personnalité sur un moment décisif de son existence. Le musicien se souvient du choc ressenti en écoutant la première fois le « Requiem » de Mozart.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-culture-757e5c1f",
+			"source_id": "lemonde-culture",
+			"media": "Le Monde (Culture)",
+			"titre": "Nos conseils de documentaires à voir en replay : Emile Zola, « GTA VI », bombe de pluie…",
+			"url": "https://www.lemonde.fr/culture/article/2026/11/22/nos-conseils-de-documentaires-a-voir-en-replay-emile-zola-gta-vi-bombe-de-pluie_6814108_3246.html",
+			"publie_le": "2026-11-22T03:30:10.000Z",
+			"resume": "Pour La Matinale, les journalistes Culture du « Monde » vous proposent une sélection de documentaires à (re)voir en différé. Aujourd’hui, le photographe Zola, le phénomène « GTA », une élite en résistance et des tempêtes hors de contrôle.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "guardian-monde-a6ca28df",
+			"source_id": "guardian-monde",
+			"media": "The Guardian (Monde)",
+			"titre": "‘No time for a culture war’: Victoria’s electricity supply is at risk. Can it avoid power shortages and bill shocks?",
+			"url": "https://www.theguardian.com/australia-news/2026/nov/22/victoria-election-2026-what-are-parties-promising-energy-policy",
+			"publie_le": "2026-11-22T01:00:13.000Z",
+			"resume": "State faces electricity supply gap when Yallourn coal-fired power station closes in 2028 as experts warn neither Labor nor the Coalition has adequate plans Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Victoria’s electricity supply will be at risk when a major power plant shuts in 2028 and neither major party is offering a plan at this month’s state elect…",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "bbc-monde-67c31da8",
+			"source_id": "bbc-monde",
+			"media": "BBC News (Monde)",
+			"titre": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+			"url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
+			"publie_le": "2026-11-22T00:10:37.000Z",
+			"resume": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
+			"langue": "en",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-6db26c14",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Les interrogations soulevées par l'opération militaire française «Volia» en Ukraine",
+			"url": "https://www.rfi.fr/fr/podcasts/lignes-de-d%C3%A9fense/20261121-les-interrogations-soulev%C3%A9es-par-l-op%C3%A9ration-militaire-fran%C3%A7aise-volia-en-ukraine",
+			"publie_le": "2026-11-21T23:03:23.000Z",
+			"resume": "Les révélations de RFI, lundi 16 novembre, sur l'existence de l'opération Volia laissent planer certaines incertitudes… La présence de soldats français en Ukraine, des unités régulières non combattantes, soulève deux questions : celle du secret des opérations et celle de la cobelligérance.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-b0d16e78",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "Le 22 novembre 1910 dans le ciel : Pierre Marie et Delage en route vers Etampes",
+			"url": "https://www.air-journal.fr/2026-11-22-le-22-novembre-1910-dans-le-ciel-pierre-marie-et-delage-en-route-vers-etampes-5279260.html",
+			"publie_le": "2026-11-21T23:03:15.000Z",
+			"resume": "Histoire de l’aviation – 22 novembre 1910. À 10 h 30 précises, en ce mardi 22 novembre 1910, les terrains de Buc et de Vincennes voient partir simultanément deux pilotes pour réaliser un petit raid aérien en solitaire, avec la ville d’Etampes pour destination commune. Ces derniers étant les aviateurs de nationalité française Pierre Marie […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-f44dcf35",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Opposé à l'accueil de demandeurs d'asile, un second village anglais proclame son indépendance",
+			"url": "https://www.rfi.fr/fr/europe/20261121-oppos%C3%A9-%C3%A0-l-accueil-de-demandeurs-d-asile-un-second-village-anglais-proclame-son-ind%C3%A9pendance",
+			"publie_le": "2026-11-21T22:37:54.000Z",
+			"resume": "Dans le Suffolk, un village anglais a voté symboliquement pour quitter le Royaume-Uni. À Barnham, les habitants protestent contre un projet gouvernemental d'hébergement de demandeurs d'asile sur une ancienne base militaire.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "france24-62de0a56",
+			"source_id": "france24",
+			"media": "France 24",
+			"titre": "Conflit au Tigré: 700.000 déplacés suite aux affrontements en régions Somali et Oromia",
+			"url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261121-conflit-au-tigr%C3%A9-700-000-d%C3%A9plac%C3%A9s-suite-aux-affrontements-en-r%C3%A9gions-somali-et-oromia",
+			"publie_le": "2026-11-21T22:04:01.000Z",
+			"resume": "En Ethiopie près de 700.000 personnes ont été déplacées par des affrontements entre forces armées des régions Somali et de l'Oromia qui font rage depuis près d'un mois dans le sud de l'Éthiopie, a annoncé jeudi l'ONG britannique Islamic Relief. Mais alors que les combats font rage au Tigré, 5000 étudiants de cette région ont demandé au ministère de l’éducation d’être affectés à de nouvelles unive…",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-36196b6b",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Bahreïn accuse l'Iran d'avoir mené une frappe contre un de ses sites industriels",
+			"url": "https://www.rfi.fr/fr/moyen-orient/20261121-bahre%C3%AFn-accuse-l-iran-d-avoir-men%C3%A9-une-frappe-contre-un-de-ses-sites-industriels",
+			"publie_le": "2026-11-21T21:56:18.000Z",
+			"resume": "Une frappe iranienne a provoqué samedi 21 novembre un incendie sur un site industriel à Bahreïn, a annoncé le royaume, déjà ciblé par quatre attaques depuis mi-novembre, Téhéran affirmant riposter à des tirs américains, sur fond d'enlisement du conflit au Moyen-Orient.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-aa89a5df",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "L'Iran affirme que la Russie et la Chine s'opposent à un changement de sa doctrine nucléaire",
+			"url": "https://www.rfi.fr/fr/moyen-orient/20261121-l-iran-affirme-que-la-russie-et-la-chine-s-opposent-%C3%A0-un-changement-de-sa-doctrine-nucl%C3%A9aire",
+			"publie_le": "2026-11-21T21:51:55.000Z",
+			"resume": "Le ministère iranien des Affaires étrangères, Abbas Araghchi, a déclaré que la Russie et la Chine rejetaient un changement dans la doctrine nucléaire du pays, alors que des voix s'élèvent en interne en faveur d'une réorientation, a rapporté un média d'État.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-39780882",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "Jean Gabin, résistant durant la Seconde Guerre mondiale, honoré par la Marine française",
+			"url": "https://www.franceinfo.fr/societe/seconde-guerre-mondiale/jean-gabin-resistant-durant-la-seconde-guerre-mondiale-honore-par-la-marine-francaise_8294150.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T21:51:12.000Z",
+			"resume": "À Royan, une flottille de réserve de la Marine nationale a pris le nom de Jean Moncorgé, le patronyme officiel de Jean Gabin, ce samedi 21 novembre. L'acteur fut également un fusilier marin et un libérateur, un engagement qui l’emmena jusqu’au nid d’aigle de Berchtesgaden d’Adolf Hitler. Récit.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-une-d97adf7a",
+			"source_id": "lemonde-une",
+			"media": "Le Monde",
+			"titre": "Fuites de Beauvau vers le RN : d’un email trouvé au domicile de Frédéric Chatillon aux suspicions visant le préfet Hugues Moutouh, itinéraire d’une enquête sensible",
+			"url": "https://www.lemonde.fr/societe/article/2026/11/21/fuites-de-beauvau-vers-le-rn-d-un-email-trouve-au-domicile-d-un-ami-de-marine-le-pen-aux-suspicions-visant-le-prefet-moutouh-itineraire-d-une-enquete-sensible_6814067_3224.html",
+			"publie_le": "2026-11-21T21:00:02.000Z",
+			"resume": "Selon les informations du « Monde », les investigations sur les fuites d’informations confidentielles vers le RN ont été déclenchées après la découverte d’un courriel d’une fonctionnaire du ministère de l’intérieur au domicile à Rome de Frédéric Chatillon, un proche de Marine Le Pen. Le préfet de la région Centre-Val de Loire, soupçonné d’être la source du parti d’extrême droite, a demandé samedi…",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-32759a16",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Présidentielle 2027: la stratégie d'Éric Zemmour pour retrouver de l'élan",
+			"url": "https://www.rfi.fr/fr/france/20261121-pr%C3%A9sidentielle-2027-la-strat%C3%A9gie-d-%C3%A9ric-zemmour-pour-retrouver-de-l-%C3%A9lan",
+			"publie_le": "2026-11-21T20:42:34.000Z",
+			"resume": "Officiellement candidat depuis 10 jours, le candidat d’extrême droite Éric Zemmour a lancé sa campagne avec un meeting à Toulon ce samedi 21 novembre. Proche des 5 % dans les sondages, l’ancien journaliste repart de loin. Outre un appel à une « primaire de droite », Éric Zemmour opte aussi pour une stratégie différente d’il y a cinq ans pour retrouver de l'élan.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "france24-74400782",
+			"source_id": "france24",
+			"media": "France 24",
+			"titre": "En Israël, Gadi Eisenkot invite le parti de Benjamin Netanyahu à des négociations de coalition",
+			"url": "https://www.france24.com/fr/moyen-orient/20261121-isra%C3%ABl-gadi-eisenkot-invite-le-parti-de-benjamin-netanyahu-%C3%A0-des-n%C3%A9gociations-de-coalition",
+			"publie_le": "2026-11-21T20:29:02.000Z",
+			"resume": "Le centriste Gadi Eisenkot, chargé de former le prochain gouvernement israélien, a invité le parti du premier ministre sortant Benyamin Netanyahu à des pourparlers en vue d’une éventuelle coalition, a annoncé, samedi, son parti.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "guardian-monde-3500af30",
+			"source_id": "guardian-monde",
+			"media": "The Guardian (Monde)",
+			"titre": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+			"url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+			"publie_le": "2026-11-21T20:15:57.000Z",
+			"resume": "Anthropic’s Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has said that the San Francisco -based artificial intelligence (AI) company’s software has helped crack one of the most important unsolved problems in mathematics – and experts say the claim checks out. Levent Alpöge, a Turkish American mathematician, on…",
+			"langue": "en",
+			"rubrique_suggeree": "ia",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-dc5cf063",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "Et si les ondes gravitationnelles permettaient de découvrir des planètes invisibles ?",
+			"url": "https://www.futura-sciences.com/sciences/actualites/exoplanete-si-ondes-gravitationnelles-permettaient-decouvrir-planetes-invisibles-139425/#xtor%3DRSS-8",
+			"publie_le": "2026-11-21T20:03:39.000Z",
+			"resume": "Depuis une décennie, les ondes gravitationnelles nous révèlent les secrets des trous noirs et des étoiles à neutrons. Mais elles pourraient bientôt nous ouvrir les portes d'un univers insoupçonné, peuplé de planètes encore inconnues. Des chercheurs proposent une méthode étonnante pour les...",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-d9751a4b",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "«On nous chie dessus, on ne nous écoute pas» : à Lyon, plusieurs milliers de personnes ont défilé",
+			"url": "https://www.liberation.fr/societe/on-nous-chie-dessus-on-ne-nous-ecoute-pas-a-lyon-plusieurs-milliers-de-personnes-ont-defile-20261121_MJTNCCB6TJDPZC6UCJ6IYDGDDE/",
+			"publie_le": "2026-11-21T19:31:34.000Z",
+			"resume": "Pour l’acte VI de la mobilisation contre la vie chère, plus de 4000 personnes ont déambulé dans la préfecture du Rhône, malgré l’interdiction de manifester qui concernait une large partie du centre-ville. Dans les cortèges, beaucoup se montrent inquiets quant à un tournant autoritaire du gouvernement.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "numerama-12dcd7d5",
+			"source_id": "numerama",
+			"media": "Numerama",
+			"titre": "Solution aux satellites fantômes, échec de la fusée Vulcan Centaur, nouvelle navette spatiale – le récap’ sciences de la semaine",
+			"url": "https://www.numerama.com/sciences/2380261-solution-aux-satellites-fantomes-echec-de-la-fusee-vulcan-centaur-nouvelle-navette-spatiale-le-recap-sciences-de-la-semaine.html",
+			"publie_le": "2026-11-21T19:15:00.000Z",
+			"resume": "Foundational Space a validé un mini-miroir permettant de localiser des satellites en panne. L'échec de la fusée Vulcan Centaur pourrait avoir des implications pour d'autres fusées américaines. La navette spatiale Dream Chaser vient d'obtenir le feu vert pour atterrir en Californie. C'est l'heure du récap' scientifique de la semaine sur Numerama !",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-2fca04bb",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "« Pendant plusieurs heures, parfois toute la journée » : à 28 ans, il voit son chat prendre un visage humain et les humains ressembler à son chat !",
+			"url": "https://www.futura-sciences.com/sante/actualites/cerveau-pendant-plusieurs-heures-parfois-toute-journee-28-ans-il-voit-son-chat-prendre-visage-humain-humains-ressembler-son-chat-139484/#xtor%3DRSS-8",
+			"publie_le": "2026-11-21T19:07:08.000Z",
+			"resume": "Après une opération du cerveau, un Américain s’est mis à voir son chat Luna sur les visages des personnes qu’il croisait au cours de la journée et à voir le visage de la première personne qu’il voyait dans la journée sur celui de Luna. Ces expériences troublantes ont duré deux ans.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-politique-ee279df6",
+			"source_id": "franceinfo-politique",
+			"media": "franceinfo (Politique)",
+			"titre": "Le préfet Hugues Moutouh, soupçonné d'avoir transmis des informations confidentielles au RN, demande à être relevé de ses fonctions",
+			"url": "https://www.franceinfo.fr/politique/front-national/le-prefet-hugues-moutouh-soupconne-d-avoir-transmis-au-rn-des-informations-confidentielles-sur-des-enquetes-visant-le-parti-demande-a-etre-releve-de-ses-fonctions_8294069.html#xtor=RSS-3-%5Bpolitique%5D",
+			"publie_le": "2026-11-21T18:40:48.000Z",
+			"resume": "\"Je refuse que l’Etat, le ministère de l'Intérieur et le corps préfectoral deviennent les cibles ou les instruments de ces entreprises de déstabilisation\", a déclaré samedi le haut fonctionnaire dans un communiqué.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "humanite-dc709154",
+			"source_id": "humanite",
+			"media": "L'Humanité",
+			"titre": "Présidentielle 2027 : François Ruffin renonce à sa candidature",
+			"url": "https://www.humanite.fr/politique/election-presidentielle/presidentielle-2027-francois-ruffin-renonce-a-sa-candidature",
+			"publie_le": "2026-11-21T18:16:40.000Z",
+			"resume": "François Ruffin a annoncé samedi qu’il retirait sa candidature à l’élection présidentielle, prenant acte de « l’impasse » de sa campagne, faute d’avoir réussi à imposer l’organisation d’une « grande Primaire » de toute la gauche.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-politique-5bc1af8d",
+			"source_id": "franceinfo-politique",
+			"media": "franceinfo (Politique)",
+			"titre": "Nouvelle réunion jeudi prochain entre les directeurs de campagne de Gabriel Attal, Bruno Retailleau et David Lisnard pour une primaire de la droite et du centre",
+			"url": "https://www.franceinfo.fr/politique/nouvelle-reunion-jeudi-prochain-entre-les-directeurs-de-campagne-de-gabriel-attal-bruno-retailleau-et-david-lisnard-pour-une-primaire-de-la-droite-et-du-centre_8294057.html#xtor=RSS-3-%5Bpolitique%5D",
+			"publie_le": "2026-11-21T18:03:26.000Z",
+			"resume": "Les équipes de campagnes des trois candidats continuent de travailler ensemble sur les modalités de la primaire de la droite et du centre.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-f9cb3723",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Présidentielle 2027: François Ruffin jette l'éponge, faute de primaire de toute la gauche",
+			"url": "https://www.rfi.fr/fr/france/20261121-pr%C3%A9sidentielle-2027-fran%C3%A7ois-ruffin-jette-l-%C3%A9ponge-faute-de-primaire-de-toute-la-gauche",
+			"publie_le": "2026-11-21T18:00:47.000Z",
+			"resume": "François Ruffin a annoncé samedi 21 novembre qu'il retirait sa candidature à l'élection présidentielle, prenant acte de « l'impasse » de sa campagne faute d'avoir réussi à imposer l'organisation d'une « grande primaire » de toute la gauche.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-une-1d629bc7",
+			"source_id": "franceinfo-une",
+			"media": "franceinfo",
+			"titre": "François Ruffin retire sa candidature à l'élection présidentielle et souhaite \"bonne campagne\" aux \"candidats de gauche encore en lice\"",
+			"url": "https://www.franceinfo.fr/elections/francois-ruffin-retire-sa-candidature-a-l-election-presidentielle-et-souhaite-bonne-campagne-aux-candidats-de-gauche-encore-en-lice_8294003.html#xtor=RSS-3-[lestitres]",
+			"publie_le": "2026-11-21T17:56:33.000Z",
+			"resume": "Dans un communiqué posté sur le réseau social X, le député a déclaré samedi qu'il prenait \"acte de l'impasse\" de sa campagne, faute d'avoir réussi à imposer l'organisation d'une \"grande primaire\" de toute la gauche.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "guardian-monde-11a79bbc",
+			"source_id": "guardian-monde",
+			"media": "The Guardian (Monde)",
+			"titre": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+			"url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+			"publie_le": "2026-11-21T17:46:55.000Z",
+			"resume": "Fausto Isidro Meza Flores was one of FBI’s most wanted fugitives and evaded capture for more than a decade The Mexican military captured one of the FBI’s 10 most wanted fugitives during a special forces raid in the Mexican state of Sinaloa on Friday night. Fausto Isidro Meza Flores, known as “El Chapo Isidro”, was arrested along with two other alleged leaders of his gang after a gun battle that t…",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "humanite-89cf5a8f",
+			"source_id": "humanite",
+			"media": "L'Humanité",
+			"titre": "Mobilisations contre la vie chère : à Paris, malgré un essoufflement, les manifestants imaginent un renouveau des actions",
+			"url": "https://www.humanite.fr/social-et-economie/manifestation/acte-vi-des-mobilisations-a-paris-malgre-un-essoufflement-les-manifestants-imaginent-un-renouveau-des-actions",
+			"publie_le": "2026-11-21T17:45:03.000Z",
+			"resume": "Ce samedi 21 novembre, 150 000 personnes ont défilé lors du sixième acte des mobilisations contre la vie chère. À Paris, dans un cortège moins fourni que lors des précédentes semaines, les manifestants restent déterminés à faire entendre leurs revendications pour de meilleures conditions d’études et de vie, malgré l’indifférence du gouvernement.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "france24-cfd5c820",
+			"source_id": "france24",
+			"media": "France 24",
+			"titre": "Présidentielle 2027 : François Ruffin jette l'éponge face à \"l’impasse\" de sa campagne",
+			"url": "https://www.france24.com/fr/france/20261121-pr%C3%A9sidentielle-prenant-acte-de-l-impasse-de-sa-campagne-fran%C3%A7ois-ruffin-retire-sa-candidature",
+			"publie_le": "2026-11-21T17:37:20.000Z",
+			"resume": "À cinq mois de l’échéance, François Ruffin a annoncé, samedi, qu’il retirait sa candidature à l’élection présidentielle, prenant \"acte de l’impasse\" de sa campagne faute d’avoir réussi à imposer l’organisation d’une \"grande primaire\" de toute la gauche.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-c7f2a4c0",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "TeddyBear chante les médicaments qui aident à vivre",
+			"url": "https://www.franceinfo.fr/replay-radio/ces-chansons-qui-font-l-actu/teddybear-chante-les-medicaments-qui-aident-a-vivre_8271701.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T17:30:01.000Z",
+			"resume": "Dans \"Les Monstres\", un titre de son premier album, qui vient de sortir, le chanteur belge évoque les pilules et cachets qui aident à affronter les peurs et les angoisses de chacun. Il ajoute à une tradition abondante...",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-9191faef",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "Écosse : un Français qui voulait s'assoir sur une relique royale ancestrale exposée à Perth plaide coupable pour des faits de dégradation volontaire",
+			"url": "https://www.franceinfo.fr/culture/patrimoine/ecosse-un-francais-qui-voulait-s-assoir-sur-une-relique-royale-ancestrale-exposee-a-perth-plaide-coupable-pour-des-faits-de-degradation-volontaire_8293961.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T17:18:07.000Z",
+			"resume": "En 2025, cet homme de 36 ans avait attaqué à coups de marteau une vitrine contenant la \"Pierre du Destin\", un bloc de grès utilisé lors du couronnement des rois en Écosse. Il sera fixé sur son sort le 6 janvier.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-c7f3d1c7",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "Présidentielle 2027 : prenant acte d’une «impasse», François Ruffin retire sa candidature",
+			"url": "https://www.liberation.fr/politique/elections/presidentielle-2027-francois-ruffin-retire-sa-candidature-20261121_KUCTZ27WZFBDRP62V22OJEAVBY/",
+			"publie_le": "2026-11-21T17:13:19.000Z",
+			"resume": "Le député de la Somme, en rupture avec La France insoumise, a annoncé renoncer à l’élection présidentielle, ce samedi 21 novembre, face au risque de voir le RN prendre le pouvoir. Il n’apporte son soutien à aucun candidat.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-09ee5661",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "\"Eldorado\" : l'affaire des avions renifleurs en série",
+			"url": "https://www.franceinfo.fr/replay-radio/l-empire-des-series/eldorado-l-affaire-des-avions-renifleurs-en-serie_8271734.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T17:05:03.000Z",
+			"resume": "Retour à la période de la crise pétrolière avec cette nouvelle série, \"Eldorado\", qui raconte avec verve le scandale politico-financier des avions renifleurs. La série est disponible sur arte.tv",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "france24-8efbb357",
+			"source_id": "france24",
+			"media": "France 24",
+			"titre": "Guerre en Ukraine : deux personnes tuées à Kryvyï Rih",
+			"url": "https://www.france24.com/fr/vid%C3%A9o/20261121-guerre-en-ukraine-deux-personnes-tu%C3%A9es-%C3%A0-kryvy%C3%AF-rih",
+			"publie_le": "2026-11-21T17:04:30.000Z",
+			"resume": "La Russie a ⁠de nouveau frappé ​dans la nuit de vendredi à samedi 21 novembre des cibles civiles dans la ville industrielle de Kryvyï Rih, ville natale du président Volodymyr Zelensky, où au moins deux personnes ont été tuées, dont un garçon de sept ans.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-culture-6f8db3d3",
+			"source_id": "lemonde-culture",
+			"media": "Le Monde (Culture)",
+			"titre": "Dans « Somnole » et « Muette », le chorégraphe Boris Charmatz met son corps à l’épreuve",
+			"url": "https://www.lemonde.fr/culture/article/2026/11/21/dans-somnole-et-muette-le-choregraphe-boris-charmatz-met-son-corps-a-l-epreuve_6814048_3246.html",
+			"publie_le": "2026-11-21T17:00:09.000Z",
+			"resume": "Le danseur interprète en tournée ses deux solos où il poursuit son étude de l’anatomie humaine.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-55b2c044",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "GTA VI : pourquoi la disparition des jeux vidéo sur disque inquiète les joueurs",
+			"url": "https://www.franceinfo.fr/replay-radio/nouveau-monde/gta-vi-pourquoi-la-disparition-des-jeux-video-sur-disque-inquiete-les-joueurs_8271692.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T17:00:02.000Z",
+			"resume": "Avec la sortie très attendue de GTA VI, un nouveau débat agite les joueurs : même en achetant le jeu en boîte, ils n’y trouvent aucun disque, mais un simple code de téléchargement. Un changement de modèle qui pose plusieurs questions, notamment sur les prix, la revente et la propriété des jeux vidéo.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "humanite-c1eecf72",
+			"source_id": "humanite",
+			"media": "L'Humanité",
+			"titre": "En Équateur, Jorge Glas risque de mourir sous les coups de la dictature de Daniel Noboa et le silence de la communauté internationale",
+			"url": "https://www.humanite.fr/en-debat/amerique-latine/en-equateur-jorge-glas-risque-de-mourir-sous-les-coups-de-la-dictature-de-daniel-noboa-et-le-silence-de-la-communaute-internationale",
+			"publie_le": "2026-11-21T17:00:00.000Z",
+			"resume": "Engeôlé depuis deux ans par un gouvernement lancé dans une dérive autoritaire, l’ancien vice-président de l’Équateur serait « en danger de mort », selon son avocate. Membre du Comité international soutenant sa libération, Sacha Sergio Llorenti dénonce le rôle complice d’une « communauté internationale » trop silencieuse.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "aerobuzz-c898440b",
+			"source_id": "aerobuzz",
+			"media": "Aerobuzz",
+			"titre": "Tassili Travail Aérien a reçu ses deux Cessna SkyCourier évasan",
+			"url": "https://www.aerobuzz.fr/aviation-generale/tassili-travail-aerien-a-recu-ses-deux-cessna-skycourier-evasan/",
+			"publie_le": "2026-11-21T17:00:00.000Z",
+			"resume": "Cessna a livré les deux SkyCourier de Tassili Travail Aérien. Ces appareils sont doublement remarquables pour Textron. En effet, non seulement ce sont les deux premiers SkyCourier africains, mais il inaugurent aussi la configuration médicale du bimoteur. Les deux SkyCourier de Tassili Travail Aérien, commandés l’an dernier, sont désormais opérationnels. Immatriculés 7T-VIC et 7T-VID, ils L’articl…",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-39f2600c",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "Tesla franchit une nouvelle étape avec Optimus : la production des premiers robots humanoïdes a débuté",
+			"url": "https://www.futura-sciences.com/tech/actualites/robot-humanoide-tesla-franchit-nouvelle-etape-optimus-production-premiers-robots-humanoides-debute-k8p9-139434/#xtor%3DRSS-8",
+			"publie_le": "2026-11-21T17:00:00.000Z",
+			"resume": "Tesla a officiellement lancé la production de son robot humanoïde Optimus dans son usine de Fremont. Les premières livraisons aux clients sont annoncées pour fin 2027. Derrière cette promesse, une ambition industrielle vertigineuse : un million de robots par an à terme.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "rfi-e3e9a63a",
+			"source_id": "rfi",
+			"media": "RFI",
+			"titre": "Le Mexique arrête le baron de la drogue «Chapo Isidro» recherché par le FBI",
+			"url": "https://www.rfi.fr/fr/am%C3%A9riques/20261121-le-mexique-arr%C3%AAte-le-baron-de-la-drogue-chapo-isidro-recherch%C3%A9-par-le-fbi",
+			"publie_le": "2026-11-21T16:42:43.000Z",
+			"resume": "Le Mexique a arrêté vendredi 20 novembre un baron de la drogue, Fausto Isidro Meza, alias « Chapo Isidro », un des 10 criminels en fuite les plus recherchés par le FBI, une interpellation qui a déclenché de violents affrontements dans l'État de Sinaloa, dans le nord-ouest du pays, où il opérait. Quatre militaires et sept criminels présumés ont été tués lors de l'opération, ont annoncé les autorit…",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-f7cefbd9",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "«La guerre s’étend jusqu’à nos portes» : un drone ukrainien frappe un cargo russe dans le golfe de Finlande",
+			"url": "https://www.liberation.fr/international/europe/la-guerre-setend-jusqua-nos-portes-une-attaque-de-drone-detectee-contre-un-cargo-russe-dans-le-golfe-de-finlande-20261121_IBIBYATSGVC5TKHIW7MAULCT5U/",
+			"publie_le": "2026-11-21T16:42:05.000Z",
+			"resume": "Le ministère de la Défense finlandais a détecté l’incident ce samedi 21 novembre. Un porte-parole a confirmé une attaque ukrainienne contre le navire.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "guardian-monde-158994b8",
+			"source_id": "guardian-monde",
+			"media": "The Guardian (Monde)",
+			"titre": "International UN talks on controlling use of autonomous weapons collapse",
+			"url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+			"publie_le": "2026-11-21T16:36:11.000Z",
+			"resume": "Week-long efforts fail to establish negotiating mandate on AI warfare after Russian ‘filibustering’ Week-long efforts to agree a negotiating mandate for a legally binding international treaty to control the use of autonomous weapons collapsed just before 5am after all-night talks failed to overcome Russian objections. Despite an overwhelming majority of states at the UN’s Convention on Certain Co…",
+			"langue": "en",
+			"rubrique_suggeree": "ia",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-culture-08d2c82b",
+			"source_id": "lemonde-culture",
+			"media": "Le Monde (Culture)",
+			"titre": "« The Greatest », sur Prime Video : de Cassius Clay à Muhammad Ali, des Jeux olympiques de Rome au championnat du monde des poids lourds à Miami",
+			"url": "https://www.lemonde.fr/culture/article/2026/11/21/the-greatest-sur-prime-video-de-cassius-clay-a-muhammad-ali-des-jeux-olympiques-de-rome-au-championnat-du-monde-des-poids-lourds-a-miami_6814047_3246.html",
+			"publie_le": "2026-11-21T16:30:06.000Z",
+			"resume": "La fiction créée par Ben Watkins retrace avec rigueur l’ascension du jeune boxeur devenu porte-parole de sa communauté.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-1871a3fd",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "«Robots tueurs» : un accord trouvé à l’ONU, mais pas d’interdiction",
+			"url": "https://www.liberation.fr/international/robots-tueurs-un-accord-trouve-a-lonu-mais-pas-dinterdiction-20261121_5WLRNTYQY5GIZGCNZCFTCJVFZM/",
+			"publie_le": "2026-11-21T16:18:23.000Z",
+			"resume": "Après plusieurs jours de négociation, 128 Etats, rassemblés sous l’égide des Nations unies, sont tombés d’accord ce samedi 21 novembre sur un encadrement futur des armes autonomes. Mais la Russie, les Etats-Unis et Israël ont fait obstacle à toute prohibition.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-cb9211ec",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "Paolo Bulgari, le petit-fils du fondateur de la fameuse marque de joaillerie, est mort à l'âge de 89 ans",
+			"url": "https://www.franceinfo.fr/culture/mode/paolo-bulgari-le-petit-fils-du-fondateur-de-la-fameuse-marque-de-joaillerie-est-mort-a-l-age-de-89-ans_8293886.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T16:15:55.000Z",
+			"resume": "Le groupe de luxe LVMH, propriétaire de la marque, rend hommage à \"l'âme créative\" de cet expert en pierres précieuses aux commandes de l'entreprise familiale depuis 42 ans.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-3b4c86b4",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "Mélenchon chez Drouant : les petites «fake news» font les grandes manips, par Daniel Schneidermann",
+			"url": "https://www.liberation.fr/idees-et-debats/opinions/melenchon-chez-drouant-les-petites-fake-news-font-les-grandes-manips-par-daniel-schneidermann-20261121_KEIVC7K34ZDCXI5UGX3VWCNMQQ/",
+			"publie_le": "2026-11-21T16:13:58.000Z",
+			"resume": "Agapes gastronomiques, retweet d’un ministre de Poutine… les erreurs se multiplient sur BFM, bandeaux après bandeaux. Résultat ? Une campagne de calomnies contre le candidat insoumis, à l’efficacité douteuse.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-14918b1d",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "Prise après le repas, cette vitamine pourrait atténuer le risque de cancer associé aux charcuteries",
+			"url": "https://www.futura-sciences.com/sante/actualites/cancer-colorectal-prise-apres-repas-cette-vitamine-pourrait-attenuer-risque-cancer-associe-charcuteries-139482/#xtor%3DRSS-8",
+			"publie_le": "2026-11-21T16:07:23.000Z",
+			"resume": "Et si une vitamine bien connue pouvait contribuer à limiter les effets potentiellement cancérigènes de ce que nous mangeons ? Des chercheurs viennent de mettre en évidence un mécanisme étonnant : prise au bon moment, elle pourrait freiner la formation de substances toxiques issues des nitrates...",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "numerama-935dbf04",
+			"source_id": "numerama",
+			"media": "Numerama",
+			"titre": "Robots tueurs autonomes : ce que les armées délèguent vraiment aux machines",
+			"url": "https://www.numerama.com/tech/2379739-robots-tueurs-autonomes-ou-en-sommes-nous-vraiment.html",
+			"publie_le": "2026-11-21T16:01:00.000Z",
+			"resume": "Du 16 au 20 novembre, l’ONU tient une conférence sur l’encadrement des armes autonomes. L’autonomie militaire existe déjà à toutes les étapes de la chaîne d’engagement : observation, identification, sélection et frappe des cibles. L’enjeu est de préserver le contrôle humain sur les décisions létales. L’automatisation accélère les opérations, mais augmente les risques d’erreur et de frappes illéga…",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "lemonde-culture-2b276774",
+			"source_id": "lemonde-culture",
+			"media": "Le Monde (Culture)",
+			"titre": "Quand Ninho et Koba LaD dévoilent les dessous du rap dans deux « documentaires-vérité »",
+			"url": "https://www.lemonde.fr/culture/article/2026/11/21/quand-ninho-et-koba-lad-devoilent-les-dessous-du-rap-dans-deux-documentaires-verite_6814043_3246.html",
+			"publie_le": "2026-11-21T16:00:10.000Z",
+			"resume": "Deux films, diffusés sur Netflix et Prime Video, promettent de tout révéler sur le parcours des deux artistes, des arnaques jusqu’aux démêlés judiciaires. Décryptage de deux formules à succès.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "humanite-0cf8f44a",
+			"source_id": "humanite",
+			"media": "L'Humanité",
+			"titre": "L’Europe et les pourparlers sur l’Ukraine",
+			"url": "https://www.humanite.fr/monde/la-chronique-de-francis-wurtz/leurope-et-les-pourparlers-sur-lukraine",
+			"publie_le": "2026-11-21T15:59:00.000Z",
+			"resume": "La nature a horreur du vide, la diplomatie aussi. À force de ne prendre aucune initiative significative en faveur de dialogues exploratoires avec la Russie sur les conditions d’un règlement du conflit et de l’établissement d’une paix durable en Ukraine, les dirigeants européens se sont condamnés à se mettre à la remorque des États-Unis. Sous l’égide…",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-politique-ed2bb2ae",
+			"source_id": "franceinfo-politique",
+			"media": "franceinfo (Politique)",
+			"titre": "Nombre de tirs, enquêtes, lien de confiance... Les questions que pose la loi sur la présomption d'usage légal des armes par les forces de l'ordre",
+			"url": "https://www.franceinfo.fr/faits-divers/police/nombre-de-tirs-enquetes-lien-de-confiance-les-questions-que-pose-la-loi-sur-la-presomption-d-usage-legal-des-armes-par-les-forces-de-l-ordre_8293529.html#xtor=RSS-3-%5Bpolitique%5D",
+			"publie_le": "2026-11-21T15:56:32.000Z",
+			"resume": "Les opposants à ce texte le jugent dangereux pour les droits fondamentaux. La gauche sénatoriale a annoncé qu'elle allait saisir le Conseil constitutionnel pour faire barrage à sa promulgation.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-4fbbf318",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "«Eldorado» sur Arte : gare aux trous d’air",
+			"url": "https://www.liberation.fr/culture/series/eldorado-sur-arte-gare-aux-trous-dair-20261121_CVTL66ONFVCENNKOJV6IPM2I64/",
+			"publie_le": "2026-11-21T15:56:00.000Z",
+			"resume": "La mini-série revient sur le scandale des renifleurs du milieu des années 70 en six épisodes relativement plaisants, quoiqu’un peu foutraques, qui sont surtout un épais morceau de «giscardpunk».",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-301b0f3d",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "\"Ce qui m'intéresse, c'est d'être avec des gens qui racontent des histoires\", confie Marc Lavoine",
+			"url": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/j-ai-toujours-ete-chanteur-acteur-c-est-quelque-chose-que-j-ai-appris-confie-marc-lavoine_8293829.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T15:54:48.000Z",
+			"resume": "L'emblématique chanteur Marc Lavoine revisite dans un nouvel album ses grands succès : \"Parking des Anges\", \"Pour une biguine avec toi\" ainsi que ses duos marquants, comme \"Qu'est-ce que t'es belle\" avec Catherine Ringer. Samedi 21 novembre, il s’est prêté à l’exercice du Tac au tac sur France 2.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "opex360-909abe8c",
+			"source_id": "opex360",
+			"media": "Zone Militaire (Opex360)",
+			"titre": "La France et le Royaume-Uni préparent une «feuille de route» pour développer le successeur du missile air-air METEOR",
+			"url": "https://www.opex360.com/2026/11/21/la-france-et-le-royaume-uni-preparent-une-feuille-de-route-pour-developper-le-successeur-du-missile-air-air-meteor/",
+			"publie_le": "2026-11-21T15:27:51.000Z",
+			"resume": "Pour contrer les capacités d’interdiction et de déni d’accès [A2/AD] adverses, l’une des solutions consiste à frapper de loin afin d’éviter de se mettre sous la menace de systèmes de défense aérienne dont la portée ne cesse d’augmenter. Aussi, aux États-Unis, au moins quatre projets de missiles air-air de type BVR [Beyond Visual Range –... Cet article La France et le Royaume-Uni préparent une «fe…",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-228b2a78",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "Larguée pour Dieu : dans la tête des « ex de prêtres »",
+			"url": "https://www.la-croix.com/a-vif/larguee-pour-dieu-dans-la-tete-des-ex-de-pretres-20261120",
+			"publie_le": "2026-11-21T15:14:21.000Z",
+			"resume": "À l’occasion des récentes découvertes paléographiques sur l’ancienne compagne de saint Augustin, prénommée Serena, Youna Rivallain a souhaité dans sa chronique CORPUS réfléchir aux « Serena » d’aujourd’hui : ces femmes que leur amoureux a quittées pour devenir prêtre ou religieux.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "liberation-cb25221f",
+			"source_id": "liberation",
+			"media": "Libération",
+			"titre": "Présidentielle 2027 : Sandrine Rousseau regrette le «truc anti-Mélenchon primaire» de Yannick Jadot",
+			"url": "https://www.liberation.fr/politique/elections/presidentielle-2027-sandrine-rousseau-regrette-le-truc-anti-melenchon-primaire-de-yannick-jadot-20261121_6PWK7EZ7OFFSFAR52LSPOJJBAM/",
+			"publie_le": "2026-11-21T15:13:55.000Z",
+			"resume": "La députée écologiste de Paris Sandrine Rousseau a estimé que la position anti-Mélenchon de Yannick Jadot illustrait une «impasse» à gauche, regrettant par ailleurs que le sénateur ait décidé de quitter le parti.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-f26582f2",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "\"Le cancer vous change \" : la princesse Kate partage son expérience de la maladie dans un documentaire très personnel intitulé \"Guérir\"",
+			"url": "https://www.franceinfo.fr/culture/cinema/documentaires/le-cancer-vous-change-la-princesse-kate-partage-son-experience-de-la-maladie-dans-un-documentaire-tres-personnel-intitule-guerir_8293802.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T15:11:59.000Z",
+			"resume": "En rémission depuis janvier 2025, l'épouse du prince William espère avec ce film aider d'autres personnes à traverser le diagnostic, la guérison et la vie après le cancer.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-7e914bd5",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "L'Antarctique abritait autrefois des montagnes grandes comme l'Himalaya : leur disparition pourrait éclairer l'explosion de la vie sur Terre",
+			"url": "https://www.futura-sciences.com/planete/actualites/terre-antarctique-abritait-autrefois-montagnes-grandes-comme-himalaya-leur-disparition-pourrait-eclairer-explosion-vie-terre-139489/#xtor%3DRSS-8",
+			"publie_le": "2026-11-21T15:08:47.000Z",
+			"resume": "Elles ont disparu depuis des centaines de millions d’années, mais leur empreinte pourrait encore se lire dans l’histoire de la vie sur Terre. Des chercheurs viennent de retrouver la trace d’immenses chaînes de montagnes formées lors de l’assemblage du supercontinent Gondwana. Leur érosion aurait...",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-0876e06d",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "À bord du Train d'or pour découvrir les plus beaux paysages de la Norvège",
+			"url": "https://www.franceinfo.fr/culture/a-bord-du-train-d-or-pour-decouvrir-les-plus-beaux-paysages-de-la-norvege_8293826.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T15:03:08.000Z",
+			"resume": "Direction la Norvège pour un circuit entre fjords et montagnes majestueuses. Pour contempler ces paysages scandinaves à couper le souffle, France Télévisions embarque à bord du Train d'or, qui vient rappeler un pan de l'histoire du pays pendant la seconde guerre mondiale.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-9a74b037",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "Moyen-Orient : l’EASA maintient ses recommandations de sécurité jusqu’au 31 janvier 2027",
+			"url": "https://www.air-journal.fr/2026-11-21-moyen-orient-leasa-maintient-ses-recommandations-de-securite-jusquau-31-janvier-2027-5279244.html",
+			"publie_le": "2026-11-21T15:00:09.000Z",
+			"resume": "L’Agence de l’Union européenne pour la sécurité aérienne (EASA) a prolongé jusqu’au 31 janvier 2027 six bulletins concernant des espaces aériens du Moyen-Orient. La mise à jour du 16 novembre ne change pas les recommandations et n’instaure pas d’interdiction générale de voler dans la région. Les programmes des compagnies aériennes restent toutefois très contrastés : […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-560853ea",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "Syndicats, jeunesse et gilets jaunes dans la rue pour le sixième samedi consécutif",
+			"url": "https://www.la-croix.com/syndicats-jeunesse-et-gilets-jaunes-dans-la-rue-pour-le-sixieme-samedi-consecutif-20261121",
+			"publie_le": "2026-11-21T14:52:59.000Z",
+			"resume": "Les manifestations des syndicats, organisations de jeunesse et gilets jaunes contre la vie chère et pour la défense des services publics se sont déroulées dans le calme jusqu’à a fin de l’après-midi, tout en affichant une participation en diminution.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "humanite-aa659d6d",
+			"source_id": "humanite",
+			"media": "L'Humanité",
+			"titre": "Guerre en Ukraine : pour le diplomate français Jean de Gliniasty, « L’Europe n’a pas d’objectif diplomatique et les Russes ne veulent pas vraiment négocier »",
+			"url": "https://www.humanite.fr/monde/chine/guerre-en-ukraine-pour-le-diplomate-francais-jean-de-gliniasty-leurope-na-pas-dobjectif-diplomatique-et-les-russes-ne-veulent-pas-vraiment-negocier",
+			"publie_le": "2026-11-21T14:39:49.000Z",
+			"resume": "Depuis le sommet à Abu Dhabi, entre Kiev, Moscou et Washington, les Européens ont été réinstallé dans les négociations pour permettre un dialogue sur l’après-guerre et la future architecture de sécurité. Cinq pays semblent faire partie des négociations – Allemagne, France, Italie, Pologne, Royaume-Uni - mais pour quoi faire s’interroge le diplomate Jean de Gliniasty.",
+			"langue": "fr",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-7797de06",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "Robots tueurs, l’échec de la communauté internationale",
+			"url": "https://www.la-croix.com/international/robots-tueurs-l-echec-de-la-communaute-internationale-20261121",
+			"publie_le": "2026-11-21T14:30:55.000Z",
+			"resume": "Réunis aux Nations Unies à Genève, les États ne sont pas parvenus à s’entendre sur un cadre contraignant pour réglementer les systèmes d’armes létales autonomes.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "air-journal-649eb8cd",
+			"source_id": "air-journal",
+			"media": "Air Journal",
+			"titre": "Tel Aviv : American Airlines prépare son retour et s’allie à Israir",
+			"url": "https://www.air-journal.fr/2026-11-21-tel-aviv-american-airlines-prepare-son-retour-et-sallie-a-israir-5279238.html",
+			"publie_le": "2026-11-21T14:00:48.000Z",
+			"resume": "Après plus de trois ans d’absence du marché israélien, American Airlines prévoit de reprendre ses vols quotidiens entre New York-JFK et Tel Aviv le 27 mars 2027, en Boeing 777-200ER. Pour accompagner ce retour, la compagnie américaine a annoncé un partenariat commercial avec Israir, qui dessert déjà la liaison en Airbus A330-200. Partage de codes […]",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-38dbdb86",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "La maison de \"Coup de foudre à Notting Hill\" à vendre pour 9 millions d'euros",
+			"url": "https://www.franceinfo.fr/culture/la-maison-de-coup-de-foudre-a-notting-hill-a-vendre-pour-9-millions-d-euros_8292929.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T14:00:01.000Z",
+			"resume": "C’est une maison que tous les amateurs de comédies romantiques connaissent... Celle du film “Coup de foudre à Notting Hill”. Elle est à vendre pour la modique somme de 9 millions d’euros. Attention : ni Julia Roberts ni Hugh Grant ne sont compris dans le prix.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "aerobuzz-aeb5e0bb",
+			"source_id": "aerobuzz",
+			"media": "Aerobuzz",
+			"titre": "Une IA pour permettre aux pilotes malentendants de « lire » la radio",
+			"url": "https://www.aerobuzz.fr/aviation-generale/une-ia-pour-permettre-aux-pilotes-malentendants-de-lire-la-radio/",
+			"publie_le": "2026-11-21T14:00:00.000Z",
+			"resume": "FANS4ALL s’associe à amenai technologies, TompAero et l’UTTOP pour transformer les échanges radio en informations visuelles et tactiles, au profit des pilotes sourds et malentendants. Entendre une clairance, comprendre les annonces des autres pilotes ou répondre au contrôle : autant d’actions qui deviennent des obstacles infranchissables lorsqu’on est malentendant. Annoncé le 16 novembre, ce part…",
+			"langue": "fr",
+			"rubrique_suggeree": "aero-spatial",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-37612763",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "Ces gigantesques trous dans le ciel semblent se former tout seuls : saurez-vous trouver ce qui les provoque réellement ?",
+			"url": "https://www.futura-sciences.com/planete/actualites/meteo-ces-gigantesques-trous-ciel-semblent-former-tout-seuls-saurez-vous-trouver-ce-provoque-reellement-139511/#xtor%3DRSS-8",
+			"publie_le": "2026-11-21T13:39:56.000Z",
+			"resume": "D'étranges « trous dans le ciel » sont régulièrement photographiés aux quatre coins du monde. Savez-vous de quoi il s’agit exactement ?",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-84d28c1b",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "Théâtre : pourquoi aller voir « Hitchcock & Mary Rose »",
+			"url": "https://www.la-croix.com/culture/theatre-pourquoi-aller-voir-hitchcock-mary-rose-20261121",
+			"publie_le": "2026-11-21T13:34:49.000Z",
+			"resume": "En mettant en lumière Mary Rose, film auquel dut renoncer Alfred Hitchcock, la pièce de Michael Sadler revient sur la relation complexe entre le maître du suspense et Tippi Hedren, son actrice fétiche des Oiseaux.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "lacroix-71c48477",
+			"source_id": "lacroix",
+			"media": "La Croix",
+			"titre": "Andy Burnham, le premier ministre qui a rassuré les Britanniques sur le pouvoir d’achat",
+			"url": "https://www.la-croix.com/economie/andy-burnham-le-premier-ministre-qui-a-rassure-les-britanniques-sur-le-pouvoir-d-achat-20261121",
+			"publie_le": "2026-11-21T13:30:48.000Z",
+			"resume": "En annonçant « des solutions du quotidien » très ciblées, le dirigeant travailliste indique qu’il a compris les difficultés des foyers britanniques face à l’inflation des denrées alimentaires et de l’énergie. Remettant à plus tard les questions d’équilibre budgétaire.",
+			"langue": "fr",
+			"rubrique_suggeree": "politique",
+			"agence_origine": null
+		},
+		{
+			"id": "futura-sciences-5709b052",
+			"source_id": "futura-sciences",
+			"media": "Futura Sciences",
+			"titre": "Black Friday Week : -270 € sur ce tapis de course pliable plébiscité par les sportifs",
+			"url": "https://www.futura-sciences.com/conso/bons-plans/guides-fitness-bien-etre-black-friday-week-270-ce-tapis-course-pliable-plebiscite-sportifs-11920/#xtor%3DRSS-8",
+			"publie_le": "2026-11-21T13:30:22.000Z",
+			"resume": "Si vous préférez vous entraîner à domicile plutôt que de vous rendre en salle, Cdiscount met justement en avant un tapis de course pliable haut de gamme à un tarif particulièrement attractif, sous la barre des 230 €.",
+			"langue": "fr",
+			"rubrique_suggeree": "technique",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-0433d494",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "Emmanuelle Devos : \"mon personnage choisit la liberté à tout prix\"",
+			"url": "https://www.franceinfo.fr/replay-radio/l-invite-culture/emmanuelle-devos-mon-personnage-choisit-la-liberte-a-tout-prix_8271722.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T13:30:02.000Z",
+			"resume": "\"Demain je tombe amoureux\" réalisé par Martin Provost raconte l'histoire d'un tout jeune retraité qui se retrouve du jour au lendemain sans femme et sans travail. Fabrice Luchini interprète ce personnage qui ne sait plus ce qu'aimer veut dire et il faudra plusieurs femmes, toutes très libres à leur façon, pour l'aider à retrouver ce chemin.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "franceinfo-culture-79e59110",
+			"source_id": "franceinfo-culture",
+			"media": "franceinfo (Culture)",
+			"titre": "EN IMAGES. \"My Rock Stars\" : le photographe Hassan Hajjaj immortalise ses stars de la musique",
+			"url": "https://www.franceinfo.fr/culture/arts-expos/en-images-my-rock-stars-le-photographehassan-hajjaj-immortalise-ses-stars-de-la-musique_8289029.html#xtor=RSS-3-%5Bculture%5D",
+			"publie_le": "2026-11-21T13:21:26.000Z",
+			"resume": "Au Musée de la musique à Paris, c'est l'histoire familiale du photographe, son inclination pour la musique gnawa et son attirance pour les musiciens en général que l'on découvre dans l'exposition qui lui est consacrée jusqu'en avril 2027.",
+			"langue": "fr",
+			"rubrique_suggeree": "culture",
+			"agence_origine": null
+		},
+		{
+			"id": "bbc-monde-88af422b",
+			"source_id": "bbc-monde",
+			"media": "BBC News (Monde)",
+			"titre": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+			"url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+			"publie_le": "2026-11-21T13:17:38.000Z",
+			"resume": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+			"langue": "en",
+			"rubrique_suggeree": "defense",
+			"agence_origine": null
+		}
+	],
+	"groupes": [
+		{
+			"rubrique": "politique",
+			"titre": "Présidentielle 2027 : prenant acte d’une «impasse», François Ruffin retire sa candidature",
+			"article_ids": [
+				"liberation-c7f3d1c7",
+				"france24-cfd5c820",
+				"franceinfo-une-1d629bc7",
+				"rfi-f9cb3723",
+				"humanite-dc709154",
+				"lacroix-8c26964f"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "France: Emmanuel Macron pense à une «règle d'or» budgétaire, la droite et le RN lui emboitent le pas",
+			"article_ids": [
+				"rfi-34b06303",
+				"humanite-bb750e0e",
+				"ouestfrance-86e78ee9"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Nouvelle réunion jeudi prochain entre les directeurs de campagne de Gabriel Attal, Bruno Retailleau et David Lisnard pour une primaire de la droite et du centre",
+			"article_ids": [
+				"franceinfo-politique-5bc1af8d",
+				"liberation-c326cbaf",
+				"franceinfo-une-6b664b10"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Guerre en Ukraine : deux personnes tuées à Kryvyï Rih",
+			"article_ids": [
+				"france24-8efbb357",
+				"lemonde-une-7722982f",
+				"france24-830628c2"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "\"Je serai le candidat de la liberté de penser, de dire ce que vous voyez\", clame Eric Zemmour lors de son premier meeting de campagne présidentielle",
+			"article_ids": [
+				"franceinfo-une-3ddd117d",
+				"franceinfo-politique-e9ac7f42"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Le préfet Hugues Moutouh, soupçonné d'avoir transmis des informations confidentielles au RN, demande à être relevé de ses fonctions",
+			"article_ids": [
+				"franceinfo-politique-ee279df6",
+				"franceinfo-une-b0c1dad4"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "En Israël, Gadi Eisenkot invite le parti de Benjamin Netanyahu à des négociations de coalition",
+			"article_ids": [
+				"france24-74400782",
+				"franceinfo-une-2f2eeaf9"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "«La guerre s’étend jusqu’à nos portes» : un drone ukrainien frappe un cargo russe dans le golfe de Finlande",
+			"article_ids": [
+				"liberation-f7cefbd9",
+				"france24-41c7b261"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Russian cargo ship still on fire off Finland after drone attack",
+			"article_ids": [
+				"aljazeera-06b2152c",
+				"bbc-monde-86c4e817"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "\"Je crois que raconter l’histoire des mafias, notamment à travers le cinéma, est extrêmement utile\" : Roberto Saviano est l'invité exceptionnel du Festival du film d'Histoire de Pessac",
+			"article_ids": [
+				"franceinfo-une-7acb8e24",
+				"franceinfo-culture-c886310a"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Divertissement dans les avions : pour Hollywood, le ciel n'est plus une limite",
+			"article_ids": [
+				"franceinfo-une-b02fc1b4",
+				"franceinfo-culture-b80df624"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Bahreïn accuse l'Iran d'avoir mené une frappe contre un de ses sites industriels",
+			"article_ids": [
+				"rfi-36196b6b",
+				"france24-2b7525d4"
+			]
+		},
+		{
+			"rubrique": "ia",
+			"titre": "South Korea education minister resigns over exam cheating scandal",
+			"article_ids": [
+				"bbc-monde-3d97e080",
+				"guardian-monde-f908da6e"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Une enquête ouverte après des incendies imputés à des colons israéliens en Cisjordanie occupée",
+			"article_ids": [
+				"franceinfo-une-c9d5fcc0"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Présidentielle 2027 : la CFDT appelle à changer la date du scrutin pour éviter un second tour le 2 mai",
+			"article_ids": [
+				"franceinfo-une-18c8b438"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Corée du Sud: le ministre de l'Éducation démissionne sur fond de scandale de triche aux examens",
+			"article_ids": [
+				"rfi-9d2fc025"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Pour son dernier Sommet Choose France, Macron va encore rabâcher sa fable industrielle anti taxe des riches",
+			"article_ids": [
+				"humanite-0acce926"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Présidentielle : Marylise Léon demande à son tour au gouvernement de décaler les dates de l’élection",
+			"article_ids": [
+				"liberation-b6354a24"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Finlande : coup d’arrêt pour le data center de Google… après que la firme a rasé illégalement 400 000 arbres",
+			"article_ids": [
+				"humanite-2bc2d11b"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Guerre en Ukraine, crise sociale, sortie de l'UE... Le 8h30 franceinfo de Nicolas Dupont-Aignan",
+			"article_ids": [
+				"franceinfo-politique-2d990ea3"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "L’adresse du patron : «La légende veut que la porte secrète de ce salon cache un souterrain qui mène tout droit au Sénat, à 1 kilomètre»",
+			"article_ids": [
+				"lefigaro-une-ec69c0db"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Soupçonné de fuites vers le RN, le préfet du Loiret Hugues Moutouh demande à être démis de ses fonctions",
+			"article_ids": [
+				"franceinfo-politique-9c4dd0dc"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "« On n’a plus rien à perdre » : dans l’Espagne dépeuplée, le combat d’un maire pour sauver son village",
+			"article_ids": [
+				"lacroix-fb188deb"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "« La présidentielle serait pire sans les sondages » : entretien avec M. Gallard (Ipsos) | AUX URNES ETC.",
+			"article_ids": [
+				"humanite-dc8e525c"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Les sondages faussent-ils l’élection présidentielle ? | AUX URNES ETC.",
+			"article_ids": [
+				"humanite-c51c119d"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Europe is entering a ‘supercycle’ of national elections. Their outcomes could shake the EU’s foundations",
+			"article_ids": [
+				"guardian-monde-96eef950"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "En Colombie, dix ans après la signature de l’accord historique, le bilan amer de la paix avec les FARC",
+			"article_ids": [
+				"lemonde-une-c4e74322"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "INFO FRANCEINFO. Sommet Choose France-Édition France : l'entreprise Blanc Aéro Industries doit investir 39 millions d'euros dans le pays",
+			"article_ids": [
+				"franceinfo-politique-ee4041fa"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+			"article_ids": [
+				"bbc-monde-67c31da8"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Présidentielle 2027: la stratégie d'Éric Zemmour pour retrouver de l'élan",
+			"article_ids": [
+				"rfi-32759a16"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "«On nous chie dessus, on ne nous écoute pas» : à Lyon, plusieurs milliers de personnes ont défilé",
+			"article_ids": [
+				"liberation-d9751a4b"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Mobilisations contre la vie chère : à Paris, malgré un essoufflement, les manifestants imaginent un renouveau des actions",
+			"article_ids": [
+				"humanite-89cf5a8f"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "En Équateur, Jorge Glas risque de mourir sous les coups de la dictature de Daniel Noboa et le silence de la communauté internationale",
+			"article_ids": [
+				"humanite-c1eecf72"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Mélenchon chez Drouant : les petites «fake news» font les grandes manips, par Daniel Schneidermann",
+			"article_ids": [
+				"liberation-3b4c86b4"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Nombre de tirs, enquêtes, lien de confiance... Les questions que pose la loi sur la présomption d'usage légal des armes par les forces de l'ordre",
+			"article_ids": [
+				"franceinfo-politique-ed2bb2ae"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Présidentielle 2027 : Sandrine Rousseau regrette le «truc anti-Mélenchon primaire» de Yannick Jadot",
+			"article_ids": [
+				"liberation-cb25221f"
+			]
+		},
+		{
+			"rubrique": "politique",
+			"titre": "Andy Burnham, le premier ministre qui a rassuré les Britanniques sur le pouvoir d’achat",
+			"article_ids": [
+				"lacroix-71c48477"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "40 heures en classe économique : le périple remarqué de la présidente mexicaine en Chine",
+			"article_ids": [
+				"air-journal-9afbee6a"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "La Malaisie renforce ses actions de promotion en France et dévoile ses ambitions pour 2027",
+			"article_ids": [
+				"air-journal-25edaab8"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Voyages d’affaires : 404 milliards d’euros de dépenses attendues en Europe, dont 45 en France",
+			"article_ids": [
+				"air-journal-1a2e015a"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Le MA-1 Blue Jay pourrait recevoir un V12 diesel allemand",
+			"article_ids": [
+				"aerobuzz-cc5dacd4"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Vols retardés vers les DROM : jusqu’à 400 € d’indemnisation, contre 600 € sur les dessertes hors UE",
+			"article_ids": [
+				"air-journal-ceed09b5"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "IFL Group arrête l’exploitation de ses deux Boeing 727-200 Cargo",
+			"article_ids": [
+				"aerobuzz-a6411bde"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Emploi : Air France embauche 1 200 CDI en Île-de-France pour sa filière maintenance",
+			"article_ids": [
+				"air-journal-69593d92"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Grève en Belgique : le trafic aérien totalement paralysé ce lundi, tous les vols annulés entre 7 h et 21 h",
+			"article_ids": [
+				"air-journal-b534aea0"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Impossible n’est pas… chinois !",
+			"article_ids": [
+				"aerobuzz-4584b756"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Corsair : l’État efface 80 millions d’euros de dette contractée pendant la crise Covid",
+			"article_ids": [
+				"air-journal-e8a7ea76"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "AirExplore, AlbaStar, Fly4 : trois arrêts de vols dans le charter et l’ACMI en Europe",
+			"article_ids": [
+				"air-journal-7802f0a1"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+			"article_ids": [
+				"nasa-9884dabb"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Le 22 novembre 1910 dans le ciel : Pierre Marie et Delage en route vers Etampes",
+			"article_ids": [
+				"air-journal-b0d16e78"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Tassili Travail Aérien a reçu ses deux Cessna SkyCourier évasan",
+			"article_ids": [
+				"aerobuzz-c898440b"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Moyen-Orient : l’EASA maintient ses recommandations de sécurité jusqu’au 31 janvier 2027",
+			"article_ids": [
+				"air-journal-9a74b037"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Tel Aviv : American Airlines prépare son retour et s’allie à Israir",
+			"article_ids": [
+				"air-journal-649eb8cd"
+			]
+		},
+		{
+			"rubrique": "aero-spatial",
+			"titre": "Une IA pour permettre aux pilotes malentendants de « lire » la radio",
+			"article_ids": [
+				"aerobuzz-aeb5e0bb"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "RENCONTRE. Iryna Terekh, la trentenaire ukrainienne qui frappe la Russie en profondeur",
+			"article_ids": [
+				"ouestfrance-4ad1a8bf"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Guerre en Ukraine : les écoles d'Odessa passent à l'enseignement à distance après des frappes russes sur le réseau électrique",
+			"article_ids": [
+				"franceinfo-une-f9c8520d"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "La Pologne confirme son intérêt pour l’hélicoptère de transport lourd américain CH-47 Chinook",
+			"article_ids": [
+				"opex360-9de7d9f0"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "US Congress helped end the Vietnam War. Can it stop the Iran war?",
+			"article_ids": [
+				"aljazeera-ce5ab375"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Guerre au Moyen-Orient : un nageur britannique traverse le détroit d'Ormuz",
+			"article_ids": [
+				"france24-97f9797a"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "L’armée de l’Air & de l’Espace teste à la capacité du Rafale à être mis en œuvre depuis une autoroute",
+			"article_ids": [
+				"opex360-80cf802d"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Arabie saoudite : le projet Vision 2030 menacé d’être rattrapé par la guerre avec les houthistes",
+			"article_ids": [
+				"lacroix-7026d894"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "AEFE : réforme contestée du réseau scolaire français à l'étranger",
+			"article_ids": [
+				"france24-c9254d38"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Russian ship attacked by drone in Baltic Sea off Finland",
+			"article_ids": [
+				"aljazeera-bcbdc815"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Ukraine : Kiev panse ses plaies après la riposte russe à la destruction du pont de Crimée",
+			"article_ids": [
+				"lacroix-6a247dc6"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "On vous résume les points de discorde à la COP31 alors que les discussions sur un accord s'enlisent en Turquie",
+			"article_ids": [
+				"franceinfo-une-77c21244"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "La multiplication des incidents militaires fait craindre une escalade entre la Russie et l'Otan",
+			"article_ids": [
+				"franceinfo-une-86c9e6f8"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Restored wells bring life back to Hebron’s occupied Old City",
+			"article_ids": [
+				"aljazeera-444029da"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "‘Trump’s exit strategy may depend on quietly lifting Iran blockade’",
+			"article_ids": [
+				"aljazeera-d4404117"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Accès à des unités, briefings sur la dissuasion : le ministère des Armées propose une «méthode» aux candidats à la présidentielle",
+			"article_ids": [
+				"lefigaro-une-8df45ec2"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Symposium des marines du Pacifique: «La France cherche à pratiquer une puissance d'équilibre»",
+			"article_ids": [
+				"rfi-ad34b7ca"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Dashcam captures Russian missile strike on Lviv, Ukraine",
+			"article_ids": [
+				"aljazeera-4bd1bf6c"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
+			"article_ids": [
+				"guardian-monde-3684e967"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Au Liban du Sud, la guerre n'a jamais cessé à Tyr, une ville qui survit plus qu'elle ne vit",
+			"article_ids": [
+				"rfi-d8058e5d"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Trois jours après la rencontre Trump-Xi-Poutine, les Britanniques réaffirment leur soutien à l'Ukraine",
+			"article_ids": [
+				"rfi-3e761fcf"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
+			"article_ids": [
+				"guardian-monde-a0149a11"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Mali: des jihadistes du JNIM attaquent l’armée et ses supplétifs dans la région de Ségou",
+			"article_ids": [
+				"rfi-5278d382"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "‘No time for a culture war’: Victoria’s electricity supply is at risk. Can it avoid power shortages and bill shocks?",
+			"article_ids": [
+				"guardian-monde-a6ca28df"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Les interrogations soulevées par l'opération militaire française «Volia» en Ukraine",
+			"article_ids": [
+				"rfi-6db26c14"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Opposé à l'accueil de demandeurs d'asile, un second village anglais proclame son indépendance",
+			"article_ids": [
+				"rfi-f44dcf35"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Conflit au Tigré: 700.000 déplacés suite aux affrontements en régions Somali et Oromia",
+			"article_ids": [
+				"france24-62de0a56"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+			"article_ids": [
+				"guardian-monde-11a79bbc"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Le Mexique arrête le baron de la drogue «Chapo Isidro» recherché par le FBI",
+			"article_ids": [
+				"rfi-e3e9a63a"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "L’Europe et les pourparlers sur l’Ukraine",
+			"article_ids": [
+				"humanite-0cf8f44a"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "La France et le Royaume-Uni préparent une «feuille de route» pour développer le successeur du missile air-air METEOR",
+			"article_ids": [
+				"opex360-909abe8c"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Syndicats, jeunesse et gilets jaunes dans la rue pour le sixième samedi consécutif",
+			"article_ids": [
+				"lacroix-560853ea"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Guerre en Ukraine : pour le diplomate français Jean de Gliniasty, « L’Europe n’a pas d’objectif diplomatique et les Russes ne veulent pas vraiment négocier »",
+			"article_ids": [
+				"humanite-aa659d6d"
+			]
+		},
+		{
+			"rubrique": "defense",
+			"titre": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+			"article_ids": [
+				"bbc-monde-88af422b"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "«Un peu de poésie dans tout ce bazar… ça fait du bien !» : dans les Cévennes, le pari du street art pour colorer une ancienne cité minière",
+			"article_ids": [
+				"lefigaro-une-337d2998"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Exposition : au Musée Picasso, les éclats poétiques de Kurt Schwitters",
+			"article_ids": [
+				"lacroix-7e1121c3"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "\"20h30 le dimanche\". La story Silver Generation",
+			"article_ids": [
+				"franceinfo-culture-98c29ed6"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "La recette des filets de poulet rôtis au crumble de Petit Beurre d’Eric Guérin",
+			"article_ids": [
+				"liberation-92de7927"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "REPLAY. \"GTA VI, le jeu vidéo qui rend la planète folle\" : regardez le documentaire de franceinfo consacré à la sortie mondiale la plus attendue des gamers",
+			"article_ids": [
+				"franceinfo-culture-e820a259"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "REPORTAGE. \"Il était temps\" : le hip-hop en passe d'être inscrit au patrimoine immatériel de l'Unesco",
+			"article_ids": [
+				"franceinfo-culture-6e82e10d"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "L’artiste Roméo Mivekannin réactive la mémoire des zoos humains au Musée du quai Branly, à Paris",
+			"article_ids": [
+				"lemonde-culture-bb65fe82"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "«On pourra bientôt sortir de cette folie» : au Sommet de Paris, les économistes à l’offensive contre l’oligarchie",
+			"article_ids": [
+				"liberation-1846adf1"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "« Ça envoie quand même sévère » : la France où l’on catche, vue par le photographe Aurélien Hatt",
+			"article_ids": [
+				"lemonde-une-96ec987f"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "\"Au début, on ne sait pas ce qu'est ce virus\" : l'affaire du sang contaminé ou la lente prise de conscience de la dangerosité du sida",
+			"article_ids": [
+				"franceinfo-une-e3fce8f1"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Bernard Minier : «Une putain d’histoire» sans fin à Glass Island",
+			"article_ids": [
+				"liberation-94299650"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "« Deux tableaux matin, midi et soir, un opéra par mois » : la culture peut-elle nous soigner ?",
+			"article_ids": [
+				"lemonde-culture-a5be4958"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "\"Un bon petit soldat\" : Stéphane Brizé pointe un monde du travail atteint de schizophrénie dans une farce tragique",
+			"article_ids": [
+				"franceinfo-culture-67770a5c"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "\"Paper Tiger\", le thriller crépusculaire de James Gray",
+			"article_ids": [
+				"franceinfo-culture-c74513e8"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Jordi Savall, chef d’orchestre : « Ma quête, c’est la recherche de la nuance et de l’émotion, pas de la perfection »",
+			"article_ids": [
+				"lemonde-culture-940e5b27"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Nos conseils de documentaires à voir en replay : Emile Zola, « GTA VI », bombe de pluie…",
+			"article_ids": [
+				"lemonde-culture-757e5c1f"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Jean Gabin, résistant durant la Seconde Guerre mondiale, honoré par la Marine française",
+			"article_ids": [
+				"franceinfo-culture-39780882"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "TeddyBear chante les médicaments qui aident à vivre",
+			"article_ids": [
+				"franceinfo-culture-c7f2a4c0"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Écosse : un Français qui voulait s'assoir sur une relique royale ancestrale exposée à Perth plaide coupable pour des faits de dégradation volontaire",
+			"article_ids": [
+				"franceinfo-culture-9191faef"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "\"Eldorado\" : l'affaire des avions renifleurs en série",
+			"article_ids": [
+				"franceinfo-culture-09ee5661"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Dans « Somnole » et « Muette », le chorégraphe Boris Charmatz met son corps à l’épreuve",
+			"article_ids": [
+				"lemonde-culture-6f8db3d3"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "GTA VI : pourquoi la disparition des jeux vidéo sur disque inquiète les joueurs",
+			"article_ids": [
+				"franceinfo-culture-55b2c044"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "« The Greatest », sur Prime Video : de Cassius Clay à Muhammad Ali, des Jeux olympiques de Rome au championnat du monde des poids lourds à Miami",
+			"article_ids": [
+				"lemonde-culture-08d2c82b"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Paolo Bulgari, le petit-fils du fondateur de la fameuse marque de joaillerie, est mort à l'âge de 89 ans",
+			"article_ids": [
+				"franceinfo-culture-cb9211ec"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Quand Ninho et Koba LaD dévoilent les dessous du rap dans deux « documentaires-vérité »",
+			"article_ids": [
+				"lemonde-culture-2b276774"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "«Eldorado» sur Arte : gare aux trous d’air",
+			"article_ids": [
+				"liberation-4fbbf318"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "\"Ce qui m'intéresse, c'est d'être avec des gens qui racontent des histoires\", confie Marc Lavoine",
+			"article_ids": [
+				"franceinfo-culture-301b0f3d"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "\"Le cancer vous change \" : la princesse Kate partage son expérience de la maladie dans un documentaire très personnel intitulé \"Guérir\"",
+			"article_ids": [
+				"franceinfo-culture-f26582f2"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "À bord du Train d'or pour découvrir les plus beaux paysages de la Norvège",
+			"article_ids": [
+				"franceinfo-culture-0876e06d"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "La maison de \"Coup de foudre à Notting Hill\" à vendre pour 9 millions d'euros",
+			"article_ids": [
+				"franceinfo-culture-38dbdb86"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Théâtre : pourquoi aller voir « Hitchcock & Mary Rose »",
+			"article_ids": [
+				"lacroix-84d28c1b"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "Emmanuelle Devos : \"mon personnage choisit la liberté à tout prix\"",
+			"article_ids": [
+				"franceinfo-culture-0433d494"
+			]
+		},
+		{
+			"rubrique": "culture",
+			"titre": "EN IMAGES. \"My Rock Stars\" : le photographe Hassan Hajjaj immortalise ses stars de la musique",
+			"article_ids": [
+				"franceinfo-culture-79e59110"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "La gagnante du marathon de Bordeaux, mère de trois enfants et ingénieur à temps plein, livre les secrets de sa progression fulgurante",
+			"article_ids": [
+				"lefigaro-une-ca22aa97"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "La patronne et l’écologie Chapitre 1 : le vertige de la dirigeante",
+			"article_ids": [
+				"lacroix-da3d7323"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "CEO of funding agency for UK science and research criticised by union over cuts",
+			"article_ids": [
+				"guardian-monde-cd078dd6"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "L'IA et le « syndrome de la photocopieuse » : comment une révolution créative pourrait appauvrir notre culture",
+			"article_ids": [
+				"futura-sciences-6459aad7"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Tineco balaie la concurrence : son aspirateur laveur Floor One Stretch S6 voit son prix chuter de 60%",
+			"article_ids": [
+				"lefigaro-une-654ac31e"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "La plante de la semaine : cet arbuste aux fleurs jaune éclatant illumine le jardin quand presque tout le reste semble endormi",
+			"article_ids": [
+				"futura-sciences-db9090fd"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Indonésie: un incendie dans une usine fait au moins trois morts et 36 disparus près de Jakarta",
+			"article_ids": [
+				"rfi-8b29fdf5"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Sylvain Tesson et Alexis Landot, en quête de hauteur : « On grimpe pour s’accomplir, pour prier quelque chose »",
+			"article_ids": [
+				"lefigaro-une-6bc7dfe4"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Un parasite géant venu d'Amérique découvert pour la première fois en France : les scientifiques s'inquiètent",
+			"article_ids": [
+				"futura-sciences-5d8a7be8"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "En plantant 66 milliards d’arbres, la Chine a créé des forêts qui ne se comportent pas du tout comme les forêts naturelles",
+			"article_ids": [
+				"futura-sciences-983e2aa5"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "« Serena », le grand amour de saint Augustin ? Ce que les récentes découvertes disent de l’auteur des « Confessions »",
+			"article_ids": [
+				"lacroix-42033dfe"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "À 14 ans, elle creuse une mare à la pelle pour l’école : 9 ans plus tard, des animaux s’y sont installés seuls",
+			"article_ids": [
+				"futura-sciences-34fad3d3"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "« Bientôt l’écologie sera une évidence » : Jean Jalbert, l’homme qui veut rendre la terre à la mer",
+			"article_ids": [
+				"lacroix-bf2f86f6"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Il fait tellement chaud et sec sur Terre que même les cactus commencent à disparaître : les prévisions des scientifiques pour 2100 sont alarmantes",
+			"article_ids": [
+				"futura-sciences-ace03a84"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "L'Iran affirme que la Russie et la Chine s'opposent à un changement de sa doctrine nucléaire",
+			"article_ids": [
+				"rfi-aa89a5df"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Fuites de Beauvau vers le RN : d’un email trouvé au domicile de Frédéric Chatillon aux suspicions visant le préfet Hugues Moutouh, itinéraire d’une enquête sensible",
+			"article_ids": [
+				"lemonde-une-d97adf7a"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Et si les ondes gravitationnelles permettaient de découvrir des planètes invisibles ?",
+			"article_ids": [
+				"futura-sciences-dc5cf063"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Solution aux satellites fantômes, échec de la fusée Vulcan Centaur, nouvelle navette spatiale – le récap’ sciences de la semaine",
+			"article_ids": [
+				"numerama-12dcd7d5"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "« Pendant plusieurs heures, parfois toute la journée » : à 28 ans, il voit son chat prendre un visage humain et les humains ressembler à son chat !",
+			"article_ids": [
+				"futura-sciences-2fca04bb"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Tesla franchit une nouvelle étape avec Optimus : la production des premiers robots humanoïdes a débuté",
+			"article_ids": [
+				"futura-sciences-39f2600c"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "«Robots tueurs» : un accord trouvé à l’ONU, mais pas d’interdiction",
+			"article_ids": [
+				"liberation-1871a3fd"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Prise après le repas, cette vitamine pourrait atténuer le risque de cancer associé aux charcuteries",
+			"article_ids": [
+				"futura-sciences-14918b1d"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Robots tueurs autonomes : ce que les armées délèguent vraiment aux machines",
+			"article_ids": [
+				"numerama-935dbf04"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Larguée pour Dieu : dans la tête des « ex de prêtres »",
+			"article_ids": [
+				"lacroix-228b2a78"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "L'Antarctique abritait autrefois des montagnes grandes comme l'Himalaya : leur disparition pourrait éclairer l'explosion de la vie sur Terre",
+			"article_ids": [
+				"futura-sciences-7e914bd5"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Robots tueurs, l’échec de la communauté internationale",
+			"article_ids": [
+				"lacroix-7797de06"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Ces gigantesques trous dans le ciel semblent se former tout seuls : saurez-vous trouver ce qui les provoque réellement ?",
+			"article_ids": [
+				"futura-sciences-37612763"
+			]
+		},
+		{
+			"rubrique": "technique",
+			"titre": "Black Friday Week : -270 € sur ce tapis de course pliable plébiscité par les sportifs",
+			"article_ids": [
+				"futura-sciences-5709b052"
+			]
+		},
+		{
+			"rubrique": "ia",
+			"titre": "En Corée du Sud, le ministre de l’Education démissionne après un scandale de triche à l’IA",
+			"article_ids": [
+				"liberation-20165678"
+			]
+		},
+		{
+			"rubrique": "ia",
+			"titre": "C’est quoi Stryx AI, cette start-up française qui veut intercepter les drones ?",
+			"article_ids": [
+				"numerama-f4470141"
+			]
+		},
+		{
+			"rubrique": "ia",
+			"titre": "Piratage de GTA 6, IPO d’Anthropic et Face Unlock sur iPhone Duo — le récap tech de la semaine",
+			"article_ids": [
+				"numerama-83ea30b1"
+			]
+		},
+		{
+			"rubrique": "ia",
+			"titre": "Les offres d'emploi décrochent dans les métiers les plus exposés à l'IA",
+			"article_ids": [
+				"franceinfo-une-b924f551"
+			]
+		},
+		{
+			"rubrique": "ia",
+			"titre": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+			"article_ids": [
+				"guardian-monde-3500af30"
+			]
+		},
+		{
+			"rubrique": "ia",
+			"titre": "International UN talks on controlling use of autonomous weapons collapse",
+			"article_ids": [
+				"guardian-monde-158994b8"
+			]
+		}
+	]
+}
